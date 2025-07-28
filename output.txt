@@ -1,0 +1,1978 @@
+Control Identifiers:
+
+Pane - 'PokerKing Lobby Logged in as qqqqwwwqq2'    (L320, T0, R1600, B1040)
+['PokerKing Lobby Logged in as qqqqwwwqq2Pane', 'PokerKing Lobby Logged in as qqqqwwwqq2', 'Pane', 'Pane0', 'Pane1']
+child_window(title="PokerKing Lobby Logged in as qqqqwwwqq2", control_type="Pane")
+   | 
+   | Document - '  $ 36,461.92    $ 14,497.59    $ 51,831.46    $ 6,853.59    $ 36,461.92    $ 14,497.59               qqqqwwwqq2        Account Balance   $0.00   MY ACCOUNT  DEPOSIT                  CASH GAMES HIGH STAKES BLITZ TOURNAMENTS STAKING POKER RACES JACKPOTS SIT & GO CASINO SPORTS    DAILY SCHEDULE SATELLITES PRIVATE ON DEMAND   ON Start Tournament Name Buy-In Enrolled Prize Pool    Sun 27 Jul, 21:30  Phil's Thrill   $10,300  55 $550,000   Finished     Sun 10 Aug, 19:05     Venom Mystery KO - $8M GTD [Day 1A]   $2,650  41 $8,000,000 JOIN     Sun 10 Aug, 19:05     Venom Mystery KO PLO - $2M GTD [Day 1A]   $2,650  0 / 4 $2,000,000 JOIN     Mon 28 Jul, 00:05   BOM #1 Route66 MB - $500K GTD [Day2]   $66  8,001 $500,000   Finished     Sun 27 Jul, 21:05   BOM #2 Squeeze MB - $100K GTD [Day2]   $22  5,728 $114,560   Finished     Sun 27 Jul, 21:05   BOM #3 The Dime MB - $50K GTD [Day2]   $5.50  13,176 $65,880   Finished   HOT  This section is reserved to hold tournaments you are registered in. Also, you can use in other rows to place that tournament here. YOURS      Late Reg:Lvl 3 (9:04)  $50 GTD Freeroll   $0  1,178 $50 JOIN       Late Reg:Lvl 9 (20:56)   PKO - $1,000 GTD PLO8   $22  47 $1,000 JOIN       Late Reg:Lvl 9 (21:09)   PKO - $400 GTD PLO8   $5.50  71 $400 JOIN       Late Reg:Lvl 2 (22:00)   $0.50 NLH Turbo - On Demand   $0.55  15 $7.50 JOIN       Late Reg:Lvl 9 (22:01)   PKO - $75 GTD PLO8   $1.10  67 $75 JOIN       Late Reg:Lvl 5 (75:40)   PKO - $1,000 GTD   $2.50  269 $1,000 JOIN       Late Reg:Lvl 10 (79:05)  $400 GTD   $1.65  164 $400 JOIN       Late Reg:Lvl 10 (79:30)  $10,000 GTD   $16.50  406 $10,000 JOIN       Late Reg:Lvl 10 (80:43)  $2,500 GTD   $6.60  212 $2,500 JOIN       Late Reg:Lvl 9 (99:43)  Must Play Mondays - $40,000 GTD   $109  171 $40,000   JOIN       Late Reg:Lvl 6 (102:13)   PKO - $5,000 GTD   $8.80  424 $5,000 JOIN       Late Reg:Lvl 6 (102:57)   Must Play Mondays PKO - $20,000 GTD   $27.50  563 $20,000   JOIN       Late Reg:Lvl 8 (132:28)  Must Play Mondays - $40,000 GTD   $66  307 $40,000   JOIN       Late Reg:Lvl 3 (206:27)   Must Play Mondays PKO - $60,000 GTD   $109  256 $60,000   JOIN       Starts in 4 min  Must Play Mondays HR - $100,000 GTD   $630  15 $100,000   JOIN       Starts in 4 min  Must Play Mondays - $75,000 GTD   $215  23 $75,000   JOIN       Starts in 4 min  Must Play Mondays - $30,000 GTD   $33  52 $30,000   JOIN       Starts in 4 min  Must Play Mondays - $10,000 GTD   $11  62 $10,000 JOIN       Starts in 4 min  $1,500 GTD   $3.30  45 $1,500 JOIN       Starts in 4 min  $100 GTD   $0.55  31 $100 JOIN       Starts in 19 min   Lightning PKO - $200 GTD   $10.50  3 / 6 $200 JOIN       Starts in 19 min   Lightning PKO - $100 GTD   $3.15  1 / 6 $100 JOIN       Starts in 19 min   Lightning PKO - $20 GTD   $0.53  0 / 6 $20 JOIN       Starts in 19 min   Lightning PKO - $8 GTD   $0.11  5 / 6 $8 JOIN       Starts in 39 min  Turbo - $1,000 GTD PLO8   $22  3 / 6 $1,000   JOIN       Starts in 39 min  Turbo - $300 GTD PLO8   $5.50  2 / 6 $300 JOIN       Starts in 39 min   PKO Turbo - $100 GTD   $1.65  7 $100 JOIN       Starts in 39 min  Turbo - $40 GTD PLO8   $0.55  4 / 6 $40 JOIN       Mon 28 Jul, 20:30  Must Play Mondays - $60,000 GTD   $109  9 $60,000   JOIN       Mon 28 Jul, 20:30   Super Bounty FT - $1,000 GTD   $11  12 $1,000 JOIN       Mon 28 Jul, 20:30   Super Bounty FT - $400 GTD   $2.50  20 $400 JOIN       Mon 28 Jul, 20:30   Super Bounty FT - $50 GTD   $0.28  10 $50 JOIN       Mon 28 Jul, 20:45   Lightning PKO - $200 GTD   $10.50  1 / 6 $200 JOIN            Tournament Info - Your Way       Satellites(1 Seats Won)  Players And Tables ( 37 / 67 )  9 Places Paid  Structure  Status and Stacks  Details IMPORTANT NOTE 100,000 Starting Chips with 15 minute blinds and 10 levels of Late Registration.\n\n-\n- PLO8 8-Max -\n\nLate Registration: 2 hours and 30 minutes + breaks.\n\nProgressive KO: 50% of the bounty is awarded and 50% is added to the winner's bounty.\n\n🔄 This tournament uses the Reshuffle feature. For more details please visit: ACR Reshuffle\n\nGood luck! Start Mon 28 Jul, 17:05 Buy-In $1.10 ($0.50 + $0.50 + $0.10) # of Players 6 to 5000 Start With 100,000 chips Game Omaha H/L Pot Limit Re-Entries Unlimited Re-Entry Speed Normal Deal-Making Final Table ID # 33722337     State  All  Registering  Late Reg  Running  Finished Buy-In  Game Format  Entry Format  Game Type  Speed  Players Per Table  Minimum GTD  Satellite Filters       WATCH VIDEO & RE-ENTER  RE-ENTER  CANCEL                18,364 Players Online 19:26 - JULY 28TH Client Version: 2.27.1      English     FAQ          '    (L320, T0, R1600, B1040)
+   | ['Document', "  $ 36,461.92    $ 14,497.59    $ 51,831.46    $ 6,853.59    $ 36,461.92    $ 14,497.59               qqqqwwwqq2        Account Balance   $0.00   MY ACCOUNT  DEPOSIT                  CASH GAMES HIGH STAKES BLITZ TOURNAMENTS STAKING POKER RACES JACKPOTS SIT & GO CASINO SPORTS    DAILY SCHEDULE SATELLITES PRIVATE ON DEMAND   ON Start Tournament Name Buy-In Enrolled Prize Pool    Sun 27 Jul, 21:30  Phil's Thrill   $10,300  55 $550,000   Finished     Sun 10 Aug, 19:05     Venom Mystery KO - $8M GTD [Day 1A]   $2,650  41 $8,000,000 JOIN     Sun 10 Aug, 19:05     Venom Mystery KO PLO - $2M GTD [Day 1A]   $2,650  0 / 4 $2,000,000 JOIN     Mon 28 Jul, 00:05   BOM #1 Route66 MB - $500K GTD [Day2]   $66  8,001 $500,000   Finished     Sun 27 Jul, 21:05   BOM #2 Squeeze MB - $100K GTD [Day2]   $22  5,728 $114,560   Finished     Sun 27 Jul, 21:05   BOM #3 The Dime MB - $50K GTD [Day2]   $5.50  13,176 $65,880   Finished   HOT  This section is reserved to hold tournaments you are registered in. Also, you can use in other rows to place that tournament here. YOURS      Late Reg:Lvl 3 (9:36)  $50 GTD Freeroll   $0  1,167 $50 JOIN       Late Reg:Lvl 9 (21:28)   PKO - $1,000 GTD PLO8   $22  47 $1,000 JOIN       Late Reg:Lvl 9 (21:41)   PKO - $400 GTD PLO8   $5.50  71 $400 JOIN       Late Reg:Lvl 2 (22:32)   $0.50 NLH Turbo - On Demand   $0.55  14 $7 JOIN       Late Reg:Lvl 9 (22:33)   PKO - $75 GTD PLO8   $1.10  67 $75 JOIN       Late Reg:Lvl 5 (76:12)   PKO - $1,000 GTD   $2.50  268 $1,000 JOIN       Late Reg:Lvl 10 (79:37)  $400 GTD   $1.65  164 $400 JOIN       Late Reg:Lvl 10 (80:02)  $10,000 GTD   $16.50  404 $10,000 JOIN       Late Reg:Lvl 10 (81:15)  $2,500 GTD   $6.60  212 $2,500 JOIN       Late Reg:Lvl 9 (100:15)  Must Play Mondays - $40,000 GTD   $109  170 $40,000   JOIN       Late Reg:Lvl 6 (102:45)   PKO - $5,000 GTD   $8.80  422 $5,000 JOIN       Late Reg:Lvl 6 (103:29)   Must Play Mondays PKO - $20,000 GTD   $27.50  561 $20,000   JOIN       Late Reg:Lvl 8 (133:00)  Must Play Mondays - $40,000 GTD   $66  302 $40,000   JOIN       Late Reg:Lvl 3 (206:59)   Must Play Mondays PKO - $60,000 GTD   $109  256 $60,000   JOIN       Starts in 5 min  Must Play Mondays HR - $100,000 GTD   $630  15 $100,000   JOIN       Starts in 5 min  Must Play Mondays - $75,000 GTD   $215  23 $75,000   JOIN       Starts in 5 min  Must Play Mondays - $30,000 GTD   $33  51 $30,000   JOIN       Starts in 5 min  Must Play Mondays - $10,000 GTD   $11  62 $10,000 JOIN       Starts in 5 min  $1,500 GTD   $3.30  45 $1,500 JOIN       Starts in 5 min  $100 GTD   $0.55  30 $100 JOIN       Starts in 20 min   Lightning PKO - $200 GTD   $10.50  3 / 6 $200 JOIN       Starts in 20 min   Lightning PKO - $100 GTD   $3.15  1 / 6 $100 JOIN       Starts in 20 min   Lightning PKO - $20 GTD   $0.53  0 / 6 $20 JOIN       Starts in 20 min   Lightning PKO - $8 GTD   $0.11  5 / 6 $8 JOIN       Starts in 40 min  Turbo - $1,000 GTD PLO8   $22  3 / 6 $1,000   JOIN       Starts in 40 min  Turbo - $300 GTD PLO8   $5.50  2 / 6 $300 JOIN       Starts in 40 min   PKO Turbo - $100 GTD   $1.65  7 $100 JOIN       Starts in 40 min  Turbo - $40 GTD PLO8   $0.55  4 / 6 $40 JOIN       Mon 28 Jul, 20:30  Must Play Mondays - $60,000 GTD   $109  9 $60,000   JOIN       Mon 28 Jul, 20:30   Super Bounty FT - $1,000 GTD   $11  10 $1,000 JOIN       Mon 28 Jul, 20:30   Super Bounty FT - $400 GTD   $2.50  20 $400 JOIN       Mon 28 Jul, 20:30   Super Bounty FT - $50 GTD   $0.28  10 $50 JOIN       Mon 28 Jul, 20:45   Lightning PKO - $200 GTD   $10.50  1 / 6 $200 JOIN            Tournament Info - Your Way       Satellites(1 Seats Won)  Players And Tables ( 37 / 67 )  9 Places Paid  Structure  Status and Stacks  Details IMPORTANT NOTE 100,000 Starting Chips with 15 minute blinds and 10 levels of Late Registration.\n\n-\n- PLO8 8-Max -\n\nLate Registration: 2 hours and 30 minutes + breaks.\n\nProgressive KO: 50% of the bounty is awarded and 50% is added to the winner's bounty.\n\n🔄 This tournament uses the Reshuffle feature. For more details please visit: ACR Reshuffle\n\nGood luck! Start Mon 28 Jul, 17:05 Buy-In $1.10 ($0.50 + $0.50 + $0.10) # of Players 6 to 5000 Start With 100,000 chips Game Omaha H/L Pot Limit Re-Entries Unlimited Re-Entry Speed Normal Deal-Making Final Table ID\xa0# 33722337     State  All  Registering  Late Reg  Running  Finished Buy-In  Game Format  Entry Format  Game Type  Speed  Players Per Table  Minimum GTD  Satellite Filters       WATCH VIDEO & RE-ENTER  RE-ENTER  CANCEL                18,254 Players Online 19:25 - JULY 28TH Client Version: 2.27.1      English     FAQ          Document", "  $ 36,461.92    $ 14,497.59    $ 51,831.46    $ 6,853.59    $ 36,461.92    $ 14,497.59               qqqqwwwqq2        Account Balance   $0.00   MY ACCOUNT  DEPOSIT                  CASH GAMES HIGH STAKES BLITZ TOURNAMENTS STAKING POKER RACES JACKPOTS SIT & GO CASINO SPORTS    DAILY SCHEDULE SATELLITES PRIVATE ON DEMAND   ON Start Tournament Name Buy-In Enrolled Prize Pool    Sun 27 Jul, 21:30  Phil's Thrill   $10,300  55 $550,000   Finished     Sun 10 Aug, 19:05     Venom Mystery KO - $8M GTD [Day 1A]   $2,650  41 $8,000,000 JOIN     Sun 10 Aug, 19:05     Venom Mystery KO PLO - $2M GTD [Day 1A]   $2,650  0 / 4 $2,000,000 JOIN     Mon 28 Jul, 00:05   BOM #1 Route66 MB - $500K GTD [Day2]   $66  8,001 $500,000   Finished     Sun 27 Jul, 21:05   BOM #2 Squeeze MB - $100K GTD [Day2]   $22  5,728 $114,560   Finished     Sun 27 Jul, 21:05   BOM #3 The Dime MB - $50K GTD [Day2]   $5.50  13,176 $65,880   Finished   HOT  This section is reserved to hold tournaments you are registered in. Also, you can use in other rows to place that tournament here. YOURS      Late Reg:Lvl 3 (9:36)  $50 GTD Freeroll   $0  1,167 $50 JOIN       Late Reg:Lvl 9 (21:28)   PKO - $1,000 GTD PLO8   $22  47 $1,000 JOIN       Late Reg:Lvl 9 (21:41)   PKO - $400 GTD PLO8   $5.50  71 $400 JOIN       Late Reg:Lvl 2 (22:32)   $0.50 NLH Turbo - On Demand   $0.55  14 $7 JOIN       Late Reg:Lvl 9 (22:33)   PKO - $75 GTD PLO8   $1.10  67 $75 JOIN       Late Reg:Lvl 5 (76:12)   PKO - $1,000 GTD   $2.50  268 $1,000 JOIN       Late Reg:Lvl 10 (79:37)  $400 GTD   $1.65  164 $400 JOIN       Late Reg:Lvl 10 (80:02)  $10,000 GTD   $16.50  404 $10,000 JOIN       Late Reg:Lvl 10 (81:15)  $2,500 GTD   $6.60  212 $2,500 JOIN       Late Reg:Lvl 9 (100:15)  Must Play Mondays - $40,000 GTD   $109  170 $40,000   JOIN       Late Reg:Lvl 6 (102:45)   PKO - $5,000 GTD   $8.80  422 $5,000 JOIN       Late Reg:Lvl 6 (103:29)   Must Play Mondays PKO - $20,000 GTD   $27.50  561 $20,000   JOIN       Late Reg:Lvl 8 (133:00)  Must Play Mondays - $40,000 GTD   $66  302 $40,000   JOIN       Late Reg:Lvl 3 (206:59)   Must Play Mondays PKO - $60,000 GTD   $109  256 $60,000   JOIN       Starts in 5 min  Must Play Mondays HR - $100,000 GTD   $630  15 $100,000   JOIN       Starts in 5 min  Must Play Mondays - $75,000 GTD   $215  23 $75,000   JOIN       Starts in 5 min  Must Play Mondays - $30,000 GTD   $33  51 $30,000   JOIN       Starts in 5 min  Must Play Mondays - $10,000 GTD   $11  62 $10,000 JOIN       Starts in 5 min  $1,500 GTD   $3.30  45 $1,500 JOIN       Starts in 5 min  $100 GTD   $0.55  30 $100 JOIN       Starts in 20 min   Lightning PKO - $200 GTD   $10.50  3 / 6 $200 JOIN       Starts in 20 min   Lightning PKO - $100 GTD   $3.15  1 / 6 $100 JOIN       Starts in 20 min   Lightning PKO - $20 GTD   $0.53  0 / 6 $20 JOIN       Starts in 20 min   Lightning PKO - $8 GTD   $0.11  5 / 6 $8 JOIN       Starts in 40 min  Turbo - $1,000 GTD PLO8   $22  3 / 6 $1,000   JOIN       Starts in 40 min  Turbo - $300 GTD PLO8   $5.50  2 / 6 $300 JOIN       Starts in 40 min   PKO Turbo - $100 GTD   $1.65  7 $100 JOIN       Starts in 40 min  Turbo - $40 GTD PLO8   $0.55  4 / 6 $40 JOIN       Mon 28 Jul, 20:30  Must Play Mondays - $60,000 GTD   $109  9 $60,000   JOIN       Mon 28 Jul, 20:30   Super Bounty FT - $1,000 GTD   $11  10 $1,000 JOIN       Mon 28 Jul, 20:30   Super Bounty FT - $400 GTD   $2.50  20 $400 JOIN       Mon 28 Jul, 20:30   Super Bounty FT - $50 GTD   $0.28  10 $50 JOIN       Mon 28 Jul, 20:45   Lightning PKO - $200 GTD   $10.50  1 / 6 $200 JOIN            Tournament Info - Your Way       Satellites(1 Seats Won)  Players And Tables ( 37 / 67 )  9 Places Paid  Structure  Status and Stacks  Details IMPORTANT NOTE 100,000 Starting Chips with 15 minute blinds and 10 levels of Late Registration.\n\n-\n- PLO8 8-Max -\n\nLate Registration: 2 hours and 30 minutes + breaks.\n\nProgressive KO: 50% of the bounty is awarded and 50% is added to the winner's bounty.\n\n🔄 This tournament uses the Reshuffle feature. For more details please visit: ACR Reshuffle\n\nGood luck! Start Mon 28 Jul, 17:05 Buy-In $1.10 ($0.50 + $0.50 + $0.10) # of Players 6 to 5000 Start With 100,000 chips Game Omaha H/L Pot Limit Re-Entries Unlimited Re-Entry Speed Normal Deal-Making Final Table ID\xa0# 33722337     State  All  Registering  Late Reg  Running  Finished Buy-In  Game Format  Entry Format  Game Type  Speed  Players Per Table  Minimum GTD  Satellite Filters       WATCH VIDEO & RE-ENTER  RE-ENTER  CANCEL                18,254 Players Online 19:25 - JULY 28TH Client Version: 2.27.1      English     FAQ          ", 'Document0', 'Document1']
+   | child_window(title="  $ 36,461.92    $ 14,497.59    $ 51,831.46    $ 6,853.59    $ 36,461.92    $ 14,497.59               qqqqwwwqq2        Account Balance   $0.00   MY ACCOUNT  DEPOSIT                  CASH GAMES HIGH STAKES BLITZ TOURNAMENTS STAKING POKER RACES JACKPOTS SIT & GO CASINO SPORTS    DAILY SCHEDULE SATELLITES PRIVATE ON DEMAND   ON Start Tournament Name Buy-In Enrolled Prize Pool    Sun 27 Jul, 21:30  Phil's Thrill   $10,300  55 $550,000   Finished     Sun 10 Aug, 19:05     Venom Mystery KO - $8M GTD [Day 1A]   $2,650  41 $8,000,000 JOIN     Sun 10 Aug, 19:05     Venom Mystery KO PLO - $2M GTD [Day 1A]   $2,650  0 / 4 $2,000,000 JOIN     Mon 28 Jul, 00:05   BOM #1 Route66 MB - $500K GTD [Day2]   $66  8,001 $500,000   Finished     Sun 27 Jul, 21:05   BOM #2 Squeeze MB - $100K GTD [Day2]   $22  5,728 $114,560   Finished     Sun 27 Jul, 21:05   BOM #3 The Dime MB - $50K GTD [Day2]   $5.50  13,176 $65,880   Finished   HOT  This section is reserved to hold tournaments you are registered in. Also, you can use in other rows to place that tournament here. YOURS      Late Reg:Lvl 3 (9:04)  $50 GTD Freeroll   $0  1,178 $50 JOIN       Late Reg:Lvl 9 (20:56)   PKO - $1,000 GTD PLO8   $22  47 $1,000 JOIN       Late Reg:Lvl 9 (21:09)   PKO - $400 GTD PLO8   $5.50  71 $400 JOIN       Late Reg:Lvl 2 (22:00)   $0.50 NLH Turbo - On Demand   $0.55  15 $7.50 JOIN       Late Reg:Lvl 9 (22:01)   PKO - $75 GTD PLO8   $1.10  67 $75 JOIN       Late Reg:Lvl 5 (75:40)   PKO - $1,000 GTD   $2.50  269 $1,000 JOIN       Late Reg:Lvl 10 (79:05)  $400 GTD   $1.65  164 $400 JOIN       Late Reg:Lvl 10 (79:30)  $10,000 GTD   $16.50  406 $10,000 JOIN       Late Reg:Lvl 10 (80:43)  $2,500 GTD   $6.60  212 $2,500 JOIN       Late Reg:Lvl 9 (99:43)  Must Play Mondays - $40,000 GTD   $109  171 $40,000   JOIN       Late Reg:Lvl 6 (102:13)   PKO - $5,000 GTD   $8.80  424 $5,000 JOIN       Late Reg:Lvl 6 (102:57)   Must Play Mondays PKO - $20,000 GTD   $27.50  563 $20,000   JOIN       Late Reg:Lvl 8 (132:28)  Must Play Mondays - $40,000 GTD   $66  307 $40,000   JOIN       Late Reg:Lvl 3 (206:27)   Must Play Mondays PKO - $60,000 GTD   $109  256 $60,000   JOIN       Starts in 4 min  Must Play Mondays HR - $100,000 GTD   $630  15 $100,000   JOIN       Starts in 4 min  Must Play Mondays - $75,000 GTD   $215  23 $75,000   JOIN       Starts in 4 min  Must Play Mondays - $30,000 GTD   $33  52 $30,000   JOIN       Starts in 4 min  Must Play Mondays - $10,000 GTD   $11  62 $10,000 JOIN       Starts in 4 min  $1,500 GTD   $3.30  45 $1,500 JOIN       Starts in 4 min  $100 GTD   $0.55  31 $100 JOIN       Starts in 19 min   Lightning PKO - $200 GTD   $10.50  3 / 6 $200 JOIN       Starts in 19 min   Lightning PKO - $100 GTD   $3.15  1 / 6 $100 JOIN       Starts in 19 min   Lightning PKO - $20 GTD   $0.53  0 / 6 $20 JOIN       Starts in 19 min   Lightning PKO - $8 GTD   $0.11  5 / 6 $8 JOIN       Starts in 39 min  Turbo - $1,000 GTD PLO8   $22  3 / 6 $1,000   JOIN       Starts in 39 min  Turbo - $300 GTD PLO8   $5.50  2 / 6 $300 JOIN       Starts in 39 min   PKO Turbo - $100 GTD   $1.65  7 $100 JOIN       Starts in 39 min  Turbo - $40 GTD PLO8   $0.55  4 / 6 $40 JOIN       Mon 28 Jul, 20:30  Must Play Mondays - $60,000 GTD   $109  9 $60,000   JOIN       Mon 28 Jul, 20:30   Super Bounty FT - $1,000 GTD   $11  12 $1,000 JOIN       Mon 28 Jul, 20:30   Super Bounty FT - $400 GTD   $2.50  20 $400 JOIN       Mon 28 Jul, 20:30   Super Bounty FT - $50 GTD   $0.28  10 $50 JOIN       Mon 28 Jul, 20:45   Lightning PKO - $200 GTD   $10.50  1 / 6 $200 JOIN            Tournament Info - Your Way       Satellites(1 Seats Won)  Players And Tables ( 37 / 67 )  9 Places Paid  Structure  Status and Stacks  Details IMPORTANT NOTE 100,000 Starting Chips with 15 minute blinds and 10 levels of Late Registration.\n\n-\n- PLO8 8-Max -\n\nLate Registration: 2 hours and 30 minutes + breaks.\n\nProgressive KO: 50% of the bounty is awarded and 50% is added to the winner's bounty.\n\n🔄 This tournament uses the Reshuffle feature. For more details please visit: ACR Reshuffle\n\nGood luck! Start Mon 28 Jul, 17:05 Buy-In $1.10 ($0.50 + $0.50 + $0.10) # of Players 6 to 5000 Start With 100,000 chips Game Omaha H/L Pot Limit Re-Entries Unlimited Re-Entry Speed Normal Deal-Making Final Table ID # 33722337     State  All  Registering  Late Reg  Running  Finished Buy-In  Game Format  Entry Format  Game Type  Speed  Players Per Table  Minimum GTD  Satellite Filters       WATCH VIDEO & RE-ENTER  RE-ENTER  CANCEL                18,364 Players Online 19:26 - JULY 28TH Client Version: 2.27.1      English     FAQ          ", auto_id="927051192", control_type="Document")
+   |    | 
+   |    | Pane - ''    (L810, T37, R1206, B109)
+   |    | ['$Pane', 'Pane2']
+   |    | child_window(auto_id="iframe-jackpot-meter", control_type="Pane")
+   |    |    | 
+   |    |    | Document - 'Poker Client'    (L810, T37, R1206, B109)
+   |    |    | ['Poker Client', 'Poker ClientDocument', 'Document2']
+   |    |    | child_window(title="Poker Client", control_type="Document")
+   |    |    |    | 
+   |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ListBox']
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem3', 'ListItem.', 'ListItem4', 'ListItem6', 'ListItem1', 'ListItem2', 'ListItem$', 'ListItem,', 'ListItem9', 'ListItem', 'ListItem.0', 'ListItem.1', 'ListItem40', 'ListItem41', 'ListItem10', 'ListItem11', 'ListItem$0', 'ListItem$1', 'ListItem,0', 'ListItem,1', 'ListItem90', 'ListItem91', 'ListItem0', 'ListItem30', 'ListItem31', 'ListItem60', 'ListItem61', 'ListItem20', 'ListItem21']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - 'Promotion Logo'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Promotion LogoImage', 'Image', 'Promotion Logo', 'Image0', 'Image1', 'Promotion LogoImage0', 'Promotion LogoImage1', 'Promotion Logo0', 'Promotion Logo1']
+   |    |    |    |    |    | child_window(title="Promotion Logo", control_type="Image")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '$'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['$Static', '$', 'Static', 'Static0', 'Static1', '$Static0', '$Static1', '$0', '$1', '$00', '$01']
+   |    |    |    |    |    | child_window(title="$", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '3'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['3', 'Static2', '3Static', '30', '31', '3Static0', '3Static1', '310', '311']
+   |    |    |    |    |    | child_window(title="3", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '6'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static3', '6', '6Static', '60', '61', '6Static0', '6Static1']
+   |    |    |    |    |    | child_window(title="6", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ','    (L0, T0, R0, B0)
+   |    |    |    |    |    | [',', 'Static4', ',Static', ',0', ',1', ',Static0', ',Static1']
+   |    |    |    |    |    | child_window(title=",", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '4'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['4Static', '4', 'Static5', '4Static0', '4Static1', '40', '41', '410', '411']
+   |    |    |    |    |    | child_window(title="4", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '6'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static6', '62', '6Static2', '620', '621']
+   |    |    |    |    |    | child_window(title="6", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '1'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['1', 'Static7', '1Static', '10', '11', '1Static0', '1Static1', '100', '101']
+   |    |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '.'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['.Static', '.', 'Static8', '.Static0', '.Static1', '.0', '.1']
+   |    |    |    |    |    | child_window(title=".", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '9'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['9Static', '9', 'Static9', '9Static0', '9Static1', '90', '91']
+   |    |    |    |    |    | child_window(title="9", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '2'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['2', 'Static10', '2Static', '20', '21', '2Static0', '2Static1', '200', '201']
+   |    |    |    |    |    | child_window(title="2", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Image2']
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem.2', 'ListItem5', 'ListItem42', 'ListItem12', 'ListItem7', 'ListItem$2', 'ListItem,2', 'ListItem92', 'ListItem8', 'ListItem50', 'ListItem51', 'ListItem80', 'ListItem81', 'ListItem70', 'ListItem71']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - 'Promotion Logo'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Promotion LogoImage2', 'Image3', 'Promotion Logo2']
+   |    |    |    |    |    | child_window(title="Promotion Logo", control_type="Image")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '$'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['$Static2', '$2', 'Static11']
+   |    |    |    |    |    | child_window(title="$", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '1'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['12', 'Static12', '1Static2', '120', '121']
+   |    |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '4'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['4Static2', '42', 'Static13']
+   |    |    |    |    |    | child_window(title="4", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ','    (L0, T0, R0, B0)
+   |    |    |    |    |    | [',2', 'Static14', ',Static2']
+   |    |    |    |    |    | child_window(title=",", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '4'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['4Static3', '43', 'Static15']
+   |    |    |    |    |    | child_window(title="4", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '9'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['9Static2', '92', 'Static16']
+   |    |    |    |    |    | child_window(title="9", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '7'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static17', '7', '7Static', '70', '71', '7Static0', '7Static1', '710', '711']
+   |    |    |    |    |    | child_window(title="7", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '.'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['.Static2', '.2', 'Static18']
+   |    |    |    |    |    | child_window(title=".", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '5'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['5', 'Static19', '5Static', '50', '51', '5Static0', '5Static1']
+   |    |    |    |    |    | child_window(title="5", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '9'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['9Static3', '93', 'Static20']
+   |    |    |    |    |    | child_window(title="9", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Image4']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Image5']
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem32', 'ListItem.3', 'ListItem52', 'ListItem43', 'ListItem62', 'ListItem13', 'ListItem$3', 'ListItem,3', 'ListItem82', 'ListItem14']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - 'Promotion Logo'    (L806, T-46, R976, B45)
+   |    |    |    |    |    | ['Promotion LogoImage3', 'Image6', 'Promotion Logo3']
+   |    |    |    |    |    | child_window(title="Promotion Logo", control_type="Image")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '$'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['$Static3', '$3', 'Static21']
+   |    |    |    |    |    | child_window(title="$", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Image7']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Image8']
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - ''    (L810, T37, R1206, B112)
+   |    |    |    |    | ['ListItem33', 'ListItem.4', 'ListItem53', 'ListItem63', 'ListItem$4', 'ListItem,4', 'ListItem93', 'ListItem83', 'ListItem15']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - 'Promotion Logo'    (L806, T29, R976, B120)
+   |    |    |    |    |    | ['Promotion LogoImage4', 'Image9', 'Promotion Logo4']
+   |    |    |    |    |    | child_window(title="Promotion Logo", control_type="Image")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '$'    (L1015, T63, R1025, B86)
+   |    |    |    |    |    | ['$Static4', '$4', 'Static113']
+   |    |    |    |    |    | child_window(title="$", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '6'    (L1024, T64, R1034, B87)
+   |    |    |    |    |    | ['Static114', '63', '6Static3']
+   |    |    |    |    |    | child_window(title="6", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ','    (L1033, T63, R1039, B86)
+   |    |    |    |    |    | [',3', 'Static115', ',Static3']
+   |    |    |    |    |    | child_window(title=",", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '8'    (L1038, T64, R1048, B87)
+   |    |    |    |    |    | ['8Static', 'Static116', '8']
+   |    |    |    |    |    | child_window(title="8", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '5'    (L1047, T64, R1057, B87)
+   |    |    |    |    |    | ['52', 'Static117', '5Static2', '520', '521']
+   |    |    |    |    |    | child_window(title="5", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '3'    (L1056, T64, R1066, B87)
+   |    |    |    |    |    | ['32', 'Static118', '3Static2']
+   |    |    |    |    |    | child_window(title="3", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '.'    (L1065, T63, R1071, B86)
+   |    |    |    |    |    | ['.Static3', '.3', 'Static119']
+   |    |    |    |    |    | child_window(title=".", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '5'    (L1070, T64, R1080, B87)
+   |    |    |    |    |    | ['53', 'Static120', '5Static3']
+   |    |    |    |    |    | child_window(title="5", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '9'    (L1079, T64, R1090, B87)
+   |    |    |    |    |    | ['9Static4', '94', 'Static121']
+   |    |    |    |    |    | child_window(title="9", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L1157, T42, R1178, B107)
+   |    |    |    |    |    | ['Image10']
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem34', 'ListItem.5', 'ListItem44', 'ListItem64', 'ListItem16', 'ListItem22', 'ListItem$5', 'ListItem,5', 'ListItem94', 'ListItem17']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - 'Promotion Logo'    (L806, T104, R976, B195)
+   |    |    |    |    |    | ['Promotion LogoImage5', 'Image11', 'Promotion Logo5']
+   |    |    |    |    |    | child_window(title="Promotion Logo", control_type="Image")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '$'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['$Static5', '$5', 'Static122']
+   |    |    |    |    |    | child_window(title="$", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '3'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['33', 'Static123', '3Static3']
+   |    |    |    |    |    | child_window(title="3", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '6'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static124', '64', '6Static4']
+   |    |    |    |    |    | child_window(title="6", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ','    (L0, T0, R0, B0)
+   |    |    |    |    |    | [',4', 'Static125', ',Static4']
+   |    |    |    |    |    | child_window(title=",", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '4'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['4Static4', '44', 'Static126']
+   |    |    |    |    |    | child_window(title="4", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '6'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static127', '65', '6Static5']
+   |    |    |    |    |    | child_window(title="6", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '1'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['13', 'Static128', '1Static3']
+   |    |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '.'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['.Static4', '.4', 'Static129']
+   |    |    |    |    |    | child_window(title=".", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '9'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['9Static5', '95', 'Static130']
+   |    |    |    |    |    | child_window(title="9", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '2'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['22', 'Static131', '2Static2']
+   |    |    |    |    |    | child_window(title="2", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Image12']
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem.6', 'ListItem54', 'ListItem45', 'ListItem18', 'ListItem72', 'ListItem$6', 'ListItem,6', 'ListItem95', 'ListItem19']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - 'Promotion Logo'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Promotion LogoImage6', 'Image13', 'Promotion Logo6']
+   |    |    |    |    |    | child_window(title="Promotion Logo", control_type="Image")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '$'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['$Static6', '$6', 'Static132']
+   |    |    |    |    |    | child_window(title="$", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '1'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['14', 'Static133', '1Static4']
+   |    |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '4'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['4Static5', '45', 'Static134', '450', '451']
+   |    |    |    |    |    | child_window(title="4", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ','    (L0, T0, R0, B0)
+   |    |    |    |    |    | [',5', 'Static135', ',Static5']
+   |    |    |    |    |    | child_window(title=",", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '4'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['4Static6', '46', 'Static136']
+   |    |    |    |    |    | child_window(title="4", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '9'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['9Static6', '96', 'Static137']
+   |    |    |    |    |    | child_window(title="9", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '7'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static138', '72', '7Static2']
+   |    |    |    |    |    | child_window(title="7", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '.'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['.Static5', '.5', 'Static139']
+   |    |    |    |    |    | child_window(title=".", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '5'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['54', 'Static140', '5Static4']
+   |    |    |    |    |    | child_window(title="5", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '9'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['9Static7', '97', 'Static141']
+   |    |    |    |    |    | child_window(title="9", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Image14']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Image - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Image15']
+   |    | 
+   |    | Button - 'Your special messages'    (L1262, T25, R1302, B49)
+   |    | ['Your special messagesButton', 'Your special messages', 'Button', 'Button0', 'Button1']
+   |    | child_window(title="Your special messages", control_type="Button")
+   |    | 
+   |    | Static - 'qqqqwwwqq2'    (L1390, T31, R1456, B46)
+   |    | ['qqqqwwwqq2Static', 'Static142', 'qqqqwwwqq2']
+   |    | child_window(title="qqqqwwwqq2", control_type="Text")
+   |    | 
+   |    | Button - 'Logout'    (L1564, T26, R1591, B50)
+   |    | ['Logout', 'LogoutButton', 'Button2']
+   |    | child_window(title="Logout", control_type="Button")
+   |    | 
+   |    | Button - ''    (L1288, T26, R1393, B131)
+   |    | ['qqqqwwwqq2Button', 'Button3']
+   |    | 
+   |    | Button - ''    (L1263, T91, R1303, B131)
+   |    | ['Button4']
+   |    | 
+   |    | Static - 'Account Balance'    (L1402, T56, R1476, B69)
+   |    | ['Static143', 'Account BalanceStatic', 'Account Balance']
+   |    | child_window(title="Account Balance", control_type="Text")
+   |    | 
+   |    | Button - 'Show/Hide balance'    (L1485, T55, R1504, B70)
+   |    | ['Show/Hide balance', 'Button5', 'Show/Hide balanceButton']
+   |    | child_window(title="Show/Hide balance", control_type="Button")
+   |    | 
+   |    | Static - '$0.00'    (L1402, T72, R1432, B87)
+   |    | ['$0.00', '$0.00Static', 'Static144']
+   |    | child_window(title="$0.00", control_type="Text")
+   |    | 
+   |    | Button - 'Settings'    (L1567, T58, R1593, B84)
+   |    | ['SettingsButton', 'Settings', 'Button6']
+   |    | child_window(title="Settings", control_type="Button")
+   |    | 
+   |    | Button - 'MY ACCOUNT'    (L1393, T96, R1493, B128)
+   |    | ['MY ACCOUNT', 'MY ACCOUNTButton', 'Button7', 'MY ACCOUNT0', 'MY ACCOUNT1', 'MY ACCOUNTButton0', 'MY ACCOUNTButton1']
+   |    | child_window(title="MY ACCOUNT", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'MY ACCOUNT'    (L1407, T104, R1480, B119)
+   |    |    | ['MY ACCOUNT2', 'MY ACCOUNTStatic', 'Static145']
+   |    |    | child_window(title="MY ACCOUNT", control_type="Text")
+   |    | 
+   |    | Button - 'DEPOSIT'    (L1494, T96, R1594, B128)
+   |    | ['DEPOSITButton', 'Button8', 'DEPOSIT', 'DEPOSIT0', 'DEPOSIT1', 'DEPOSITButton0', 'DEPOSITButton1']
+   |    | child_window(title="DEPOSIT", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'DEPOSIT'    (L1520, T104, R1567, B119)
+   |    |    | ['Static146', 'DEPOSIT2', 'DEPOSITStatic']
+   |    |    | child_window(title="DEPOSIT", control_type="Text")
+   |    | 
+   |    | Button - ''    (L1574, T5, R1591, B21)
+   |    | ['Button9']
+   |    | child_window(auto_id="common-header-btn-close", control_type="Button")
+   |    | 
+   |    | Button - ''    (L1543, T4, R1560, B20)
+   |    | ['Button10']
+   |    | child_window(auto_id="common-header-btn-maximize", control_type="Button")
+   |    | 
+   |    | Button - ''    (L1513, T4, R1530, B20)
+   |    | ['Button11']
+   |    | child_window(auto_id="common-header-btn-minimize", control_type="Button")
+   |    | 
+   |    | Button - ''    (L326, T131, R394, B173)
+   |    | ['$Button', 'Button12', '$Button0', '$Button1']
+   |    | 
+   |    | Button - ''    (L321, T117, R399, B188)
+   |    | ['$Button2', 'Button13']
+   |    | 
+   |    | Button - 'CASH GAMES'    (L394, T131, R514, B173)
+   |    | ['Button14', 'CASH GAMESButton', 'CASH GAMES']
+   |    | child_window(title="CASH GAMES", control_type="Button")
+   |    | 
+   |    | Button - 'HIGH STAKES'    (L514, T131, R634, B173)
+   |    | ['HIGH STAKES', 'Button15', 'HIGH STAKESButton']
+   |    | child_window(title="HIGH STAKES", control_type="Button")
+   |    | 
+   |    | Button - 'BLITZ'    (L634, T131, R754, B173)
+   |    | ['BLITZButton', 'BLITZ', 'Button16']
+   |    | child_window(title="BLITZ", control_type="Button")
+   |    | 
+   |    | Button - 'TOURNAMENTS'    (L754, T131, R874, B173)
+   |    | ['TOURNAMENTS', 'TOURNAMENTSButton', 'Button17']
+   |    | child_window(title="TOURNAMENTS", control_type="Button")
+   |    | 
+   |    | Button - 'STAKING'    (L874, T131, R994, B173)
+   |    | ['STAKING', 'STAKINGButton', 'Button18']
+   |    | child_window(title="STAKING", control_type="Button")
+   |    | 
+   |    | Button - 'POKER RACES'    (L994, T131, R1114, B173)
+   |    | ['POKER RACES', 'POKER RACESButton', 'Button19']
+   |    | child_window(title="POKER RACES", control_type="Button")
+   |    | 
+   |    | Button - 'JACKPOTS'    (L1114, T131, R1234, B173)
+   |    | ['JACKPOTS', 'JACKPOTSButton', 'Button20']
+   |    | child_window(title="JACKPOTS", control_type="Button")
+   |    | 
+   |    | Button - 'SIT & GO'    (L1234, T131, R1354, B173)
+   |    | ['SIT & GOButton', 'SIT & GO', 'Button21']
+   |    | child_window(title="SIT & GO", control_type="Button")
+   |    | 
+   |    | Button - 'CASINO'    (L1354, T131, R1474, B173)
+   |    | ['CASINO', 'CASINOButton', 'Button22']
+   |    | child_window(title="CASINO", control_type="Button")
+   |    | 
+   |    | Button - 'SPORTS'    (L1474, T131, R1594, B173)
+   |    | ['SPORTS', 'Button23', 'SPORTSButton']
+   |    | child_window(title="SPORTS", control_type="Button")
+   |    | 
+   |    | Button - 'DAILY SCHEDULE'    (L325, T179, R436, B208)
+   |    | ['DAILY SCHEDULE', 'DAILY SCHEDULEButton', 'Button24']
+   |    | child_window(title="DAILY SCHEDULE", control_type="Button")
+   |    | 
+   |    | Button - 'SATELLITES'    (L438, T179, R549, B208)
+   |    | ['SATELLITES', 'SATELLITESButton', 'Button25']
+   |    | child_window(title="SATELLITES", control_type="Button")
+   |    | 
+   |    | Button - 'PRIVATE'    (L551, T179, R662, B208)
+   |    | ['PRIVATE', 'PRIVATEButton', 'Button26']
+   |    | child_window(title="PRIVATE", control_type="Button")
+   |    | 
+   |    | Button - 'ON DEMAND'    (L664, T179, R775, B208)
+   |    | ['ON DEMANDButton', 'Button27', 'ON DEMAND']
+   |    | child_window(title="ON DEMAND", control_type="Button")
+   |    | 
+   |    | Button - 'Show/hide filters'    (L1286, T179, R1318, B207)
+   |    | ['Show/hide filtersButton', 'Show/hide filters', 'Button28']
+   |    | child_window(title="Show/hide filters", auto_id="toggleFilterBtn", control_type="Button")
+   |    | 
+   |    | Button - 'ON'    (L1211, T179, R1284, B207)
+   |    | ['ON', 'ONButton', 'Button29']
+   |    | child_window(title="ON", auto_id="applyFilterBtn", control_type="Button")
+   |    | 
+   |    | Button - 'Start Tournament Name Buy-In Enrolled Prize Pool'    (L326, T214, R1319, B234)
+   |    | ['Start Tournament Name Buy-In Enrolled Prize Pool', 'Start Tournament Name Buy-In Enrolled Prize PoolButton', 'Button30']
+   |    | child_window(title="Start Tournament Name Buy-In Enrolled Prize Pool", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Start'    (L384, T216, R410, B231)
+   |    |    | ['Start', 'Static147', 'StartStatic', 'Start0', 'Start1', 'StartStatic0', 'StartStatic1']
+   |    |    | child_window(title="Start", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Tournament Name'    (L566, T216, R664, B231)
+   |    |    | ['Tournament NameStatic', 'Tournament Name', 'Static148']
+   |    |    | child_window(title="Tournament Name", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Buy-In'    (L926, T216, R959, B231)
+   |    |    | ['Buy-In', 'Static149', 'Buy-InStatic', 'Buy-In0', 'Buy-In1', 'Buy-InStatic0', 'Buy-InStatic1']
+   |    |    | child_window(title="Buy-In", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Enrolled'    (L1003, T216, R1046, B231)
+   |    |    | ['Enrolled', 'Static150', 'EnrolledStatic']
+   |    |    | child_window(title="Enrolled", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Prize Pool'    (L1085, T216, R1138, B231)
+   |    |    | ['Prize PoolStatic', 'Prize Pool', 'Static151']
+   |    |    | child_window(title="Prize Pool", control_type="Text")
+   |    | 
+   |    | Button - 'Sun 27 Jul, 21:30 Phil's Thrill $10,300 55 $550,000 Watch the final table Finished'    (L326, T236, R1304, B259)
+   |    | ["Sun 27 Jul, 21:30 Phil's Thrill $10,300 55 $550,000 Watch the final table FinishedButton", 'Button31', "Sun 27 Jul, 21:30 Phil's Thrill $10,300 55 $550,000 Watch the final table Finished"]
+   |    | child_window(title="Sun 27 Jul, 21:30 Phil's Thrill $10,300 55 $550,000 Watch the final table Finished", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Phil's Thrill'    (L697, T241, R765, B255)
+   |    |    | ["Phil's Thrill", 'Static152', "Phil's ThrillStatic"]
+   |    |    | child_window(title="Phil's Thrill", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$10,300'    (L926, T240, R969, B254)
+   |    |    | ['$10,300', 'Static153', '$10,300Static']
+   |    |    | child_window(title="$10,300", control_type="Text")
+   |    |    | 
+   |    |    | Static - '55'    (L1002, T240, R1016, B254)
+   |    |    | ['55Static', '55', 'Static154']
+   |    |    | child_window(title="55", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$550,000'    (L1084, T240, R1134, B254)
+   |    |    | ['$550,000', 'Static155', '$550,000Static']
+   |    |    | child_window(title="$550,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'Watch the final table'    (L1158, T238, R1180, B257)
+   |    |    | ['Watch the final tableButton', 'Watch the final table', 'Button32', 'Watch the final tableButton0', 'Watch the final tableButton1', 'Watch the final table0', 'Watch the final table1']
+   |    |    | child_window(title="Watch the final table", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Finished'    (L1231, T240, R1277, B255)
+   |    |    | ['Finished', 'Static156', 'FinishedStatic', 'Finished0', 'Finished1', 'FinishedStatic0', 'FinishedStatic1']
+   |    |    | child_window(title="Finished", control_type="Text")
+   |    | 
+   |    | Button - 'Sun 10 Aug, 19:05 Day2 Lobby Mystery Bounty Venom Mystery KO - $8M GTD [Day 1A] $2,650 41 $8,000,000 JOIN'    (L326, T261, R1304, B284)
+   |    | ['Sun 10 Aug, 19:05 Day2 Lobby Mystery Bounty Venom Mystery KO - $8M GTD [Day 1A] $2,650 41 $8,000,000 JOIN', 'Sun 10 Aug, 19:05 Day2 Lobby Mystery Bounty Venom Mystery KO - $8M GTD [Day 1A] $2,650 41 $8,000,000 JOINButton', 'Button33']
+   |    | child_window(title="Sun 10 Aug, 19:05 Day2 Lobby Mystery Bounty Venom Mystery KO - $8M GTD [Day 1A] $2,650 41 $8,000,000 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Day2 Lobby'    (L530, T263, R549, B282)
+   |    |    | ['Button34', 'Day2 Lobby', 'Day2 LobbyButton', 'Day2 Lobby0', 'Day2 Lobby1', 'Day2 LobbyButton0', 'Day2 LobbyButton1']
+   |    |    | child_window(title="Day2 Lobby", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Venom Mystery KO - $8M GTD [Day 1A]'    (L611, T266, R851, B280)
+   |    |    | ['Venom Mystery KO - $8M GTD [Day 1A]Static', 'Venom Mystery KO - $8M GTD [Day 1A]', 'Static157']
+   |    |    | child_window(title="Venom Mystery KO - $8M GTD [Day 1A]", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$2,650'    (L926, T265, R963, B279)
+   |    |    | ['$2,650', 'Static158', '$2,650Static', '$2,6500', '$2,6501', '$2,650Static0', '$2,650Static1']
+   |    |    | child_window(title="$2,650", control_type="Text")
+   |    |    | 
+   |    |    | Static - '41'    (L1002, T265, R1016, B279)
+   |    |    | ['41Static', '412', 'Static159']
+   |    |    | child_window(title="41", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$8,000,000'    (L1084, T265, R1144, B279)
+   |    |    | ['$8,000,000Static', 'Static160', '$8,000,000']
+   |    |    | child_window(title="$8,000,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T264, R1289, B281)
+   |    |    | ['JOINButton', 'Button35', 'JOIN', 'JOINButton0', 'JOINButton1', 'JOIN0', 'JOIN1']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Sun 10 Aug, 19:05 Day2 Lobby Mystery Bounty Venom Mystery KO PLO - $2M GTD [Day 1A] $2,650 0 / 4 $2,000,000 JOIN'    (L326, T286, R1304, B309)
+   |    | ['Sun 10 Aug, 19:05 Day2 Lobby Mystery Bounty Venom Mystery KO PLO - $2M GTD [Day 1A] $2,650 0 / 4 $2,000,000 JOIN', 'Sun 10 Aug, 19:05 Day2 Lobby Mystery Bounty Venom Mystery KO PLO - $2M GTD [Day 1A] $2,650 0 / 4 $2,000,000 JOINButton', 'Button36']
+   |    | child_window(title="Sun 10 Aug, 19:05 Day2 Lobby Mystery Bounty Venom Mystery KO PLO - $2M GTD [Day 1A] $2,650 0 / 4 $2,000,000 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Day2 Lobby'    (L530, T288, R549, B307)
+   |    |    | ['Button37', 'Day2 Lobby2', 'Day2 LobbyButton2']
+   |    |    | child_window(title="Day2 Lobby", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Venom Mystery KO PLO - $2M GTD [Day 1A]'    (L598, T291, R864, B305)
+   |    |    | ['Venom Mystery KO PLO - $2M GTD [Day 1A]', 'Static161', 'Venom Mystery KO PLO - $2M GTD [Day 1A]Static']
+   |    |    | child_window(title="Venom Mystery KO PLO - $2M GTD [Day 1A]", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$2,650'    (L926, T290, R963, B304)
+   |    |    | ['$2,6502', 'Static162', '$2,650Static2']
+   |    |    | child_window(title="$2,650", control_type="Text")
+   |    |    | 
+   |    |    | Static - '0 / 4'    (L1002, T290, R1028, B304)
+   |    |    | ['0 / 4', 'Static163', '0 / 4Static']
+   |    |    | child_window(title="0 / 4", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$2,000,000'    (L1084, T290, R1144, B304)
+   |    |    | ['$2,000,000Static', 'Static164', '$2,000,000']
+   |    |    | child_window(title="$2,000,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T289, R1289, B306)
+   |    |    | ['JOINButton2', 'Button38', 'JOIN2']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Mon 28 Jul, 00:05 Mystery Bounty BOM #1 Route66 MB - $500K GTD [Day2] $66 8,001 $500,000 Watch the final table Finished'    (L326, T311, R1304, B334)
+   |    | ['Mon 28 Jul, 00:05 Mystery Bounty BOM #1 Route66 MB - $500K GTD [Day2] $66 8,001 $500,000 Watch the final table Finished', 'Button39', 'Mon 28 Jul, 00:05 Mystery Bounty BOM #1 Route66 MB - $500K GTD [Day2] $66 8,001 $500,000 Watch the final table FinishedButton']
+   |    | child_window(title="Mon 28 Jul, 00:05 Mystery Bounty BOM #1 Route66 MB - $500K GTD [Day2] $66 8,001 $500,000 Watch the final table Finished", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'BOM #1 Route66 MB - $500K GTD [Day2]'    (L605, T316, R857, B330)
+   |    |    | ['BOM #1 Route66 MB - $500K GTD [Day2]Static', 'Static165', 'BOM #1 Route66 MB - $500K GTD [Day2]']
+   |    |    | child_window(title="BOM #1 Route66 MB - $500K GTD [Day2]", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$66'    (L926, T315, R946, B329)
+   |    |    | ['$66', '$66Static', 'Static166', '$660', '$661', '$66Static0', '$66Static1']
+   |    |    | child_window(title="$66", control_type="Text")
+   |    |    | 
+   |    |    | Static - '8,001'    (L1002, T315, R1032, B329)
+   |    |    | ['8,001Static', '8,001', 'Static167']
+   |    |    | child_window(title="8,001", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$500,000'    (L1084, T315, R1134, B329)
+   |    |    | ['$500,000', 'Static168', '$500,000Static']
+   |    |    | child_window(title="$500,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'Watch the final table'    (L1158, T313, R1180, B332)
+   |    |    | ['Watch the final tableButton2', 'Watch the final table2', 'Button40']
+   |    |    | child_window(title="Watch the final table", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Finished'    (L1231, T315, R1277, B330)
+   |    |    | ['Finished2', 'Static169', 'FinishedStatic2']
+   |    |    | child_window(title="Finished", control_type="Text")
+   |    | 
+   |    | Button - 'Sun 27 Jul, 21:05 Mystery Bounty BOM #2 Squeeze MB - $100K GTD [Day2] $22 5,728 $114,560 Watch the final table Finished'    (L326, T336, R1304, B359)
+   |    | ['Sun 27 Jul, 21:05 Mystery Bounty BOM #2 Squeeze MB - $100K GTD [Day2] $22 5,728 $114,560 Watch the final table FinishedButton', 'Button41', 'Sun 27 Jul, 21:05 Mystery Bounty BOM #2 Squeeze MB - $100K GTD [Day2] $22 5,728 $114,560 Watch the final table Finished']
+   |    | child_window(title="Sun 27 Jul, 21:05 Mystery Bounty BOM #2 Squeeze MB - $100K GTD [Day2] $22 5,728 $114,560 Watch the final table Finished", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'BOM #2 Squeeze MB - $100K GTD [Day2]'    (L605, T341, R857, B355)
+   |    |    | ['Static170', 'BOM #2 Squeeze MB - $100K GTD [Day2]', 'BOM #2 Squeeze MB - $100K GTD [Day2]Static']
+   |    |    | child_window(title="BOM #2 Squeeze MB - $100K GTD [Day2]", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$22'    (L926, T340, R946, B354)
+   |    |    | ['$22Static', 'Static171', '$22', '$22Static0', '$22Static1', '$220', '$221']
+   |    |    | child_window(title="$22", control_type="Text")
+   |    |    | 
+   |    |    | Static - '5,728'    (L1002, T340, R1032, B354)
+   |    |    | ['5,728', '5,728Static', 'Static172']
+   |    |    | child_window(title="5,728", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$114,560'    (L1084, T340, R1134, B354)
+   |    |    | ['$114,560', '$114,560Static', 'Static173']
+   |    |    | child_window(title="$114,560", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'Watch the final table'    (L1158, T338, R1180, B357)
+   |    |    | ['Watch the final tableButton3', 'Watch the final table3', 'Button42']
+   |    |    | child_window(title="Watch the final table", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Finished'    (L1231, T340, R1277, B355)
+   |    |    | ['Finished3', 'Static174', 'FinishedStatic3']
+   |    |    | child_window(title="Finished", control_type="Text")
+   |    | 
+   |    | Button - 'Sun 27 Jul, 21:05 Mystery Bounty BOM #3 The Dime MB - $50K GTD [Day2] $5.50 13,176 $65,880 Watch the final table Finished'    (L326, T361, R1304, B384)
+   |    | ['Sun 27 Jul, 21:05 Mystery Bounty BOM #3 The Dime MB - $50K GTD [Day2] $5.50 13,176 $65,880 Watch the final table FinishedButton', 'Sun 27 Jul, 21:05 Mystery Bounty BOM #3 The Dime MB - $50K GTD [Day2] $5.50 13,176 $65,880 Watch the final table Finished', 'Button43']
+   |    | child_window(title="Sun 27 Jul, 21:05 Mystery Bounty BOM #3 The Dime MB - $50K GTD [Day2] $5.50 13,176 $65,880 Watch the final table Finished", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'BOM #3 The Dime MB - $50K GTD [Day2]'    (L606, T366, R856, B380)
+   |    |    | ['BOM #3 The Dime MB - $50K GTD [Day2]', 'BOM #3 The Dime MB - $50K GTD [Day2]Static', 'Static175']
+   |    |    | child_window(title="BOM #3 The Dime MB - $50K GTD [Day2]", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$5.50'    (L926, T365, R956, B379)
+   |    |    | ['$5.50', 'Static176', '$5.50Static', '$5.500', '$5.501', '$5.50Static0', '$5.50Static1']
+   |    |    | child_window(title="$5.50", control_type="Text")
+   |    |    | 
+   |    |    | Static - '13,176'    (L1002, T365, R1039, B379)
+   |    |    | ['13,176Static', '13,176', 'Static177']
+   |    |    | child_window(title="13,176", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$65,880'    (L1084, T365, R1127, B379)
+   |    |    | ['$65,880', '$65,880Static', 'Static178']
+   |    |    | child_window(title="$65,880", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'Watch the final table'    (L1158, T363, R1180, B382)
+   |    |    | ['Watch the final tableButton4', 'Watch the final table4', 'Button44']
+   |    |    | child_window(title="Watch the final table", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Finished'    (L1231, T365, R1277, B380)
+   |    |    | ['Finished4', 'Static179', 'FinishedStatic4']
+   |    |    | child_window(title="Finished", control_type="Text")
+   |    | 
+   |    | Static - 'HOT'    (L331, T299, R346, B324)
+   |    | ['HOT', 'HOTStatic', 'Static180']
+   |    | child_window(title="HOT", control_type="Text")
+   |    | 
+   |    | Static - 'This section is reserved to hold tournaments you are registered in. Also, you can use'    (L470, T410, R908, B425)
+   |    | ['This section is reserved to hold tournaments you are registered in. Also, you can use', 'This section is reserved to hold tournaments you are registered in. Also, you can useStatic', 'Static181']
+   |    | child_window(title="This section is reserved to hold tournaments you are registered in. Also, you can use", control_type="Text")
+   |    | 
+   |    | Static - 'in other rows to place that tournament here.'    (L931, T410, R1160, B425)
+   |    | ['in other rows to place that tournament here.', 'Static182', 'in other rows to place that tournament here.Static']
+   |    | child_window(title="in other rows to place that tournament here.", control_type="Text")
+   |    | 
+   |    | Static - 'YOURS'    (L331, T402, R346, B441)
+   |    | ['YOURSStatic', 'Static183', 'YOURS']
+   |    | child_window(title="YOURS", control_type="Text")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Late Reg:Lvl 3 (9:02) $50 GTD Freeroll $0 1,178 $50 JOIN'    (L326, T452, R1304, B475)
+   |    | ['Add this event to "Yours" section. Late Reg:Lvl 3 (9:08) $50 GTD Freeroll $0 1,178 $50 JOIN', 'Add this event to "Yours" section. Late Reg:Lvl 3 (9:08) $50 GTD Freeroll $0 1,178 $50 JOINButton', 'Button45']
+   |    | child_window(title="Add this event to "Yours" section. Late Reg:Lvl 3 (9:02) $50 GTD Freeroll $0 1,178 $50 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T455, R374, B473)
+   |    |    | ['Add this event to "Yours" section.', 'Button46', 'Add this event to "Yours" section.Button', 'Add this event to "Yours" section.0', 'Add this event to "Yours" section.1', 'Add this event to "Yours" section.Button0', 'Add this event to "Yours" section.Button1']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Late Reg:Lvl 3 (9:02)'    (L384, T456, R496, B470)
+   |    |    | ['Static184', 'Late Reg:Lvl 3 (9:08)Static', 'Late Reg:Lvl 3 (9:08)']
+   |    |    | child_window(title="Late Reg:Lvl 3 (9:02)", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$50 GTD Freeroll'    (L552, T456, R642, B470)
+   |    |    | ['$50 GTD Freeroll', '$50 GTD FreerollStatic', 'Static185']
+   |    |    | child_window(title="$50 GTD Freeroll", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$0'    (L926, T456, R940, B470)
+   |    |    | ['$02', 'Static186', '$0Static']
+   |    |    | child_window(title="$0", control_type="Text")
+   |    |    | 
+   |    |    | Static - '1,178'    (L1002, T456, R1032, B470)
+   |    |    | ['1,178', '1,178Static', 'Static187']
+   |    |    | child_window(title="1,178", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$50'    (L1084, T456, R1104, B470)
+   |    |    | ['$50', 'Static188', '$50Static', '$500', '$501', '$50Static0', '$50Static1']
+   |    |    | child_window(title="$50", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T455, R1289, B472)
+   |    |    | ['JOINButton3', 'Button47', 'JOIN3']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Late Reg:Lvl 9 (20:54) PKO PKO - $1,000 GTD PLO8 $22 47 $1,000 JOIN'    (L326, T477, R1304, B500)
+   |    | ['Add this event to "Yours" section. Late Reg:Lvl 9 (21:00) PKO PKO - $1,000 GTD PLO8 $22 47 $1,000 JOINButton', 'Add this event to "Yours" section. Late Reg:Lvl 9 (21:00) PKO PKO - $1,000 GTD PLO8 $22 47 $1,000 JOIN', 'Button48']
+   |    | child_window(title="Add this event to "Yours" section. Late Reg:Lvl 9 (20:54) PKO PKO - $1,000 GTD PLO8 $22 47 $1,000 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T480, R374, B498)
+   |    |    | ['Add this event to "Yours" section.2', 'Button49', 'Add this event to "Yours" section.Button2']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Late Reg:Lvl 9 (20:54)'    (L384, T481, R503, B495)
+   |    |    | ['Late Reg:Lvl 9 (21:00)Static', 'Late Reg:Lvl 9 (21:00)', 'Static189']
+   |    |    | child_window(title="Late Reg:Lvl 9 (20:54)", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'PKO - $1,000 GTD PLO8'    (L552, T481, R681, B495)
+   |    |    | ['PKO - $1,000 GTD PLO8', 'Static190', 'PKO - $1,000 GTD PLO8Static']
+   |    |    | child_window(title="PKO - $1,000 GTD PLO8", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$22'    (L926, T481, R946, B495)
+   |    |    | ['$22Static2', 'Static191', '$222']
+   |    |    | child_window(title="$22", control_type="Text")
+   |    |    | 
+   |    |    | Static - '47'    (L1002, T481, R1016, B495)
+   |    |    | ['47Static', 'Static192', '47']
+   |    |    | child_window(title="47", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$1,000'    (L1084, T481, R1121, B495)
+   |    |    | ['$1,000Static', 'Static193', '$1,000', '$1,000Static0', '$1,000Static1', '$1,0000', '$1,0001']
+   |    |    | child_window(title="$1,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T480, R1289, B497)
+   |    |    | ['JOINButton4', 'Button50', 'JOIN4']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Late Reg:Lvl 9 (21:07) PKO PKO - $400 GTD PLO8 $5.50 71 $400 JOIN'    (L326, T502, R1304, B525)
+   |    | ['Add this event to "Yours" section. Late Reg:Lvl 9 (21:13) PKO PKO - $400 GTD PLO8 $5.50 71 $400 JOIN', 'Add this event to "Yours" section. Late Reg:Lvl 9 (21:13) PKO PKO - $400 GTD PLO8 $5.50 71 $400 JOINButton', 'Button51']
+   |    | child_window(title="Add this event to "Yours" section. Late Reg:Lvl 9 (21:07) PKO PKO - $400 GTD PLO8 $5.50 71 $400 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T505, R374, B523)
+   |    |    | ['Add this event to "Yours" section.3', 'Button52', 'Add this event to "Yours" section.Button3']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Late Reg:Lvl 9 (21:07)'    (L384, T506, R503, B520)
+   |    |    | ['Late Reg:Lvl 9 (21:13)', 'Late Reg:Lvl 9 (21:13)Static', 'Static194']
+   |    |    | child_window(title="Late Reg:Lvl 9 (21:07)", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'PKO - $400 GTD PLO8'    (L552, T506, R671, B520)
+   |    |    | ['PKO - $400 GTD PLO8', 'Static195', 'PKO - $400 GTD PLO8Static']
+   |    |    | child_window(title="PKO - $400 GTD PLO8", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$5.50'    (L926, T506, R956, B520)
+   |    |    | ['$5.502', 'Static196', '$5.50Static2']
+   |    |    | child_window(title="$5.50", control_type="Text")
+   |    |    | 
+   |    |    | Static - '71'    (L1002, T506, R1016, B520)
+   |    |    | ['712', '71Static', 'Static197']
+   |    |    | child_window(title="71", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$400'    (L1084, T506, R1111, B520)
+   |    |    | ['Static198', '$400', '$400Static', '$4000', '$4001', '$400Static0', '$400Static1']
+   |    |    | child_window(title="$400", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T505, R1289, B522)
+   |    |    | ['JOINButton5', 'Button53', 'JOIN5']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Late Reg:Lvl 2 (21:58) On Demand $0.50 NLH Turbo - On Demand $0.55 15 $7.50 JOIN'    (L326, T527, R1304, B550)
+   |    | ['Add this event to "Yours" section. Late Reg:Lvl 2 (22:04) On Demand $0.50 NLH Turbo - On Demand $0.55 15 $7.50 JOIN', 'Add this event to "Yours" section. Late Reg:Lvl 2 (22:04) On Demand $0.50 NLH Turbo - On Demand $0.55 15 $7.50 JOINButton', 'Button54']
+   |    | child_window(title="Add this event to "Yours" section. Late Reg:Lvl 2 (21:58) On Demand $0.50 NLH Turbo - On Demand $0.55 15 $7.50 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T530, R374, B548)
+   |    |    | ['Add this event to "Yours" section.4', 'Button55', 'Add this event to "Yours" section.Button4']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Late Reg:Lvl 2 (21:58)'    (L384, T531, R503, B545)
+   |    |    | ['Late Reg:Lvl 2 (22:04)Static', 'Static199', 'Late Reg:Lvl 2 (22:04)']
+   |    |    | child_window(title="Late Reg:Lvl 2 (21:58)", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$0.50 NLH Turbo - On Demand'    (L552, T531, R717, B545)
+   |    |    | ['$0.50 NLH Turbo - On Demand', '$0.50 NLH Turbo - On DemandStatic', 'Static200']
+   |    |    | child_window(title="$0.50 NLH Turbo - On Demand", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$0.55'    (L926, T531, R956, B545)
+   |    |    | ['$0.55', 'Static201', '$0.55Static', '$0.550', '$0.551', '$0.55Static0', '$0.55Static1']
+   |    |    | child_window(title="$0.55", control_type="Text")
+   |    |    | 
+   |    |    | Static - '15'    (L1002, T531, R1016, B545)
+   |    |    | ['15Static', 'Static202', '15', '15Static0', '15Static1', '150', '151']
+   |    |    | child_window(title="15", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$7.50'    (L1084, T531, R1113, B545)
+   |    |    | ['$7.50', '$7.50Static', 'Static203']
+   |    |    | child_window(title="$7.50", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T530, R1289, B547)
+   |    |    | ['JOINButton6', 'Button56', 'JOIN6']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Late Reg:Lvl 9 (21:59) PKO PKO - $75 GTD PLO8 $1.10 67 $75 JOIN'    (L326, T552, R1304, B575)
+   |    | ['Add this event to "Yours" section. Late Reg:Lvl 9 (22:05) PKO PKO - $75 GTD PLO8 $1.10 67 $75 JOINButton', 'Add this event to "Yours" section. Late Reg:Lvl 9 (22:05) PKO PKO - $75 GTD PLO8 $1.10 67 $75 JOIN', 'Button57']
+   |    | child_window(title="Add this event to "Yours" section. Late Reg:Lvl 9 (21:59) PKO PKO - $75 GTD PLO8 $1.10 67 $75 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T555, R374, B573)
+   |    |    | ['Add this event to "Yours" section.5', 'Button58', 'Add this event to "Yours" section.Button5']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Late Reg:Lvl 9 (21:59)'    (L384, T556, R503, B570)
+   |    |    | ['Late Reg:Lvl 9 (22:05)Static', 'Static204', 'Late Reg:Lvl 9 (22:05)']
+   |    |    | child_window(title="Late Reg:Lvl 9 (21:59)", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'PKO - $75 GTD PLO8'    (L552, T556, R664, B570)
+   |    |    | ['PKO - $75 GTD PLO8', 'Static205', 'PKO - $75 GTD PLO8Static']
+   |    |    | child_window(title="PKO - $75 GTD PLO8", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$1.10'    (L926, T556, R956, B570)
+   |    |    | ['$1.10Static', 'Static206', '$1.10']
+   |    |    | child_window(title="$1.10", control_type="Text")
+   |    |    | 
+   |    |    | Static - '67'    (L1002, T556, R1016, B570)
+   |    |    | ['67', '67Static', 'Static207']
+   |    |    | child_window(title="67", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$75'    (L1084, T556, R1104, B570)
+   |    |    | ['$75Static', '$75', 'Static208']
+   |    |    | child_window(title="$75", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T555, R1289, B572)
+   |    |    | ['JOINButton7', 'Button59', 'JOIN7']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Late Reg:Lvl 5 (75:38) PKO PKO - $1,000 GTD $2.50 269 $1,000 JOIN'    (L326, T577, R1304, B600)
+   |    | ['Add this event to "Yours" section. Late Reg:Lvl 5 (75:44) PKO PKO - $1,000 GTD $2.50 269 $1,000 JOIN', 'Add this event to "Yours" section. Late Reg:Lvl 5 (75:44) PKO PKO - $1,000 GTD $2.50 269 $1,000 JOINButton', 'Button60']
+   |    | child_window(title="Add this event to "Yours" section. Late Reg:Lvl 5 (75:38) PKO PKO - $1,000 GTD $2.50 269 $1,000 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T580, R374, B598)
+   |    |    | ['Add this event to "Yours" section.6', 'Button61', 'Add this event to "Yours" section.Button6']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Late Reg:Lvl 5 (75:38)'    (L384, T581, R503, B595)
+   |    |    | ['Late Reg:Lvl 5 (75:44)Static', 'Static209', 'Late Reg:Lvl 5 (75:44)']
+   |    |    | child_window(title="Late Reg:Lvl 5 (75:38)", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'PKO - $1,000 GTD'    (L552, T581, R661, B595)
+   |    |    | ['PKO - $1,000 GTDStatic', 'PKO - $1,000 GTD', 'Static210']
+   |    |    | child_window(title="PKO - $1,000 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$2.50'    (L926, T581, R956, B595)
+   |    |    | ['$2.50Static', 'Static211', '$2.50', '$2.50Static0', '$2.50Static1', '$2.500', '$2.501']
+   |    |    | child_window(title="$2.50", control_type="Text")
+   |    |    | 
+   |    |    | Static - '269'    (L1002, T581, R1022, B595)
+   |    |    | ['269Static', '269', 'Static212']
+   |    |    | child_window(title="269", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$1,000'    (L1084, T581, R1121, B595)
+   |    |    | ['$1,000Static2', 'Static213', '$1,0002']
+   |    |    | child_window(title="$1,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T580, R1289, B597)
+   |    |    | ['JOINButton8', 'Button62', 'JOIN8']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Late Reg:Lvl 10 (79:03) $400 GTD $1.65 164 $400 JOIN'    (L326, T602, R1304, B625)
+   |    | ['Add this event to "Yours" section. Late Reg:Lvl 10 (79:09) $400 GTD $1.65 164 $400 JOIN', 'Add this event to "Yours" section. Late Reg:Lvl 10 (79:09) $400 GTD $1.65 164 $400 JOINButton', 'Button63']
+   |    | child_window(title="Add this event to "Yours" section. Late Reg:Lvl 10 (79:03) $400 GTD $1.65 164 $400 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T605, R374, B623)
+   |    |    | ['Add this event to "Yours" section.7', 'Button64', 'Add this event to "Yours" section.Button7']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Late Reg:Lvl 10 (79:03)'    (L384, T606, R510, B620)
+   |    |    | ['Late Reg:Lvl 10 (79:09)', 'Late Reg:Lvl 10 (79:09)Static', 'Static214']
+   |    |    | child_window(title="Late Reg:Lvl 10 (79:03)", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$400 GTD'    (L552, T606, R612, B620)
+   |    |    | ['$400 GTD', 'Static215', '$400 GTDStatic']
+   |    |    | child_window(title="$400 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$1.65'    (L926, T606, R956, B620)
+   |    |    | ['$1.65Static', '$1.65', 'Static216', '$1.65Static0', '$1.65Static1', '$1.650', '$1.651']
+   |    |    | child_window(title="$1.65", control_type="Text")
+   |    |    | 
+   |    |    | Static - '164'    (L1002, T606, R1022, B620)
+   |    |    | ['164', 'Static217', '164Static']
+   |    |    | child_window(title="164", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$400'    (L1084, T606, R1111, B620)
+   |    |    | ['Static218', '$4002', '$400Static2']
+   |    |    | child_window(title="$400", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T605, R1289, B622)
+   |    |    | ['JOINButton9', 'Button65', 'JOIN9']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Late Reg:Lvl 10 (79:28) $10,000 GTD $16.50 406 $10,000 JOIN'    (L326, T627, R1304, B650)
+   |    | ['Add this event to "Yours" section. Late Reg:Lvl 10 (79:34) $10,000 GTD $16.50 406 $10,000 JOIN', 'Add this event to "Yours" section. Late Reg:Lvl 10 (79:34) $10,000 GTD $16.50 406 $10,000 JOINButton', 'Button66']
+   |    | child_window(title="Add this event to "Yours" section. Late Reg:Lvl 10 (79:28) $10,000 GTD $16.50 406 $10,000 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T630, R374, B648)
+   |    |    | ['Add this event to "Yours" section.8', 'Button67', 'Add this event to "Yours" section.Button8']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Late Reg:Lvl 10 (79:28)'    (L384, T631, R510, B645)
+   |    |    | ['Late Reg:Lvl 10 (79:34)', 'Late Reg:Lvl 10 (79:34)Static', 'Static219']
+   |    |    | child_window(title="Late Reg:Lvl 10 (79:28)", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$10,000 GTD'    (L552, T631, R631, B645)
+   |    |    | ['$10,000 GTD', 'Static220', '$10,000 GTDStatic']
+   |    |    | child_window(title="$10,000 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$16.50'    (L926, T631, R963, B645)
+   |    |    | ['$16.50', 'Static221', '$16.50Static']
+   |    |    | child_window(title="$16.50", control_type="Text")
+   |    |    | 
+   |    |    | Static - '406'    (L1002, T631, R1022, B645)
+   |    |    | ['406', 'Static222', '406Static']
+   |    |    | child_window(title="406", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$10,000'    (L1084, T631, R1127, B645)
+   |    |    | ['$10,000Static', 'Static223', '$10,000', '$10,000Static0', '$10,000Static1', '$10,0000', '$10,0001']
+   |    |    | child_window(title="$10,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T630, R1289, B647)
+   |    |    | ['JOINButton10', 'Button68', 'JOIN10']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Late Reg:Lvl 10 (80:40) $2,500 GTD $6.60 212 $2,500 JOIN'    (L326, T652, R1304, B675)
+   |    | ['Add this event to "Yours" section. Late Reg:Lvl 10 (80:47) $2,500 GTD $6.60 212 $2,500 JOIN', 'Add this event to "Yours" section. Late Reg:Lvl 10 (80:47) $2,500 GTD $6.60 212 $2,500 JOINButton', 'Button69']
+   |    | child_window(title="Add this event to "Yours" section. Late Reg:Lvl 10 (80:40) $2,500 GTD $6.60 212 $2,500 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T655, R374, B673)
+   |    |    | ['Add this event to "Yours" section.9', 'Button70', 'Add this event to "Yours" section.Button9']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Late Reg:Lvl 10 (80:40)'    (L384, T656, R510, B670)
+   |    |    | ['Late Reg:Lvl 10 (80:47)Static', 'Static224', 'Late Reg:Lvl 10 (80:47)']
+   |    |    | child_window(title="Late Reg:Lvl 10 (80:40)", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$2,500 GTD'    (L552, T656, R623, B670)
+   |    |    | ['$2,500 GTD', 'Static225', '$2,500 GTDStatic']
+   |    |    | child_window(title="$2,500 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$6.60'    (L926, T656, R956, B670)
+   |    |    | ['$6.60Static', 'Static226', '$6.60']
+   |    |    | child_window(title="$6.60", control_type="Text")
+   |    |    | 
+   |    |    | Static - '212'    (L1002, T656, R1022, B670)
+   |    |    | ['212', 'Static227', '212Static']
+   |    |    | child_window(title="212", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$2,500'    (L1084, T656, R1121, B670)
+   |    |    | ['Static228', '$2,500', '$2,500Static']
+   |    |    | child_window(title="$2,500", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T655, R1289, B672)
+   |    |    | ['JOINButton11', 'Button71', 'JOIN11']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Late Reg:Lvl 9 (99:40) Must Play Mondays - $40,000 GTD $109 171 $40,000 Streaming Final Table with 30 minute delay JOIN'    (L326, T677, R1304, B700)
+   |    | ['Add this event to "Yours" section. Late Reg:Lvl 9 (99:47) Must Play Mondays - $40,000 GTD $109 171 $40,000 Streaming Final Table with 30 minute delay JOINButton', 'Add this event to "Yours" section. Late Reg:Lvl 9 (99:47) Must Play Mondays - $40,000 GTD $109 171 $40,000 Streaming Final Table with 30 minute delay JOIN', 'Button72']
+   |    | child_window(title="Add this event to "Yours" section. Late Reg:Lvl 9 (99:40) Must Play Mondays - $40,000 GTD $109 171 $40,000 Streaming Final Table with 30 minute delay JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T680, R374, B698)
+   |    |    | ['Add this event to "Yours" section.10', 'Button73', 'Add this event to "Yours" section.Button10']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Late Reg:Lvl 9 (99:40)'    (L384, T681, R503, B695)
+   |    |    | ['Late Reg:Lvl 9 (99:47)Static', 'Late Reg:Lvl 9 (99:47)', 'Static229']
+   |    |    | child_window(title="Late Reg:Lvl 9 (99:40)", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Must Play Mondays - $40,000 GTD'    (L552, T681, R759, B695)
+   |    |    | ['Must Play Mondays - $40,000 GTDStatic', 'Must Play Mondays - $40,000 GTD', 'Static230', 'Must Play Mondays - $40,000 GTDStatic0', 'Must Play Mondays - $40,000 GTDStatic1', 'Must Play Mondays - $40,000 GTD0', 'Must Play Mondays - $40,000 GTD1']
+   |    |    | child_window(title="Must Play Mondays - $40,000 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$109'    (L926, T681, R953, B695)
+   |    |    | ['$109Static', 'Static231', '$109', '$109Static0', '$109Static1', '$1090', '$1091']
+   |    |    | child_window(title="$109", control_type="Text")
+   |    |    | 
+   |    |    | Static - '171'    (L1002, T681, R1022, B695)
+   |    |    | ['Static232', '171', '171Static']
+   |    |    | child_window(title="171", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$40,000'    (L1084, T681, R1127, B695)
+   |    |    | ['$40,000', 'Static233', '$40,000Static', '$40,0000', '$40,0001', '$40,000Static0', '$40,000Static1']
+   |    |    | child_window(title="$40,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T680, R1289, B697)
+   |    |    | ['JOINButton12', 'Button74', 'JOIN12']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Late Reg:Lvl 6 (102:10) PKO PKO - $5,000 GTD $8.80 424 $5,000 JOIN'    (L326, T702, R1304, B725)
+   |    | ['Add this event to "Yours" section. Late Reg:Lvl 6 (102:17) PKO PKO - $5,000 GTD $8.80 424 $5,000 JOINButton', 'Add this event to "Yours" section. Late Reg:Lvl 6 (102:17) PKO PKO - $5,000 GTD $8.80 424 $5,000 JOIN', 'Button75']
+   |    | child_window(title="Add this event to "Yours" section. Late Reg:Lvl 6 (102:10) PKO PKO - $5,000 GTD $8.80 424 $5,000 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T705, R374, B723)
+   |    |    | ['Add this event to "Yours" section.11', 'Button76', 'Add this event to "Yours" section.Button11']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Late Reg:Lvl 6 (102:10)'    (L384, T706, R510, B720)
+   |    |    | ['Late Reg:Lvl 6 (102:17)', 'Late Reg:Lvl 6 (102:17)Static', 'Static234']
+   |    |    | child_window(title="Late Reg:Lvl 6 (102:10)", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'PKO - $5,000 GTD'    (L552, T706, R661, B720)
+   |    |    | ['PKO - $5,000 GTD', 'Static235', 'PKO - $5,000 GTDStatic']
+   |    |    | child_window(title="PKO - $5,000 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$8.80'    (L926, T706, R956, B720)
+   |    |    | ['$8.80', 'Static236', '$8.80Static']
+   |    |    | child_window(title="$8.80", control_type="Text")
+   |    |    | 
+   |    |    | Static - '424'    (L1002, T706, R1022, B720)
+   |    |    | ['424Static', 'Static237', '424']
+   |    |    | child_window(title="424", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$5,000'    (L1084, T706, R1121, B720)
+   |    |    | ['$5,000', 'Static238', '$5,000Static']
+   |    |    | child_window(title="$5,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T705, R1289, B722)
+   |    |    | ['JOINButton13', 'Button77', 'JOIN13']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Late Reg:Lvl 6 (102:54) PKO Must Play Mondays PKO - $20,000 GTD $27.50 563 $20,000 Streaming Final Table with 30 minute delay JOIN'    (L326, T727, R1304, B750)
+   |    | ['Add this event to "Yours" section. Late Reg:Lvl 6 (103:01) PKO Must Play Mondays PKO - $20,000 GTD $27.50 563 $20,000 Streaming Final Table with 30 minute delay JOINButton', 'Add this event to "Yours" section. Late Reg:Lvl 6 (103:01) PKO Must Play Mondays PKO - $20,000 GTD $27.50 563 $20,000 Streaming Final Table with 30 minute delay JOIN', 'Button78']
+   |    | child_window(title="Add this event to "Yours" section. Late Reg:Lvl 6 (102:54) PKO Must Play Mondays PKO - $20,000 GTD $27.50 563 $20,000 Streaming Final Table with 30 minute delay JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T730, R374, B748)
+   |    |    | ['Add this event to "Yours" section.12', 'Button79', 'Add this event to "Yours" section.Button12']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Late Reg:Lvl 6 (102:54)'    (L384, T731, R510, B745)
+   |    |    | ['Late Reg:Lvl 6 (103:01)', 'Late Reg:Lvl 6 (103:01)Static', 'Static239']
+   |    |    | child_window(title="Late Reg:Lvl 6 (102:54)", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Must Play Mondays PKO - $20,000 GTD'    (L552, T731, R788, B745)
+   |    |    | ['Must Play Mondays PKO - $20,000 GTD', 'Static240', 'Must Play Mondays PKO - $20,000 GTDStatic']
+   |    |    | child_window(title="Must Play Mondays PKO - $20,000 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$27.50'    (L926, T731, R962, B745)
+   |    |    | ['$27.50Static', '$27.50', 'Static241']
+   |    |    | child_window(title="$27.50", control_type="Text")
+   |    |    | 
+   |    |    | Static - '563'    (L1002, T731, R1022, B745)
+   |    |    | ['563Static', '563', 'Static242']
+   |    |    | child_window(title="563", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$20,000'    (L1084, T731, R1127, B745)
+   |    |    | ['$20,000Static', 'Static243', '$20,000']
+   |    |    | child_window(title="$20,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T730, R1289, B747)
+   |    |    | ['JOINButton14', 'Button80', 'JOIN14']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Late Reg:Lvl 8 (132:25) Must Play Mondays - $40,000 GTD $66 307 $40,000 Streaming Final Table with 30 minute delay JOIN'    (L326, T752, R1304, B775)
+   |    | ['Add this event to "Yours" section. Late Reg:Lvl 8 (132:32) Must Play Mondays - $40,000 GTD $66 307 $40,000 Streaming Final Table with 30 minute delay JOIN', 'Add this event to "Yours" section. Late Reg:Lvl 8 (132:32) Must Play Mondays - $40,000 GTD $66 307 $40,000 Streaming Final Table with 30 minute delay JOINButton', 'Button81']
+   |    | child_window(title="Add this event to "Yours" section. Late Reg:Lvl 8 (132:25) Must Play Mondays - $40,000 GTD $66 307 $40,000 Streaming Final Table with 30 minute delay JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T755, R374, B773)
+   |    |    | ['Add this event to "Yours" section.13', 'Button82', 'Add this event to "Yours" section.Button13']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Late Reg:Lvl 8 (132:25)'    (L384, T756, R510, B770)
+   |    |    | ['Late Reg:Lvl 8 (132:32)Static', 'Static244', 'Late Reg:Lvl 8 (132:32)']
+   |    |    | child_window(title="Late Reg:Lvl 8 (132:25)", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Must Play Mondays - $40,000 GTD'    (L552, T756, R759, B770)
+   |    |    | ['Must Play Mondays - $40,000 GTDStatic2', 'Must Play Mondays - $40,000 GTD2', 'Static245']
+   |    |    | child_window(title="Must Play Mondays - $40,000 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$66'    (L926, T756, R946, B770)
+   |    |    | ['$662', '$66Static2', 'Static246']
+   |    |    | child_window(title="$66", control_type="Text")
+   |    |    | 
+   |    |    | Static - '307'    (L1002, T756, R1022, B770)
+   |    |    | ['307Static', '307', 'Static247']
+   |    |    | child_window(title="307", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$40,000'    (L1084, T756, R1127, B770)
+   |    |    | ['$40,0002', 'Static248', '$40,000Static2']
+   |    |    | child_window(title="$40,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T755, R1289, B772)
+   |    |    | ['JOINButton15', 'Button83', 'JOIN15']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Late Reg:Lvl 3 (206:24) PKO Must Play Mondays PKO - $60,000 GTD $109 256 $60,000 Streaming Final Table with 30 minute delay JOIN'    (L326, T777, R1304, B800)
+   |    | ['Add this event to "Yours" section. Late Reg:Lvl 3 (206:31) PKO Must Play Mondays PKO - $60,000 GTD $109 256 $60,000 Streaming Final Table with 30 minute delay JOINButton', 'Button84', 'Add this event to "Yours" section. Late Reg:Lvl 3 (206:31) PKO Must Play Mondays PKO - $60,000 GTD $109 256 $60,000 Streaming Final Table with 30 minute delay JOIN']
+   |    | child_window(title="Add this event to "Yours" section. Late Reg:Lvl 3 (206:24) PKO Must Play Mondays PKO - $60,000 GTD $109 256 $60,000 Streaming Final Table with 30 minute delay JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T780, R374, B798)
+   |    |    | ['Add this event to "Yours" section.14', 'Button85', 'Add this event to "Yours" section.Button14']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Late Reg:Lvl 3 (206:24)'    (L384, T781, R510, B795)
+   |    |    | ['Late Reg:Lvl 3 (206:31)', 'Late Reg:Lvl 3 (206:31)Static', 'Static249']
+   |    |    | child_window(title="Late Reg:Lvl 3 (206:24)", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Must Play Mondays PKO - $60,000 GTD'    (L552, T781, R788, B795)
+   |    |    | ['Must Play Mondays PKO - $60,000 GTDStatic', 'Static250', 'Must Play Mondays PKO - $60,000 GTD']
+   |    |    | child_window(title="Must Play Mondays PKO - $60,000 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$109'    (L926, T781, R953, B795)
+   |    |    | ['$109Static2', 'Static251', '$1092']
+   |    |    | child_window(title="$109", control_type="Text")
+   |    |    | 
+   |    |    | Static - '256'    (L1002, T781, R1022, B795)
+   |    |    | ['256Static', '256', 'Static252']
+   |    |    | child_window(title="256", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$60,000'    (L1084, T781, R1127, B795)
+   |    |    | ['$60,000Static', '$60,000', 'Static253', '$60,000Static0', '$60,000Static1', '$60,0000', '$60,0001']
+   |    |    | child_window(title="$60,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T780, R1289, B797)
+   |    |    | ['JOINButton16', 'Button86', 'JOIN16']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Starts in 4 min Must Play Mondays HR - $100,000 GTD $630 15 $100,000 Streaming Final Table with 30 minute delay JOIN'    (L326, T802, R1304, B825)
+   |    | ['Add this event to "Yours" section. Starts in 4 min Must Play Mondays HR - $100,000 GTD $630 15 $100,000 Streaming Final Table with 30 minute delay JOIN', 'Button87', 'Add this event to "Yours" section. Starts in 4 min Must Play Mondays HR - $100,000 GTD $630 15 $100,000 Streaming Final Table with 30 minute delay JOINButton']
+   |    | child_window(title="Add this event to "Yours" section. Starts in 4 min Must Play Mondays HR - $100,000 GTD $630 15 $100,000 Streaming Final Table with 30 minute delay JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T805, R374, B823)
+   |    |    | ['Add this event to "Yours" section.15', 'Button88', 'Add this event to "Yours" section.Button15']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Starts in 4 min'    (L384, T806, R462, B820)
+   |    |    | ['Starts in 4 minStatic', 'Starts in 4 min', 'Static254', 'Starts in 4 minStatic0', 'Starts in 4 minStatic1', 'Starts in 4 min0', 'Starts in 4 min1']
+   |    |    | child_window(title="Starts in 4 min", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Must Play Mondays HR - $100,000 GTD'    (L552, T806, R788, B820)
+   |    |    | ['Must Play Mondays HR - $100,000 GTD', 'Static255', 'Must Play Mondays HR - $100,000 GTDStatic']
+   |    |    | child_window(title="Must Play Mondays HR - $100,000 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$630'    (L926, T806, R953, B820)
+   |    |    | ['$630', 'Static256', '$630Static']
+   |    |    | child_window(title="$630", control_type="Text")
+   |    |    | 
+   |    |    | Static - '15'    (L1002, T806, R1016, B820)
+   |    |    | ['15Static2', 'Static257', '152']
+   |    |    | child_window(title="15", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$100,000'    (L1084, T806, R1134, B820)
+   |    |    | ['$100,000Static', 'Static258', '$100,000']
+   |    |    | child_window(title="$100,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T805, R1289, B822)
+   |    |    | ['JOINButton17', 'Button89', 'JOIN17']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Starts in 4 min Must Play Mondays - $75,000 GTD $215 23 $75,000 Streaming Final Table with 30 minute delay JOIN'    (L326, T827, R1304, B850)
+   |    | ['Add this event to "Yours" section. Starts in 4 min Must Play Mondays - $75,000 GTD $215 23 $75,000 Streaming Final Table with 30 minute delay JOIN', 'Button90', 'Add this event to "Yours" section. Starts in 4 min Must Play Mondays - $75,000 GTD $215 23 $75,000 Streaming Final Table with 30 minute delay JOINButton']
+   |    | child_window(title="Add this event to "Yours" section. Starts in 4 min Must Play Mondays - $75,000 GTD $215 23 $75,000 Streaming Final Table with 30 minute delay JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T830, R374, B848)
+   |    |    | ['Add this event to "Yours" section.16', 'Button91', 'Add this event to "Yours" section.Button16']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Starts in 4 min'    (L384, T831, R462, B845)
+   |    |    | ['Starts in 4 minStatic2', 'Starts in 4 min2', 'Static259']
+   |    |    | child_window(title="Starts in 4 min", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Must Play Mondays - $75,000 GTD'    (L552, T831, R759, B845)
+   |    |    | ['Must Play Mondays - $75,000 GTDStatic', 'Static260', 'Must Play Mondays - $75,000 GTD']
+   |    |    | child_window(title="Must Play Mondays - $75,000 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$215'    (L926, T831, R953, B845)
+   |    |    | ['$215', '$215Static', 'Static261']
+   |    |    | child_window(title="$215", control_type="Text")
+   |    |    | 
+   |    |    | Static - '23'    (L1002, T831, R1016, B845)
+   |    |    | ['23', '23Static', 'Static262']
+   |    |    | child_window(title="23", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$75,000'    (L1084, T831, R1127, B845)
+   |    |    | ['$75,000Static', 'Static263', '$75,000']
+   |    |    | child_window(title="$75,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T830, R1289, B847)
+   |    |    | ['JOINButton18', 'Button92', 'JOIN18']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Starts in 4 min Must Play Mondays - $30,000 GTD $33 52 $30,000 Streaming Final Table with 30 minute delay JOIN'    (L326, T852, R1304, B875)
+   |    | ['Add this event to "Yours" section. Starts in 4 min Must Play Mondays - $30,000 GTD $33 52 $30,000 Streaming Final Table with 30 minute delay JOINButton', 'Add this event to "Yours" section. Starts in 4 min Must Play Mondays - $30,000 GTD $33 52 $30,000 Streaming Final Table with 30 minute delay JOIN', 'Button93']
+   |    | child_window(title="Add this event to "Yours" section. Starts in 4 min Must Play Mondays - $30,000 GTD $33 52 $30,000 Streaming Final Table with 30 minute delay JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T855, R374, B873)
+   |    |    | ['Add this event to "Yours" section.17', 'Button94', 'Add this event to "Yours" section.Button17']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Starts in 4 min'    (L384, T856, R462, B870)
+   |    |    | ['Starts in 4 minStatic3', 'Starts in 4 min3', 'Static264']
+   |    |    | child_window(title="Starts in 4 min", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Must Play Mondays - $30,000 GTD'    (L552, T856, R759, B870)
+   |    |    | ['Must Play Mondays - $30,000 GTDStatic', 'Static265', 'Must Play Mondays - $30,000 GTD']
+   |    |    | child_window(title="Must Play Mondays - $30,000 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$33'    (L926, T856, R946, B870)
+   |    |    | ['$33', '$33Static', 'Static266']
+   |    |    | child_window(title="$33", control_type="Text")
+   |    |    | 
+   |    |    | Static - '52'    (L1002, T856, R1016, B870)
+   |    |    | ['Static267', '522', '52Static']
+   |    |    | child_window(title="52", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$30,000'    (L1084, T856, R1127, B870)
+   |    |    | ['$30,000Static', 'Static268', '$30,000']
+   |    |    | child_window(title="$30,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T855, R1289, B872)
+   |    |    | ['JOINButton19', 'Button95', 'JOIN19']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Starts in 4 min Must Play Mondays - $10,000 GTD $11 62 $10,000 JOIN'    (L326, T877, R1304, B900)
+   |    | ['Add this event to "Yours" section. Starts in 4 min Must Play Mondays - $10,000 GTD $11 62 $10,000 JOIN', 'Button96', 'Add this event to "Yours" section. Starts in 4 min Must Play Mondays - $10,000 GTD $11 62 $10,000 JOINButton']
+   |    | child_window(title="Add this event to "Yours" section. Starts in 4 min Must Play Mondays - $10,000 GTD $11 62 $10,000 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T880, R374, B898)
+   |    |    | ['Add this event to "Yours" section.18', 'Button97', 'Add this event to "Yours" section.Button18']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Starts in 4 min'    (L384, T881, R462, B895)
+   |    |    | ['Starts in 4 minStatic4', 'Starts in 4 min4', 'Static269']
+   |    |    | child_window(title="Starts in 4 min", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Must Play Mondays - $10,000 GTD'    (L552, T881, R759, B895)
+   |    |    | ['Must Play Mondays - $10,000 GTD', 'Static270', 'Must Play Mondays - $10,000 GTDStatic']
+   |    |    | child_window(title="Must Play Mondays - $10,000 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$11'    (L926, T881, R946, B895)
+   |    |    | ['$11', '$11Static', 'Static271', '$110', '$111', '$11Static0', '$11Static1']
+   |    |    | child_window(title="$11", control_type="Text")
+   |    |    | 
+   |    |    | Static - '62'    (L1002, T881, R1016, B895)
+   |    |    | ['62Static', '622', 'Static272']
+   |    |    | child_window(title="62", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$10,000'    (L1084, T881, R1127, B895)
+   |    |    | ['$10,000Static2', 'Static273', '$10,0002']
+   |    |    | child_window(title="$10,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T880, R1289, B897)
+   |    |    | ['JOINButton20', 'Button98', 'JOIN20']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Starts in 4 min $1,500 GTD $3.30 45 $1,500 JOIN'    (L326, T902, R1304, B925)
+   |    | ['Add this event to "Yours" section. Starts in 4 min $1,500 GTD $3.30 45 $1,500 JOIN', 'Add this event to "Yours" section. Starts in 4 min $1,500 GTD $3.30 45 $1,500 JOINButton', 'Button99']
+   |    | child_window(title="Add this event to "Yours" section. Starts in 4 min $1,500 GTD $3.30 45 $1,500 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T905, R374, B923)
+   |    |    | ['Add this event to "Yours" section.19', 'Button100', 'Add this event to "Yours" section.Button19']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Starts in 4 min'    (L384, T906, R462, B920)
+   |    |    | ['Starts in 4 minStatic5', 'Starts in 4 min5', 'Static274']
+   |    |    | child_window(title="Starts in 4 min", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$1,500 GTD'    (L552, T906, R623, B920)
+   |    |    | ['$1,500 GTDStatic', '$1,500 GTD', 'Static275']
+   |    |    | child_window(title="$1,500 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$3.30'    (L926, T906, R956, B920)
+   |    |    | ['$3.30', 'Static276', '$3.30Static']
+   |    |    | child_window(title="$3.30", control_type="Text")
+   |    |    | 
+   |    |    | Static - '45'    (L1002, T906, R1016, B920)
+   |    |    | ['452', 'Static277', '45Static']
+   |    |    | child_window(title="45", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$1,500'    (L1084, T906, R1121, B920)
+   |    |    | ['$1,500', '$1,500Static', 'Static278']
+   |    |    | child_window(title="$1,500", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T905, R1289, B922)
+   |    |    | ['JOINButton21', 'Button101', 'JOIN21']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Starts in 4 min $100 GTD $0.55 31 $100 JOIN'    (L326, T927, R1304, B950)
+   |    | ['Add this event to "Yours" section. Starts in 4 min $100 GTD $0.55 31 $100 JOINButton', 'Button102', 'Add this event to "Yours" section. Starts in 4 min $100 GTD $0.55 31 $100 JOIN']
+   |    | child_window(title="Add this event to "Yours" section. Starts in 4 min $100 GTD $0.55 31 $100 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T930, R374, B948)
+   |    |    | ['Add this event to "Yours" section.20', 'Button103', 'Add this event to "Yours" section.Button20']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Starts in 4 min'    (L384, T931, R462, B945)
+   |    |    | ['Starts in 4 minStatic6', 'Starts in 4 min6', 'Static279']
+   |    |    | child_window(title="Starts in 4 min", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$100 GTD'    (L552, T931, R612, B945)
+   |    |    | ['Static280', '$100 GTD', '$100 GTDStatic']
+   |    |    | child_window(title="$100 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$0.55'    (L926, T931, R956, B945)
+   |    |    | ['$0.552', 'Static281', '$0.55Static2']
+   |    |    | child_window(title="$0.55", control_type="Text")
+   |    |    | 
+   |    |    | Static - '31'    (L1002, T931, R1016, B945)
+   |    |    | ['Static282', '312', '31Static']
+   |    |    | child_window(title="31", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$100'    (L1084, T931, R1111, B945)
+   |    |    | ['$100', 'Static283', '$100Static', '$1000', '$1001', '$100Static0', '$100Static1']
+   |    |    | child_window(title="$100", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T930, R1289, B947)
+   |    |    | ['JOINButton22', 'Button104', 'JOIN22']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Starts in 19 min PKO Lightning PKO - $200 GTD $10.50 3 / 6 $200 JOIN'    (L326, T952, R1304, B975)
+   |    | ['Add this event to "Yours" section. Starts in 19 min PKO Lightning PKO - $200 GTD $10.50 3 / 6 $200 JOIN', 'Button105', 'Add this event to "Yours" section. Starts in 19 min PKO Lightning PKO - $200 GTD $10.50 3 / 6 $200 JOINButton']
+   |    | child_window(title="Add this event to "Yours" section. Starts in 19 min PKO Lightning PKO - $200 GTD $10.50 3 / 6 $200 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T955, R374, B973)
+   |    |    | ['Add this event to "Yours" section.21', 'Button106', 'Add this event to "Yours" section.Button21']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Starts in 19 min'    (L384, T956, R468, B970)
+   |    |    | ['Starts in 19 min', 'Static284', 'Starts in 19 minStatic', 'Starts in 19 min0', 'Starts in 19 min1', 'Starts in 19 minStatic0', 'Starts in 19 minStatic1']
+   |    |    | child_window(title="Starts in 19 min", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Lightning PKO - $200 GTD'    (L552, T956, R692, B970)
+   |    |    | ['Lightning PKO - $200 GTD', 'Static285', 'Lightning PKO - $200 GTDStatic', 'Lightning PKO - $200 GTD0', 'Lightning PKO - $200 GTD1', 'Lightning PKO - $200 GTDStatic0', 'Lightning PKO - $200 GTDStatic1']
+   |    |    | child_window(title="Lightning PKO - $200 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$10.50'    (L926, T956, R963, B970)
+   |    |    | ['Static286', '$10.50', '$10.50Static', '$10.500', '$10.501', '$10.50Static0', '$10.50Static1']
+   |    |    | child_window(title="$10.50", control_type="Text")
+   |    |    | 
+   |    |    | Static - '3 / 6'    (L1002, T956, R1028, B970)
+   |    |    | ['3 / 6Static', 'Static287', '3 / 6', '3 / 6Static0', '3 / 6Static1', '3 / 60', '3 / 61']
+   |    |    | child_window(title="3 / 6", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$200'    (L1084, T956, R1111, B970)
+   |    |    | ['$200Static', 'Static288', '$200', '$200Static0', '$200Static1', '$2000', '$2001']
+   |    |    | child_window(title="$200", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T955, R1289, B972)
+   |    |    | ['JOINButton23', 'Button107', 'JOIN23']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Starts in 19 min PKO Lightning PKO - $100 GTD $3.15 1 / 6 $100 JOIN'    (L326, T977, R1304, B1000)
+   |    | ['Add this event to "Yours" section. Starts in 19 min PKO Lightning PKO - $100 GTD $3.15 1 / 6 $100 JOINButton', 'Add this event to "Yours" section. Starts in 19 min PKO Lightning PKO - $100 GTD $3.15 1 / 6 $100 JOIN', 'Button108']
+   |    | child_window(title="Add this event to "Yours" section. Starts in 19 min PKO Lightning PKO - $100 GTD $3.15 1 / 6 $100 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L356, T980, R374, B998)
+   |    |    | ['Add this event to "Yours" section.22', 'Button109', 'Add this event to "Yours" section.Button22']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Starts in 19 min'    (L384, T981, R468, B995)
+   |    |    | ['Starts in 19 min2', 'Static289', 'Starts in 19 minStatic2']
+   |    |    | child_window(title="Starts in 19 min", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Lightning PKO - $100 GTD'    (L552, T981, R692, B995)
+   |    |    | ['Lightning PKO - $100 GTDStatic', 'Static290', 'Lightning PKO - $100 GTD']
+   |    |    | child_window(title="Lightning PKO - $100 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$3.15'    (L926, T981, R956, B995)
+   |    |    | ['$3.15', '$3.15Static', 'Static291']
+   |    |    | child_window(title="$3.15", control_type="Text")
+   |    |    | 
+   |    |    | Static - '1 / 6'    (L1002, T981, R1028, B995)
+   |    |    | ['1 / 6', 'Static292', '1 / 6Static', '1 / 60', '1 / 61', '1 / 6Static0', '1 / 6Static1']
+   |    |    | child_window(title="1 / 6", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$100'    (L1084, T981, R1111, B995)
+   |    |    | ['$1002', 'Static293', '$100Static2']
+   |    |    | child_window(title="$100", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L1219, T980, R1289, B997)
+   |    |    | ['JOINButton24', 'Button110', 'JOIN24']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Starts in 19 min PKO Lightning PKO - $20 GTD $0.53 0 / 6 $20 JOIN'    (L0, T0, R0, B0)
+   |    | ['Add this event to "Yours" section. Starts in 19 min PKO Lightning PKO - $20 GTD $0.53 0 / 6 $20 JOIN', 'Button111', 'Add this event to "Yours" section. Starts in 19 min PKO Lightning PKO - $20 GTD $0.53 0 / 6 $20 JOINButton']
+   |    | child_window(title="Add this event to "Yours" section. Starts in 19 min PKO Lightning PKO - $20 GTD $0.53 0 / 6 $20 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L0, T0, R0, B0)
+   |    |    | ['Add this event to "Yours" section.23', 'Button112', 'Add this event to "Yours" section.Button23']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Starts in 19 min'    (L0, T0, R0, B0)
+   |    |    | ['Starts in 19 min3', 'Static294', 'Starts in 19 minStatic3']
+   |    |    | child_window(title="Starts in 19 min", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Lightning PKO - $20 GTD'    (L0, T0, R0, B0)
+   |    |    | ['Static295', 'Lightning PKO - $20 GTD', 'Lightning PKO - $20 GTDStatic']
+   |    |    | child_window(title="Lightning PKO - $20 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$0.53'    (L0, T0, R0, B0)
+   |    |    | ['$0.53', 'Static296', '$0.53Static']
+   |    |    | child_window(title="$0.53", control_type="Text")
+   |    |    | 
+   |    |    | Static - '0 / 6'    (L0, T0, R0, B0)
+   |    |    | ['0 / 6Static', 'Static297', '0 / 6']
+   |    |    | child_window(title="0 / 6", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$20'    (L0, T0, R0, B0)
+   |    |    | ['$20Static', '$20', 'Static298']
+   |    |    | child_window(title="$20", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L0, T0, R0, B0)
+   |    |    | ['JOINButton25', 'Button113', 'JOIN25']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Starts in 19 min PKO Lightning PKO - $8 GTD $0.11 5 / 6 $8 JOIN'    (L0, T0, R0, B0)
+   |    | ['Add this event to "Yours" section. Starts in 19 min PKO Lightning PKO - $8 GTD $0.11 5 / 6 $8 JOINButton', 'Add this event to "Yours" section. Starts in 19 min PKO Lightning PKO - $8 GTD $0.11 5 / 6 $8 JOIN', 'Button114']
+   |    | child_window(title="Add this event to "Yours" section. Starts in 19 min PKO Lightning PKO - $8 GTD $0.11 5 / 6 $8 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L0, T0, R0, B0)
+   |    |    | ['Add this event to "Yours" section.24', 'Button115', 'Add this event to "Yours" section.Button24']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Starts in 19 min'    (L0, T0, R0, B0)
+   |    |    | ['Starts in 19 min4', 'Static299', 'Starts in 19 minStatic4']
+   |    |    | child_window(title="Starts in 19 min", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Lightning PKO - $8 GTD'    (L0, T0, R0, B0)
+   |    |    | ['Lightning PKO - $8 GTDStatic', 'Static300', 'Lightning PKO - $8 GTD']
+   |    |    | child_window(title="Lightning PKO - $8 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$0.11'    (L0, T0, R0, B0)
+   |    |    | ['Static301', '$0.11Static', '$0.11']
+   |    |    | child_window(title="$0.11", control_type="Text")
+   |    |    | 
+   |    |    | Static - '5 / 6'    (L0, T0, R0, B0)
+   |    |    | ['5 / 6Static', 'Static302', '5 / 6']
+   |    |    | child_window(title="5 / 6", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$8'    (L0, T0, R0, B0)
+   |    |    | ['$8Static', 'Static303', '$8']
+   |    |    | child_window(title="$8", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L0, T0, R0, B0)
+   |    |    | ['JOINButton26', 'Button116', 'JOIN26']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Starts in 39 min Turbo - $1,000 GTD PLO8 $22 3 / 6 $1,000 Open staking for this event JOIN'    (L0, T0, R0, B0)
+   |    | ['Add this event to "Yours" section. Starts in 39 min Turbo - $1,000 GTD PLO8 $22 3 / 6 $1,000 Open staking for this event JOIN', 'Add this event to "Yours" section. Starts in 39 min Turbo - $1,000 GTD PLO8 $22 3 / 6 $1,000 Open staking for this event JOINButton', 'Button117']
+   |    | child_window(title="Add this event to "Yours" section. Starts in 39 min Turbo - $1,000 GTD PLO8 $22 3 / 6 $1,000 Open staking for this event JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L0, T0, R0, B0)
+   |    |    | ['Add this event to "Yours" section.25', 'Button118', 'Add this event to "Yours" section.Button25']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Starts in 39 min'    (L0, T0, R0, B0)
+   |    |    | ['Starts in 39 min', 'Static304', 'Starts in 39 minStatic', 'Starts in 39 min0', 'Starts in 39 min1', 'Starts in 39 minStatic0', 'Starts in 39 minStatic1']
+   |    |    | child_window(title="Starts in 39 min", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Turbo - $1,000 GTD PLO8'    (L0, T0, R0, B0)
+   |    |    | ['Turbo - $1,000 GTD PLO8', 'Static305', 'Turbo - $1,000 GTD PLO8Static']
+   |    |    | child_window(title="Turbo - $1,000 GTD PLO8", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$22'    (L0, T0, R0, B0)
+   |    |    | ['$22Static3', 'Static306', '$223']
+   |    |    | child_window(title="$22", control_type="Text")
+   |    |    | 
+   |    |    | Static - '3 / 6'    (L0, T0, R0, B0)
+   |    |    | ['3 / 6Static2', 'Static307', '3 / 62']
+   |    |    | child_window(title="3 / 6", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$1,000'    (L0, T0, R0, B0)
+   |    |    | ['$1,000Static3', 'Static308', '$1,0003']
+   |    |    | child_window(title="$1,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'Open staking for this event'    (L0, T0, R0, B0)
+   |    |    | ['Open staking for this eventButton', 'Open staking for this event', 'Button119', 'Open staking for this eventButton0', 'Open staking for this eventButton1', 'Open staking for this event0', 'Open staking for this event1']
+   |    |    | child_window(title="Open staking for this event", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L0, T0, R0, B0)
+   |    |    | ['JOINButton27', 'Button120', 'JOIN27']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Starts in 39 min Turbo - $300 GTD PLO8 $5.50 2 / 6 $300 JOIN'    (L0, T0, R0, B0)
+   |    | ['Add this event to "Yours" section. Starts in 39 min Turbo - $300 GTD PLO8 $5.50 2 / 6 $300 JOINButton', 'Button121', 'Add this event to "Yours" section. Starts in 39 min Turbo - $300 GTD PLO8 $5.50 2 / 6 $300 JOIN']
+   |    | child_window(title="Add this event to "Yours" section. Starts in 39 min Turbo - $300 GTD PLO8 $5.50 2 / 6 $300 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L0, T0, R0, B0)
+   |    |    | ['Add this event to "Yours" section.26', 'Button122', 'Add this event to "Yours" section.Button26']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Starts in 39 min'    (L0, T0, R0, B0)
+   |    |    | ['Starts in 39 min2', 'Static309', 'Starts in 39 minStatic2']
+   |    |    | child_window(title="Starts in 39 min", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Turbo - $300 GTD PLO8'    (L0, T0, R0, B0)
+   |    |    | ['Turbo - $300 GTD PLO8Static', 'Static310', 'Turbo - $300 GTD PLO8']
+   |    |    | child_window(title="Turbo - $300 GTD PLO8", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$5.50'    (L0, T0, R0, B0)
+   |    |    | ['$5.503', 'Static311', '$5.50Static3']
+   |    |    | child_window(title="$5.50", control_type="Text")
+   |    |    | 
+   |    |    | Static - '2 / 6'    (L0, T0, R0, B0)
+   |    |    | ['2 / 6', '2 / 6Static', 'Static312']
+   |    |    | child_window(title="2 / 6", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$300'    (L0, T0, R0, B0)
+   |    |    | ['$300', 'Static313', '$300Static']
+   |    |    | child_window(title="$300", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L0, T0, R0, B0)
+   |    |    | ['JOINButton28', 'Button123', 'JOIN28']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Starts in 39 min PKO PKO Turbo - $100 GTD $1.65 7 $100 JOIN'    (L0, T0, R0, B0)
+   |    | ['Add this event to "Yours" section. Starts in 39 min PKO PKO Turbo - $100 GTD $1.65 7 $100 JOINButton', 'Button124', 'Add this event to "Yours" section. Starts in 39 min PKO PKO Turbo - $100 GTD $1.65 7 $100 JOIN']
+   |    | child_window(title="Add this event to "Yours" section. Starts in 39 min PKO PKO Turbo - $100 GTD $1.65 7 $100 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L0, T0, R0, B0)
+   |    |    | ['Add this event to "Yours" section.27', 'Button125', 'Add this event to "Yours" section.Button27']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Starts in 39 min'    (L0, T0, R0, B0)
+   |    |    | ['Starts in 39 min3', 'Static314', 'Starts in 39 minStatic3']
+   |    |    | child_window(title="Starts in 39 min", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'PKO Turbo - $100 GTD'    (L0, T0, R0, B0)
+   |    |    | ['PKO Turbo - $100 GTDStatic', 'Static315', 'PKO Turbo - $100 GTD']
+   |    |    | child_window(title="PKO Turbo - $100 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$1.65'    (L0, T0, R0, B0)
+   |    |    | ['$1.65Static2', '$1.652', 'Static316']
+   |    |    | child_window(title="$1.65", control_type="Text")
+   |    |    | 
+   |    |    | Static - '7'    (L0, T0, R0, B0)
+   |    |    | ['Static317', '73', '7Static3']
+   |    |    | child_window(title="7", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$100'    (L0, T0, R0, B0)
+   |    |    | ['$1003', 'Static318', '$100Static3']
+   |    |    | child_window(title="$100", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L0, T0, R0, B0)
+   |    |    | ['JOINButton29', 'Button126', 'JOIN29']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Starts in 39 min Turbo - $40 GTD PLO8 $0.55 4 / 6 $40 JOIN'    (L0, T0, R0, B0)
+   |    | ['Add this event to "Yours" section. Starts in 39 min Turbo - $40 GTD PLO8 $0.55 4 / 6 $40 JOINButton', 'Add this event to "Yours" section. Starts in 39 min Turbo - $40 GTD PLO8 $0.55 4 / 6 $40 JOIN', 'Button127']
+   |    | child_window(title="Add this event to "Yours" section. Starts in 39 min Turbo - $40 GTD PLO8 $0.55 4 / 6 $40 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L0, T0, R0, B0)
+   |    |    | ['Add this event to "Yours" section.28', 'Button128', 'Add this event to "Yours" section.Button28']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Starts in 39 min'    (L0, T0, R0, B0)
+   |    |    | ['Starts in 39 min4', 'Static319', 'Starts in 39 minStatic4']
+   |    |    | child_window(title="Starts in 39 min", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Turbo - $40 GTD PLO8'    (L0, T0, R0, B0)
+   |    |    | ['Turbo - $40 GTD PLO8Static', 'Turbo - $40 GTD PLO8', 'Static320']
+   |    |    | child_window(title="Turbo - $40 GTD PLO8", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$0.55'    (L0, T0, R0, B0)
+   |    |    | ['$0.553', 'Static321', '$0.55Static3']
+   |    |    | child_window(title="$0.55", control_type="Text")
+   |    |    | 
+   |    |    | Static - '4 / 6'    (L0, T0, R0, B0)
+   |    |    | ['4 / 6', 'Static322', '4 / 6Static']
+   |    |    | child_window(title="4 / 6", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$40'    (L0, T0, R0, B0)
+   |    |    | ['$40Static', 'Static323', '$40']
+   |    |    | child_window(title="$40", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L0, T0, R0, B0)
+   |    |    | ['JOINButton30', 'Button129', 'JOIN30']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Mon 28 Jul, 20:30 Must Play Mondays - $60,000 GTD $109 9 $60,000 Open staking for this event JOIN'    (L0, T0, R0, B0)
+   |    | ['Add this event to "Yours" section. Mon 28 Jul, 20:30 Must Play Mondays - $60,000 GTD $109 9 $60,000 Open staking for this event JOIN', 'Add this event to "Yours" section. Mon 28 Jul, 20:30 Must Play Mondays - $60,000 GTD $109 9 $60,000 Open staking for this event JOINButton', 'Button130']
+   |    | child_window(title="Add this event to "Yours" section. Mon 28 Jul, 20:30 Must Play Mondays - $60,000 GTD $109 9 $60,000 Open staking for this event JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L0, T0, R0, B0)
+   |    |    | ['Add this event to "Yours" section.29', 'Button131', 'Add this event to "Yours" section.Button29']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Must Play Mondays - $60,000 GTD'    (L0, T0, R0, B0)
+   |    |    | ['Must Play Mondays - $60,000 GTDStatic', 'Must Play Mondays - $60,000 GTD', 'Static324']
+   |    |    | child_window(title="Must Play Mondays - $60,000 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$109'    (L0, T0, R0, B0)
+   |    |    | ['$109Static3', 'Static325', '$1093']
+   |    |    | child_window(title="$109", control_type="Text")
+   |    |    | 
+   |    |    | Static - '9'    (L0, T0, R0, B0)
+   |    |    | ['9Static8', '98', 'Static326']
+   |    |    | child_window(title="9", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$60,000'    (L0, T0, R0, B0)
+   |    |    | ['$60,000Static2', '$60,0002', 'Static327']
+   |    |    | child_window(title="$60,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'Open staking for this event'    (L0, T0, R0, B0)
+   |    |    | ['Open staking for this eventButton2', 'Open staking for this event2', 'Button132']
+   |    |    | child_window(title="Open staking for this event", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L0, T0, R0, B0)
+   |    |    | ['JOINButton31', 'Button133', 'JOIN31']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Mon 28 Jul, 20:30 Bounty Super Bounty FT - $1,000 GTD $11 12 $1,000 JOIN'    (L0, T0, R0, B0)
+   |    | ['Add this event to "Yours" section. Mon 28 Jul, 20:30 Bounty Super Bounty FT - $1,000 GTD $11 12 $1,000 JOIN', 'Add this event to "Yours" section. Mon 28 Jul, 20:30 Bounty Super Bounty FT - $1,000 GTD $11 12 $1,000 JOINButton', 'Button134']
+   |    | child_window(title="Add this event to "Yours" section. Mon 28 Jul, 20:30 Bounty Super Bounty FT - $1,000 GTD $11 12 $1,000 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L0, T0, R0, B0)
+   |    |    | ['Add this event to "Yours" section.30', 'Button135', 'Add this event to "Yours" section.Button30']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Super Bounty FT - $1,000 GTD'    (L0, T0, R0, B0)
+   |    |    | ['Super Bounty FT - $1,000 GTDStatic', 'Super Bounty FT - $1,000 GTD', 'Static328']
+   |    |    | child_window(title="Super Bounty FT - $1,000 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$11'    (L0, T0, R0, B0)
+   |    |    | ['$112', '$11Static2', 'Static329']
+   |    |    | child_window(title="$11", control_type="Text")
+   |    |    | 
+   |    |    | Static - '12'    (L0, T0, R0, B0)
+   |    |    | ['122', '12Static', 'Static330']
+   |    |    | child_window(title="12", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$1,000'    (L0, T0, R0, B0)
+   |    |    | ['$1,000Static4', 'Static331', '$1,0004']
+   |    |    | child_window(title="$1,000", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L0, T0, R0, B0)
+   |    |    | ['JOINButton32', 'Button136', 'JOIN32']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Mon 28 Jul, 20:30 Bounty Super Bounty FT - $400 GTD $2.50 20 $400 JOIN'    (L0, T0, R0, B0)
+   |    | ['Add this event to "Yours" section. Mon 28 Jul, 20:30 Bounty Super Bounty FT - $400 GTD $2.50 20 $400 JOIN', 'Button137', 'Add this event to "Yours" section. Mon 28 Jul, 20:30 Bounty Super Bounty FT - $400 GTD $2.50 20 $400 JOINButton']
+   |    | child_window(title="Add this event to "Yours" section. Mon 28 Jul, 20:30 Bounty Super Bounty FT - $400 GTD $2.50 20 $400 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L0, T0, R0, B0)
+   |    |    | ['Add this event to "Yours" section.31', 'Button138', 'Add this event to "Yours" section.Button31']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Super Bounty FT - $400 GTD'    (L0, T0, R0, B0)
+   |    |    | ['Super Bounty FT - $400 GTDStatic', 'Static332', 'Super Bounty FT - $400 GTD']
+   |    |    | child_window(title="Super Bounty FT - $400 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$2.50'    (L0, T0, R0, B0)
+   |    |    | ['$2.50Static2', 'Static333', '$2.502']
+   |    |    | child_window(title="$2.50", control_type="Text")
+   |    |    | 
+   |    |    | Static - '20'    (L0, T0, R0, B0)
+   |    |    | ['202', '20Static', 'Static334']
+   |    |    | child_window(title="20", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$400'    (L0, T0, R0, B0)
+   |    |    | ['Static335', '$4003', '$400Static3']
+   |    |    | child_window(title="$400", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L0, T0, R0, B0)
+   |    |    | ['JOINButton33', 'Button139', 'JOIN33']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Mon 28 Jul, 20:30 Bounty Super Bounty FT - $50 GTD $0.28 10 $50 JOIN'    (L0, T0, R0, B0)
+   |    | ['Add this event to "Yours" section. Mon 28 Jul, 20:30 Bounty Super Bounty FT - $50 GTD $0.28 10 $50 JOIN', 'Button140', 'Add this event to "Yours" section. Mon 28 Jul, 20:30 Bounty Super Bounty FT - $50 GTD $0.28 10 $50 JOINButton']
+   |    | child_window(title="Add this event to "Yours" section. Mon 28 Jul, 20:30 Bounty Super Bounty FT - $50 GTD $0.28 10 $50 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L0, T0, R0, B0)
+   |    |    | ['Add this event to "Yours" section.32', 'Button141', 'Add this event to "Yours" section.Button32']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Super Bounty FT - $50 GTD'    (L0, T0, R0, B0)
+   |    |    | ['Super Bounty FT - $50 GTD', 'Super Bounty FT - $50 GTDStatic', 'Static336']
+   |    |    | child_window(title="Super Bounty FT - $50 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$0.28'    (L0, T0, R0, B0)
+   |    |    | ['$0.28Static', 'Static337', '$0.28']
+   |    |    | child_window(title="$0.28", control_type="Text")
+   |    |    | 
+   |    |    | Static - '10'    (L0, T0, R0, B0)
+   |    |    | ['102', '10Static', 'Static338']
+   |    |    | child_window(title="10", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$50'    (L0, T0, R0, B0)
+   |    |    | ['$502', 'Static339', '$50Static2']
+   |    |    | child_window(title="$50", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L0, T0, R0, B0)
+   |    |    | ['JOINButton34', 'Button142', 'JOIN34']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - 'Add this event to "Yours" section. Mon 28 Jul, 20:45 PKO Lightning PKO - $200 GTD $10.50 1 / 6 $200 JOIN'    (L0, T0, R0, B0)
+   |    | ['Add this event to "Yours" section. Mon 28 Jul, 20:45 PKO Lightning PKO - $200 GTD $10.50 1 / 6 $200 JOIN', 'Add this event to "Yours" section. Mon 28 Jul, 20:45 PKO Lightning PKO - $200 GTD $10.50 1 / 6 $200 JOINButton', 'Button143']
+   |    | child_window(title="Add this event to "Yours" section. Mon 28 Jul, 20:45 PKO Lightning PKO - $200 GTD $10.50 1 / 6 $200 JOIN", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add this event to "Yours" section.'    (L0, T0, R0, B0)
+   |    |    | ['Add this event to "Yours" section.33', 'Button144', 'Add this event to "Yours" section.Button33']
+   |    |    | child_window(title="Add this event to "Yours" section.", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Lightning PKO - $200 GTD'    (L0, T0, R0, B0)
+   |    |    | ['Lightning PKO - $200 GTD2', 'Static340', 'Lightning PKO - $200 GTDStatic2']
+   |    |    | child_window(title="Lightning PKO - $200 GTD", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$10.50'    (L0, T0, R0, B0)
+   |    |    | ['Static341', '$10.502', '$10.50Static2']
+   |    |    | child_window(title="$10.50", control_type="Text")
+   |    |    | 
+   |    |    | Static - '1 / 6'    (L0, T0, R0, B0)
+   |    |    | ['1 / 62', 'Static342', '1 / 6Static2']
+   |    |    | child_window(title="1 / 6", control_type="Text")
+   |    |    | 
+   |    |    | Static - '$200'    (L0, T0, R0, B0)
+   |    |    | ['$200Static2', 'Static343', '$2002']
+   |    |    | child_window(title="$200", control_type="Text")
+   |    |    | 
+   |    |    | Button - 'JOIN'    (L0, T0, R0, B0)
+   |    |    | ['JOINButton35', 'Button145', 'JOIN35']
+   |    |    | child_window(title="JOIN", control_type="Button")
+   |    | 
+   |    | Button - ''    (L1325, T179, R1594, B208)
+   |    | ['MY ACCOUNTButton2', 'Button146']
+   |    |    | 
+   |    |    | Edit - 'Search tournaments and players'    (L1336, T180, R1564, B207)
+   |    |    | ['Edit', 'MY ACCOUNTEdit']
+   |    |    | child_window(title="Search tournaments and players", control_type="Edit")
+   |    |    | 
+   |    |    | Button - ''    (L1572, T187, R1586, B201)
+   |    |    | ['DEPOSITButton2', 'Button147']
+   |    | 
+   |    | Button - ''    (L1333, T217, R1348, B232)
+   |    | ['Prize PoolButton', 'Button148']
+   |    | 
+   |    | Static - 'Tournament Info - Your Way'    (L1360, T216, R1502, B232)
+   |    | ['Tournament Info - Your Way', 'Static344', 'Tournament Info - Your WayStatic']
+   |    | child_window(title="Tournament Info - Your Way", control_type="Text")
+   |    | 
+   |    | Button - ''    (L1525, T217, R1540, B232)
+   |    | ['Tournament Info - Your WayButton', 'Button149', 'Tournament Info - Your WayButton0', 'Tournament Info - Your WayButton1']
+   |    | 
+   |    | Button - ''    (L1545, T217, R1560, B232)
+   |    | ['Tournament Info - Your WayButton2', 'Button150']
+   |    | 
+   |    | Button - 'Detach this tournament info to its own window'    (L1565, T217, R1580, B232)
+   |    | ['Detach this tournament info to its own window', 'Detach this tournament info to its own windowButton', 'Button151']
+   |    | child_window(title="Detach this tournament info to its own window", control_type="Button")
+   |    | 
+   |    | Button - 'Satellites (1 Seats Won)'    (L1325, T237, R1576, B264)
+   |    | ['Satellites (1 Seats Won)Button', 'Button152', 'Satellites (1 Seats Won)']
+   |    | child_window(title="Satellites (1 Seats Won)", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Satellites'    (L1361, T241, R1413, B259)
+   |    |    | ['Satellites', 'SatellitesStatic', 'Static345']
+   |    |    | child_window(title="Satellites", control_type="Text")
+   |    |    | 
+   |    |    | Static - '(1 Seats Won)'    (L1414, T241, R1492, B259)
+   |    |    | ['(1 Seats Won)', 'Static346', '(1 Seats Won)Static']
+   |    |    | child_window(title="(1 Seats Won)", control_type="Text")
+   |    | 
+   |    | Button - 'Players And Tables ( 37 / 67 )'    (L1325, T303, R1576, B330)
+   |    | ['Players And Tables ( 37 / 67 )Button', 'Button153', 'Players And Tables ( 37 / 67 )']
+   |    | child_window(title="Players And Tables ( 37 / 67 )", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'Players And Tables'    (L1361, T307, R1466, B325)
+   |    |    | ['Static347', 'Players And TablesStatic', 'Players And Tables']
+   |    |    | child_window(title="Players And Tables", control_type="Text")
+   |    | 
+   |    | Button - '9 Places Paid'    (L1325, T336, R1576, B363)
+   |    | ['9 Places PaidButton', '9 Places Paid', 'Button154']
+   |    | child_window(title="9 Places Paid", control_type="Button")
+   |    | 
+   |    | Button - 'Structure'    (L1325, T369, R1576, B396)
+   |    | ['StructureButton', 'Structure', 'Button155']
+   |    | child_window(title="Structure", control_type="Button")
+   |    | 
+   |    | Button - 'Status and Stacks'    (L1325, T270, R1576, B297)
+   |    | ['Status and StacksButton', 'Status and Stacks', 'Button156']
+   |    | child_window(title="Status and Stacks", control_type="Button")
+   |    | 
+   |    | Button - 'Details'    (L1325, T402, R1583, B429)
+   |    | ['Details', 'Button157', 'DetailsButton']
+   |    | child_window(title="Details", control_type="Button")
+   |    | 
+   |    | Static - 'IMPORTANT NOTE'    (L1413, T452, R1495, B465)
+   |    | ['IMPORTANT NOTEStatic', 'Static348', 'IMPORTANT NOTE']
+   |    | child_window(title="IMPORTANT NOTE", control_type="Text")
+   |    | 
+   |    | Static - '100,000 Starting Chips with 15 minute blinds and 10 levels of Late Registration.'    (L1343, T470, R1556, B499)
+   |    | ['100,000 Starting Chips with 15 minute blinds and 10 levels of Late Registration.Static', '100,000 Starting Chips with 15 minute blinds and 10 levels of Late Registration.', 'Static349']
+   |    | child_window(title="100,000 Starting Chips with 15 minute blinds and 10 levels of Late Registration.", control_type="Text")
+   |    | 
+   |    | Static - '-'    (L1448, T517, R1451, B531)
+   |    | ['-', 'Static350', '-Static']
+   |    | child_window(title="-", control_type="Text")
+   |    | 
+   |    | Static - '- PLO8 8-Max -'    (L1418, T532, R1481, B546)
+   |    | ['Static351', '- PLO8 8-Max -', '- PLO8 8-Max -Static']
+   |    | child_window(title="- PLO8 8-Max -", control_type="Text")
+   |    | 
+   |    | Static - 'Late Registration: 2 hours and 30 minutes + breaks.'    (L0, T0, R0, B0)
+   |    | ['Late Registration: 2 hours and 30 minutes + breaks.', 'Late Registration: 2 hours and 30 minutes + breaks.Static', 'Static352']
+   |    | child_window(title="Late Registration: 2 hours and 30 minutes + breaks.", control_type="Text")
+   |    | 
+   |    | Static - 'Progressive KO: 50% of the bounty is awarded and 50% is added to the winner's bounty.'    (L0, T0, R0, B0)
+   |    | ["Progressive KO: 50% of the bounty is awarded and 50% is added to the winner's bounty.", 'Static353', "Progressive KO: 50% of the bounty is awarded and 50% is added to the winner's bounty.Static"]
+   |    | child_window(title="Progressive KO: 50% of the bounty is awarded and 50% is added to the winner's bounty.", control_type="Text")
+   |    | 
+   |    | Static - '🔄 This tournament uses the Reshuffle feature. For more details please visit: '    (L0, T0, R0, B0)
+   |    | ['Static354', '🔄 This tournament uses the Reshuffle feature. For more details please visit: Static', '🔄 This tournament uses the Reshuffle feature. For more details please visit: ']
+   |    | child_window(title="🔄 This tournament uses the Reshuffle feature. For more details please visit: ", control_type="Text")
+   |    | 
+   |    | Button - 'ACR Reshuffle'    (L0, T0, R0, B0)
+   |    | ['ACR ReshuffleButton', 'Button158', 'ACR Reshuffle']
+   |    | child_window(title="ACR Reshuffle", control_type="Button")
+   |    | 
+   |    | Static - 'Good luck!'    (L0, T0, R0, B0)
+   |    | ['Good luck!', 'Static355', 'Good luck!Static']
+   |    | child_window(title="Good luck!", control_type="Text")
+   |    | 
+   |    | Static - 'Start'    (L1340, T569, R1364, B583)
+   |    | ['Start2', 'Static356', 'StartStatic2']
+   |    | child_window(title="Start", control_type="Text")
+   |    | 
+   |    | Static - 'Mon 28 Jul, 17:05'    (L1421, T569, R1507, B583)
+   |    | ['Static357', 'Mon 28 Jul, 17:05Static', 'Mon 28 Jul, 17:05']
+   |    | child_window(title="Mon 28 Jul, 17:05", control_type="Text")
+   |    | 
+   |    | Static - 'Buy-In'    (L1340, T589, R1370, B603)
+   |    | ['Buy-In2', 'Static358', 'Buy-InStatic2']
+   |    | child_window(title="Buy-In", control_type="Text")
+   |    | 
+   |    | Static - '$1.10 ($0.50 + $0.50 + $0.10)'    (L1421, T589, R1563, B603)
+   |    | ['$1.10 ($0.50 + $0.50 + $0.10)Static', 'Static359', '$1.10 ($0.50 + $0.50 + $0.10)']
+   |    | child_window(title="$1.10 ($0.50 + $0.50 + $0.10)", control_type="Text")
+   |    | 
+   |    | Static - '6 to 5000'    (L1421, T609, R1467, B623)
+   |    | ['6 to 5000Static', 'Static360', '6 to 5000']
+   |    | child_window(title="6 to 5000", control_type="Text")
+   |    | 
+   |    | Static - 'Start With'    (L1340, T629, R1388, B643)
+   |    | ['Start With', 'Start WithStatic', 'Static361']
+   |    | child_window(title="Start With", control_type="Text")
+   |    | 
+   |    | Static - '100,000 chips'    (L1421, T629, R1488, B643)
+   |    | ['100,000 chipsStatic', 'Static362', '100,000 chips']
+   |    | child_window(title="100,000 chips", control_type="Text")
+   |    | 
+   |    | Static - 'Game'    (L1340, T649, R1369, B663)
+   |    | ['Game', 'GameStatic', 'Static363']
+   |    | child_window(title="Game", control_type="Text")
+   |    | 
+   |    | Static - 'Re-Entries'    (L1340, T669, R1389, B683)
+   |    | ['Re-EntriesStatic', 'Re-Entries', 'Static364']
+   |    | child_window(title="Re-Entries", control_type="Text")
+   |    | 
+   |    | Static - 'Unlimited Re-Entry'    (L1421, T669, R1509, B683)
+   |    | ['Unlimited Re-EntryStatic', 'Unlimited Re-Entry', 'Static365']
+   |    | child_window(title="Unlimited Re-Entry", control_type="Text")
+   |    | 
+   |    | Static - 'Speed'    (L1340, T689, R1370, B703)
+   |    | ['SpeedStatic', 'Speed', 'Static366', 'Speed0', 'Speed1']
+   |    | child_window(title="Speed", control_type="Text")
+   |    | 
+   |    | Static - 'Normal'    (L1421, T689, R1457, B703)
+   |    | ['Static367', 'Normal', 'NormalStatic']
+   |    | child_window(title="Normal", control_type="Text")
+   |    | 
+   |    | Static - 'Deal-Making'    (L1340, T709, R1400, B723)
+   |    | ['Deal-Making', 'Static368', 'Deal-MakingStatic']
+   |    | child_window(title="Deal-Making", control_type="Text")
+   |    | 
+   |    | Static - 'Final Table'    (L1421, T709, R1473, B723)
+   |    | ['Final TableStatic', 'Final Table', 'Static369']
+   |    | child_window(title="Final Table", control_type="Text")
+   |    | 
+   |    | Static - 'ID'    (L1340, T729, R1350, B743)
+   |    | ['IDStatic', 'Static370', 'ID']
+   |    | child_window(title="ID", control_type="Text")
+   |    | 
+   |    | Static - ' #'    (L1350, T729, R1360, B743)
+   |    | ['\xa0#Static', 'Static371', '\xa0#']
+   |    | child_window(title=" #", control_type="Text")
+   |    | 
+   |    | Button - '33722337'    (L1416, T727, R1579, B746)
+   |    | ['33722337', 'Button159', '33722337Button']
+   |    | child_window(title="33722337", control_type="Button")
+   |    | 
+   |    | Button - 'State'    (L0, T0, R0, B0)
+   |    | ['StateButton', 'Button160', 'State']
+   |    | child_window(title="State", control_type="Button")
+   |    | 
+   |    | GroupBox - ''    (L0, T0, R0, B0)
+   |    | ['GroupBox', 'GroupBox0', 'GroupBox1']
+   |    | 
+   |    | Static - 'All'    (L0, T0, R0, B0)
+   |    | ['AllStatic', 'All', 'Static372']
+   |    | child_window(title="All", control_type="Text")
+   |    | 
+   |    | GroupBox - ''    (L0, T0, R0, B0)
+   |    | ['GroupBox2']
+   |    | 
+   |    | Static - 'Registering'    (L0, T0, R0, B0)
+   |    | ['RegisteringStatic', 'Registering', 'Static373']
+   |    | child_window(title="Registering", control_type="Text")
+   |    | 
+   |    | GroupBox - ''    (L0, T0, R0, B0)
+   |    | ['GroupBox3']
+   |    | 
+   |    | Static - 'Late Reg'    (L0, T0, R0, B0)
+   |    | ['Late RegStatic', 'Static374', 'Late Reg']
+   |    | child_window(title="Late Reg", control_type="Text")
+   |    | 
+   |    | GroupBox - ''    (L0, T0, R0, B0)
+   |    | ['GroupBox4']
+   |    | 
+   |    | Static - 'Running'    (L0, T0, R0, B0)
+   |    | ['RunningStatic', 'Static375', 'Running']
+   |    | child_window(title="Running", control_type="Text")
+   |    | 
+   |    | GroupBox - ''    (L0, T0, R0, B0)
+   |    | ['GroupBox5']
+   |    | 
+   |    | Static - 'Finished'    (L0, T0, R0, B0)
+   |    | ['Finished5', 'Static376', 'FinishedStatic5']
+   |    | child_window(title="Finished", control_type="Text")
+   |    | 
+   |    | Button - 'Buy-In'    (L0, T0, R0, B0)
+   |    | ['Buy-In3', 'Buy-InButton', 'Button161']
+   |    | child_window(title="Buy-In", control_type="Button")
+   |    | 
+   |    | Button - 'Game Format'    (L0, T0, R0, B0)
+   |    | ['Button162', 'Game FormatButton', 'Game Format']
+   |    | child_window(title="Game Format", control_type="Button")
+   |    | 
+   |    | Button - 'Entry Format'    (L0, T0, R0, B0)
+   |    | ['Entry Format', 'Entry FormatButton', 'Button163']
+   |    | child_window(title="Entry Format", control_type="Button")
+   |    | 
+   |    | Button - 'Game Type'    (L0, T0, R0, B0)
+   |    | ['Game Type', 'Button164', 'Game TypeButton']
+   |    | child_window(title="Game Type", control_type="Button")
+   |    | 
+   |    | Button - 'Speed'    (L0, T0, R0, B0)
+   |    | ['SpeedButton', 'Speed2', 'Button165']
+   |    | child_window(title="Speed", control_type="Button")
+   |    | 
+   |    | Button - 'Players Per Table'    (L0, T0, R0, B0)
+   |    | ['Button166', 'Players Per TableButton', 'Players Per Table']
+   |    | child_window(title="Players Per Table", control_type="Button")
+   |    | 
+   |    | Button - 'Minimum GTD'    (L0, T0, R0, B0)
+   |    | ['Minimum GTD', 'Minimum GTDButton', 'Button167']
+   |    | child_window(title="Minimum GTD", control_type="Button")
+   |    | 
+   |    | Button - 'Satellite Filters'    (L0, T0, R0, B0)
+   |    | ['Satellite FiltersButton', 'Button168', 'Satellite Filters']
+   |    | child_window(title="Satellite Filters", control_type="Button")
+   |    | 
+   |    | Button - 'WATCH VIDEO & RE-ENTER'    (L0, T0, R0, B0)
+   |    | ['WATCH VIDEO & RE-ENTERButton', 'Button169', 'WATCH VIDEO & RE-ENTER', 'WATCH VIDEO & RE-ENTER0', 'WATCH VIDEO & RE-ENTER1']
+   |    | child_window(title="WATCH VIDEO & RE-ENTER", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'WATCH VIDEO & RE-ENTER'    (L0, T0, R0, B0)
+   |    |    | ['WATCH VIDEO & RE-ENTERStatic', 'Static377', 'WATCH VIDEO & RE-ENTER2']
+   |    |    | child_window(title="WATCH VIDEO & RE-ENTER", control_type="Text")
+   |    | 
+   |    | Button - 'RE-ENTER'    (L0, T0, R0, B0)
+   |    | ['RE-ENTERButton', 'RE-ENTER', 'Button170', 'RE-ENTER0', 'RE-ENTER1']
+   |    | child_window(title="RE-ENTER", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'RE-ENTER'    (L0, T0, R0, B0)
+   |    |    | ['RE-ENTERStatic', 'RE-ENTER2', 'Static378']
+   |    |    | child_window(title="RE-ENTER", control_type="Text")
+   |    | 
+   |    | Button - 'CANCEL'    (L0, T0, R0, B0)
+   |    | ['CANCELButton', 'CANCEL', 'Button171', 'CANCEL0', 'CANCEL1']
+   |    | child_window(title="CANCEL", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'CANCEL'    (L0, T0, R0, B0)
+   |    |    | ['CANCEL2', 'Static379', 'CANCELStatic']
+   |    |    | child_window(title="CANCEL", control_type="Text")
+   |    | 
+   |    | Static - '18,364 Players Online'    (L1049, T1003, R1187, B1023)
+   |    | ['18,306 Players Online', '18,306 Players OnlineStatic', 'Static380']
+   |    | child_window(title="18,364 Players Online", control_type="Text")
+   |    | 
+   |    | Static - '19:26 - JULY 28TH'    (L1209, T998, R1296, B1013)
+   |    | ['19:26 - JULY 28TH', '19:26 - JULY 28THStatic', 'Static381']
+   |    | child_window(title="19:26 - JULY 28TH", control_type="Text")
+   |    | 
+   |    | Static - 'Client Version: 2.27.1'    (L1206, T1015, R1299, B1029)
+   |    | ['Static382', 'Client Version: 2.27.1Static', 'Client Version: 2.27.1']
+   |    | child_window(title="Client Version: 2.27.1", control_type="Text")
+   |    | 
+   |    | Button - 'English'    (L1325, T993, R1489, B1034)
+   |    | ['English', 'Button172', 'EnglishButton', 'English0', 'English1']
+   |    | child_window(title="English", auto_id="main-footer-right-language", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'English'    (L1374, T1005, R1413, B1021)
+   |    |    | ['EnglishStatic', 'English2', 'Static383']
+   |    |    | child_window(title="English", control_type="Text")
+   |    | 
+   |    | Button - 'FAQ'    (L1494, T993, R1594, B1019)
+   |    | ['Button173', 'FAQButton', 'FAQ', 'FAQ0', 'FAQ1']
+   |    | child_window(title="FAQ", auto_id="main-footer-right-help", control_type="Button")
+   |    |    | 
+   |    |    | Static - 'FAQ'    (L1545, T997, R1567, B1013)
+   |    |    | ['FAQStatic', 'FAQ2', 'Static384']
+   |    |    | child_window(title="FAQ", control_type="Text")
+   | 
+   | Pane - ''    (L320, T0, R1600, B1040)
+   | ['StartPane', 'Pane3', 'StartPane0', 'StartPane1']
+   | 
+   | Pane - ''    (L320, T0, R1600, B1040)
+   | ['StartPane2', 'Pane4']
+   |    | 
+   |    | Pane - ''    (L320, T0, R1600, B1040)
+   |    | ['StartPane3', 'Pane5']
+   |    |    | 
+   |    |    | Pane - ''    (L320, T0, R1600, B1040)
+   |    |    | ['StartPane4', 'Pane6']
+   |    |    |    | 
+   |    |    |    | Pane - ''    (L320, T0, R1600, B1040)
+   |    |    |    | ['StartPane5', 'Pane7']
