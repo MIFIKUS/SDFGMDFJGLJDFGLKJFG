@@ -1,6 +1,6 @@
-from InLobby.Collect.tournament_lobby.tournament_lobby import open_tables
-import time
+from Google.load_to_disk import load_to_disk_module
 
 
-time.sleep(5)
-open_tables()
+load_to_disk_module()
+
+

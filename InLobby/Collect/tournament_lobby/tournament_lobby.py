@@ -1,5 +1,10 @@
-from InLobby.Collect.tournament_lobby.extensions.in_lobby import get_table_num, get_table_num_by_element, get_table_nums_from_elements_list
+from InLobby.Collect.tournament_lobby.extensions.in_lobby import get_table_num, get_table_num_by_element, get_table_nums_from_elements_list, get_tournament_id, get_tournament_name
 from InLobby.Collect.tournament_lobby.extensions.win_actions import set_focus_on_window
+from InLobby.Extensions.proceses.tables import get_amount_of_opened_tables
+from InLobby.Collect.tournament_lobby.extensions.win_actions import close_top_window, wait_table_for_loading
+
+from InLobby.Extensions.database import get, add
+
 
 from pywinauto import Desktop
 from pywinauto import mouse
@@ -35,28 +40,13 @@ def _get_list_of_tables(win) -> list:
     return matching_buttons
 
 
-def _is_table_visible(win, table_num) -> bool:
-    #Проверяет что стол видно и что его можно открыть
-    #TODO:Сделать чтобы стол был одним из первых в списке
-    #TODO: Сделать чтобы передавался список столов
-    tables_nums_clear = []
-    for i in _get_list_of_tables(win):
-        print(i)
-        if i.element_info.visible:
-            tables_nums_clear.append(get_table_num_by_element(i))
-
-    if table_num in tables_nums_clear:
-        return True
-    return False
-
-
 def _open_table(table_button):
     while True:
         try:
             pyautogui.FAILSAFE = False
             rect = table_button.rectangle()
             x = (rect.left + rect.right) // 2
-            y = (rect.top + rect.bottom) // 2 - 3
+            y = (rect.top + rect.bottom) // 2 - 5
     
             for _ in range(2):
                 pyautogui.click(x=x, y=y)
@@ -69,12 +59,7 @@ def _switch_table(table_button):
     table_button.invoke()
 
 
-
-def _scroll_down():
-    pyautogui.scroll(-183)
-
-
-def open_tables():
+def open_tables(tournament_status: str):
     #TODO: Сделать чтобы выяснял сколько столов открыто
     lobby_window = _get_lobby_window()
 
@@ -84,6 +69,7 @@ def open_tables():
     seen_tables = set()
     
     counter = 0
+    tournament_id = None
     
     while True:
         wheels_counter = 0
@@ -94,24 +80,48 @@ def open_tables():
         if set(tables_text_list).issubset(seen_tables):
             break
         
-
+        counter == 0
         for table in tables:
+            amount_of_opened_tables = get_amount_of_opened_tables()
+            print("amount_of_opened_tables", amount_of_opened_tables)
+            if amount_of_opened_tables == 20:
+                return
+            
             set_focus_on_window(lobby_window)
             table_num = get_table_num_by_element(table)
             print(table_num)
 
             if table_num in seen_tables:
                 continue
+            
+            if tournament_id and get.get_table_status(tournament_id, table_num):
+                seen_tables.add(table_num)
+                continue
+
+            counter += 1
 
             _switch_table(table)
-            _open_table(table)
+            time.sleep(0.5)
 
-            time.sleep(1.2)
+            _open_table(table)
+            wait_table_for_loading()
+
+            if counter == 1:
+                tournament_id = get_tournament_id()
+                tournament_name = get_tournament_name()
+                if tournament_id and get.get_table_status(tournament_id, table_num):
+                    close_top_window()
+                    time.sleep(0.5)
+                    continue
+
+            add.add_table_info(tournament_id, tournament_name, table_num, "opened")
 
             seen_tables.add(table_num)
         
         wheels_counter += 1
 
 
+def close_tournament_lobby(win):
+    win.close()
 
 
