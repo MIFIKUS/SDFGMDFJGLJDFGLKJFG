@@ -12,8 +12,13 @@ def close_top_window():
 
 
 def wait_table_for_loading():
+    counter = 0
     while True:
         title = win32gui.GetWindowText(win32gui.GetForegroundWindow()).lower()
         if "table" in title.lower():
             return
         time.sleep(1)
+        counter += 1
+        if counter > 10:
+            return False
+        

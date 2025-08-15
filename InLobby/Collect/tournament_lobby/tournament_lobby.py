@@ -100,11 +100,16 @@ def open_tables(tournament_status: str):
 
             counter += 1
 
-            _switch_table(table)
-            time.sleep(0.5)
+            table_opened = False
+            while not table_opened:
+                _switch_table(table)
+                time.sleep(0.5)
 
-            _open_table(table)
-            wait_table_for_loading()
+                _open_table(table)
+                if wait_table_for_loading() is not False:
+                    table_opened = True
+                else:
+                    time.sleep(0.5)
 
             if counter == 1:
                 tournament_id = get_tournament_id()
