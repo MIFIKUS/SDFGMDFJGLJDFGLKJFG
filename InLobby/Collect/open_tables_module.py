@@ -27,7 +27,7 @@ def run():
             main_lobby.switch_tournament(tournament)
             main_lobby.open_tournament(tournament)
 
-            lobby_loaded()
+            time.sleep(15)
 
             tournament_lobby_window = tournament_lobby._get_lobby_window()
 
