@@ -5,7 +5,7 @@ import time
 
 
 def get_main_lobby():
-    return Desktop(backend="uia").window(title_re="PokerKing Lobby Logged in as.*")
+    return Desktop(backend="uia").window(title_re="PokerKing Lobby Logged in as.*", found_index=0)
 
 
 def get_list_of_tournaments(win) -> list:
