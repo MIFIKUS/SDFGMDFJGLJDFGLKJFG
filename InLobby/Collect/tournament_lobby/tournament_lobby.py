@@ -89,8 +89,13 @@ def open_tables(tournament_status: str):
                 return
             
             set_focus_on_window(lobby_window)
-            table_num = get_table_num_by_element(table)
-            print(table_num)
+            try:
+                table_num = get_table_num_by_element(table)
+                print(table_num)
+            except:
+                print("Ошибка получения номера стола")
+                traceback.print_exc()
+                continue
 
             if table_num in seen_tables:
                 continue
