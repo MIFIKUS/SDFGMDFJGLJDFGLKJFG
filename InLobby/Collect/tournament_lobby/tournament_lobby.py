@@ -109,6 +109,7 @@ def open_tables(tournament_status: str):
                 if wait_table_for_loading() is not False:
                     table_opened = True
                 else:
+                    print("table not opened")
                     close_top_window()
                     time.sleep(0.5)
 
