@@ -3,6 +3,7 @@ from InLobby.Collect.tournament_lobby import tournament_lobby
 from InLobby.Extensions.proceses.tables import get_amount_of_opened_tables
 from InLobby.Collect.tournament_lobby.extensions.win_actions import lobby_loaded
 import time
+import traceback
 
 
 AMOUNT_OF_TABLES = 20
@@ -24,8 +25,13 @@ def run():
 
             tournament_status = main_lobby.get_tournament_status(tournament_raw)
 
-            main_lobby.switch_tournament(tournament)
-            main_lobby.open_tournament(tournament)
+            try:
+                main_lobby.switch_tournament(tournament)
+                main_lobby.open_tournament(tournament)
+            except:
+                print("Ошибка открытия турнира")
+                traceback.print_exc()
+                continue
 
             time.sleep(15)
 
