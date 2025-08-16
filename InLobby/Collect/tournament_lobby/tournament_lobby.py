@@ -103,7 +103,7 @@ def open_tables(tournament_status: str):
             table_opened = False
             while not table_opened:
                 _switch_table(table)
-                time.sleep(0.5)
+                time.sleep(5)
 
                 _open_table(table)
                 if wait_table_for_loading() is not False:
