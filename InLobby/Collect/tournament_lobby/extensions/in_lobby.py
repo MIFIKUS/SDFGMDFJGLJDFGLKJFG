@@ -28,12 +28,15 @@ def get_tournament_id():
     
     tournament_id = title.split()[-1].replace(')', '').replace('(', '')
     return tournament_id
+    
 
 
 def get_tournament_name():
     hwnd = win32gui.GetForegroundWindow()      # получаем дескриптор активного окна
     title = win32gui.GetWindowText(hwnd)       # читаем его заголовок
-
-    tournament_name = re.search(r' - (.*?), Table', title).group(1).strip()
+    try:
+        tournament_name = re.search(r' - (.*?), Table', title).group(1).strip()
+    except:
+        tournament_name = re.search(r'(.*?), Table', title).group(1).strip()
     return tournament_name
 
