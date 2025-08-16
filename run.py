@@ -16,6 +16,6 @@ if __name__ == '__main__':
 
     open_tables_thread.start()
     close_tables_thread.start()
-    google_drive_thread.start()
+    #google_drive_thread.start()
 
 
