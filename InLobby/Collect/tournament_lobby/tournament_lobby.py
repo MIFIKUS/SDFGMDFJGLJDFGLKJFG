@@ -122,7 +122,10 @@ def open_tables(tournament_status: str):
                 except:
                     print('Ошибка открытия стола')
                     traceback.print_exc()
-                    pass
+                    break
+            if not table_opened:
+                continue
+            
             if counter == 1:
                 tournament_id = get_tournament_id()
                 tournament_name = get_tournament_name()
