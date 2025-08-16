@@ -1,7 +1,7 @@
 from InLobby.Collect.tournament_lobby.extensions.in_lobby import get_table_num, get_table_num_by_element, get_table_nums_from_elements_list, get_tournament_id, get_tournament_name
 from InLobby.Collect.tournament_lobby.extensions.win_actions import set_focus_on_window
 from InLobby.Extensions.proceses.tables import get_amount_of_opened_tables
-from InLobby.Collect.tournament_lobby.extensions.win_actions import close_top_window, wait_table_for_loading
+from InLobby.Collect.tournament_lobby.extensions.win_actions import close_top_window, wait_table_for_loading, close_loading_window
 
 from InLobby.Extensions.database import get, add
 
@@ -112,7 +112,7 @@ def open_tables(tournament_status: str):
                         table_opened = True
                     else:
                         print("table not opened")
-                        close_top_window()
+                        close_loading_window()
                         time.sleep(0.5)
                 except:
                     print('Ошибка открытия стола')
