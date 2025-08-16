@@ -12,6 +12,7 @@ from pywinauto import mouse
 import pyautogui
 import win32gui
 import time
+import traceback
 
 def _get_lobby_window():
     hwnd = win32gui.GetForegroundWindow()
@@ -102,17 +103,21 @@ def open_tables(tournament_status: str):
 
             table_opened = False
             while not table_opened:
-                _switch_table(table)
-                time.sleep(5)
+                try:
+                    _switch_table(table)
+                    time.sleep(5)
 
-                _open_table(table)
-                if wait_table_for_loading() is not False:
-                    table_opened = True
-                else:
-                    print("table not opened")
-                    close_top_window()
-                    time.sleep(0.5)
-
+                    _open_table(table)
+                    if wait_table_for_loading() is not False:
+                        table_opened = True
+                    else:
+                        print("table not opened")
+                        close_top_window()
+                        time.sleep(0.5)
+                except:
+                    print('Ошибка открытия стола')
+                    traceback.print_exc()
+                    pass
             if counter == 1:
                 tournament_id = get_tournament_id()
                 tournament_name = get_tournament_name()
