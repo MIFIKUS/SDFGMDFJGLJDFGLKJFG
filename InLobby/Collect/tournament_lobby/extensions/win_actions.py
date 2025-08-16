@@ -1,6 +1,7 @@
 import win32gui
 import win32con
 import time
+from pywinauto import Desktop
 
 def set_focus_on_window(win):
     for _ in range(3):
@@ -38,6 +39,18 @@ def close_loading_window():
         win32gui.SetForegroundWindow(target_hwnd)
         win32gui.PostMessage(target_hwnd, win32con.WM_CLOSE, 0, 0)
 
+def lobby_loaded():
+    """
+    Функция ожидает, пока не появятся два окна с текстом 'PokerKing Lobby Logged in as' в заголовке.
+    Как только такие два окна найдены, возвращает их список.
+    """
+
+    while True:
+        windows = Desktop(backend="uia").windows()
+        matching = [w for w in windows if "PokerKing Lobby Logged in as" in (w.window_text() or "")]
+        if len(matching) >= 2:
+            return 
+        time.sleep(0.5)
 
 def wait_table_for_loading():
     counter = 0

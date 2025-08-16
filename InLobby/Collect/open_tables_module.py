@@ -1,6 +1,7 @@
 from InLobby.Collect.main_lobby import main_lobby
 from InLobby.Collect.tournament_lobby import tournament_lobby
 from InLobby.Extensions.proceses.tables import get_amount_of_opened_tables
+from InLobby.Collect.tournament_lobby.extensions.win_actions import lobby_loaded
 import time
 
 
@@ -26,7 +27,7 @@ def run():
             main_lobby.switch_tournament(tournament)
             main_lobby.open_tournament(tournament)
 
-            time.sleep(10)
+            lobby_loaded()
 
             tournament_lobby_window = tournament_lobby._get_lobby_window()
 
