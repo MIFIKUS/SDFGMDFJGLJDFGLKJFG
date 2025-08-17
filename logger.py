@@ -4,7 +4,26 @@ import os
 import sys
 from datetime import datetime
 from pathlib import Path
-from config import CONFIG
+
+# Проверяем, существует ли config.py перед импортом
+try:
+    from config import CONFIG
+    CONFIG_AVAILABLE = True
+except ImportError:
+    CONFIG_AVAILABLE = False
+    # Значения по умолчанию
+    CONFIG = {
+        'logging': {
+            'level': logging.INFO,
+            'console_level': logging.INFO,
+            'file_level': logging.DEBUG,
+            'max_file_size_mb': 10,
+            'backup_count': 5,
+            'daily_backup_count': 30,
+            'error_file_size_mb': 5,
+            'error_backup_count': 3
+        }
+    }
 
 class ColoredFormatter(logging.Formatter):
     """Форматтер с цветным выводом для консоли"""
@@ -43,7 +62,10 @@ def setup_logger(name='WPNCollector', log_level=None):
         Настроенный логгер
     """
     # Получаем настройки логирования из конфига
-    log_config = CONFIG.get('logging', {})
+    if CONFIG_AVAILABLE:
+        log_config = CONFIG.get('logging', {})
+    else:
+        log_config = CONFIG['logging']
     
     if log_level is None:
         log_level = log_config.get('level', logging.INFO)

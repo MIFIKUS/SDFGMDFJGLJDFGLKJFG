@@ -1,7 +1,7 @@
 from InLobby.Collect.main_lobby import main_lobby
 from InLobby.Collect.tournament_lobby import tournament_lobby
 from InLobby.Extensions.proceses.tables import get_amount_of_opened_tables
-from InLobby.Collect.tournament_lobby.extensions.win_actions import lobby_loaded
+from InLobby.Collect.tournament_lobby.extensions.win_actions import lobby_loaded, close_exit_from_lobby_window
 from logger import get_logger
 import time
 import traceback
@@ -45,6 +45,7 @@ def run():
                     
                     time.sleep(0.5)
                     main_lobby_window.set_focus()
+                    close_exit_from_lobby_window(main_lobby_window)
                     logger.debug("Фокус установлен на главное окно лобби")
 
                     tournament_status = main_lobby.get_tournament_status(tournament_raw)

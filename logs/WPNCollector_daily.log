@@ -1,0 +1,4 @@
+2025-08-17 03:45:51 | [32mINFO[0m | [MainProcess:MainThread] | WPNCollector | <module>:144 | Это информационное сообщение
+2025-08-17 03:45:51 | [33mWARNING[0m | [MainProcess:MainThread] | WPNCollector | <module>:145 | Это предупреждение
+2025-08-17 03:45:51 | [31mERROR[0m | [MainProcess:MainThread] | WPNCollector | <module>:146 | Это ошибка
+2025-08-17 03:45:51 | [35mCRITICAL[0m | [MainProcess:MainThread] | WPNCollector | <module>:147 | Это критическая ошибка

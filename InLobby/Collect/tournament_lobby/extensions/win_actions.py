@@ -62,4 +62,10 @@ def wait_table_for_loading():
         counter += 1
         if counter > 10:
             return False
-        
+    
+def close_exit_from_lobby_window(win):
+    try:
+        win.descendants(auto_id='errorpopup-2btn-cancel').click_input()
+    except:
+        pass
+
