@@ -1,7 +1,7 @@
 from InLobby.Collect.main_lobby import main_lobby
 from InLobby.Collect.tournament_lobby import tournament_lobby
 from InLobby.Extensions.proceses.tables import get_amount_of_opened_tables
-from InLobby.Collect.tournament_lobby.extensions.win_actions import lobby_loaded, close_exit_from_lobby_window
+from InLobby.Collect.tournament_lobby.extensions.win_actions import lobby_loaded, close_exit_from_lobby_window, there_is_one_lobby_window
 from logger import get_logger
 import time
 import traceback
@@ -74,10 +74,12 @@ def run():
                     logger.info(f"Открываем таблицы для турнира {tournament} со статусом {tournament_status}")
                     tournament_lobby.open_tables(tournament_status)
                     logger.info(f"Таблицы для турнира {tournament} открыты")
-
-                    tournament_lobby_window.close()
-                    logger.debug(f"Окно лобби турнира {tournament} закрыто")
                     
+                    while not there_is_one_lobby_window():
+                        tournament_lobby_window.close()
+                        logger.debug(f"Окно лобби турнира {tournament} закрыто")
+                        time.sleep(0.5)
+
                     current_tables = get_amount_of_opened_tables()
                     logger.info(f"Турнир {tournament} обработан. Текущее количество таблиц: {current_tables}")
 
