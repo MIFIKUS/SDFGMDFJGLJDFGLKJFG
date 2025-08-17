@@ -2,6 +2,7 @@ import win32gui
 import win32con
 import time
 from pywinauto import Desktop
+import traceback
 
 def set_focus_on_window(win):
     for _ in range(3):
@@ -65,7 +66,9 @@ def wait_table_for_loading():
     
 def close_exit_from_lobby_window(win):
     try:
-        win.descendants(auto_id='errorpopup-2btn-cancel').invoke()
+        btn = win.child_window(auto_id="errorpopup-2btn-cancel", control_type="Button")
+        btn.invoke()
     except:
+        traceback.print_exc()
         pass
 
