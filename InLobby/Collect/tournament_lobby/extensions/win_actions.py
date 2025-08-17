@@ -69,6 +69,5 @@ def close_exit_from_lobby_window(win):
         btn = win.child_window(auto_id="errorpopup-2btn-cancel", control_type="Button")
         btn.invoke()
     except:
-        traceback.print_exc()
         pass
 
