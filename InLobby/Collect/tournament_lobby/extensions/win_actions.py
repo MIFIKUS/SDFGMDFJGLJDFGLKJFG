@@ -65,7 +65,7 @@ def wait_table_for_loading():
     
 def close_exit_from_lobby_window(win):
     try:
-        win.descendants(auto_id='errorpopup-2btn-cancel').click_input()
+        win.descendants(auto_id='errorpopup-2btn-cancel').invoke()
     except:
         pass
 
