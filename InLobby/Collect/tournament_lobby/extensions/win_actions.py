@@ -73,8 +73,10 @@ def close_exit_from_lobby_window(win):
 
 
 def there_is_one_lobby_window():
-    windows = Desktop(backend="uia").windows()
-    matching = [w for w in windows if "PokerKing Lobby Logged in as" in (w.window_text() or "")]
+    for _ in range(5):
+        windows = Desktop(backend="uia").windows()
+        matching = [w for w in windows if "PokerKing Lobby Logged in as" in (w.window_text() or "")]
+        time.sleep(1)
     if len(matching) >= 2:
         return False
     return True

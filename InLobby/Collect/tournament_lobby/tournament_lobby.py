@@ -107,6 +107,8 @@ def open_tables(tournament_status: str):
             counter += 1
 
             table_opened = False
+            fail_to_open_table_counter = 0
+
             while not table_opened:
                 try:
                     _switch_table(table)
@@ -119,6 +121,10 @@ def open_tables(tournament_status: str):
                         print("table not opened")
                         close_loading_window()
                         time.sleep(0.5)
+                        fail_to_open_table_counter += 1
+                        if fail_to_open_table_counter == 4:
+                            print('Не удалось открыть стол. Пропуск')
+                            break
                 except:
                     print('Ошибка открытия стола')
                     traceback.print_exc()
