@@ -4,6 +4,7 @@ import os
 import sys
 from datetime import datetime
 from pathlib import Path
+import time
 
 # Проверяем, существует ли config.py перед импортом
 try:
@@ -49,6 +50,38 @@ class ColoredFormatter(logging.Formatter):
             record.process_info = f"[{record.processName}:{record.threadName}]"
         
         return super().format(record)
+
+class PrintLogger:
+    """Простой логгер, печатающий сообщения через print."""
+    def __init__(self, name: str = 'WPNCollector') -> None:
+        self.name = name
+    
+    def _now(self) -> str:
+        return time.strftime('%H:%M:%S')
+    
+    def _emit(self, level: str, message: str) -> None:
+        print(f"{self._now()} | {level:<8} | {self.name} | {message}")
+    
+    def debug(self, message: str, *args, **kwargs) -> None:
+        self._emit('DEBUG', str(message))
+    
+    def info(self, message: str, *args, **kwargs) -> None:
+        self._emit('INFO', str(message))
+    
+    def warning(self, message: str, *args, **kwargs) -> None:
+        self._emit('WARNING', str(message))
+    
+    def error(self, message: str, *args, **kwargs) -> None:
+        self._emit('ERROR', str(message))
+    
+    def critical(self, message: str, *args, **kwargs) -> None:
+        self._emit('CRITICAL', str(message))
+    
+    def exception(self, message: str, *args, **kwargs) -> None:
+        # Совместимость с logging.exception
+        self._emit('ERROR', str(message))
+
+# Оставляем setup_logger для совместимости, но он больше не используется при получении логгера
 
 def setup_logger(name='WPNCollector', log_level=None):
     """
@@ -144,6 +177,7 @@ def setup_logger(name='WPNCollector', log_level=None):
     
     return logger
 
+
 def get_logger(name='WPNCollector'):
     """
     Получить настроенный логгер
@@ -152,12 +186,12 @@ def get_logger(name='WPNCollector'):
         name: Имя логгера
         
     Returns:
-        Настроенный логгер
+        Простой логгер на print
     """
-    return logging.getLogger(name)
+    return PrintLogger(name)
 
 # Создаем основной логгер при запуске модуля
-main_logger = setup_logger()
+main_logger = get_logger()
 
 if __name__ == '__main__':
     # Тестируем логирование
