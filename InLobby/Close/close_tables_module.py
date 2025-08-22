@@ -1,6 +1,7 @@
 from InLobby.Close.Windows import tables
 from InLobby.Close.Proceses import tables_proceses
 from InLobby.Close.Files import rename
+from InLobby.Extensions.database.update import update_table_status
 from logger import get_logger
 
 import time
@@ -54,6 +55,8 @@ def run():
                         logger.info(f"Переименовываем файл для Tournament ID: {tournament_id}, Table: {table_num}")
                         rename.set_file_to_complete(tournament_id, table_num)
                         logger.info(f"Файл переименован успешно")
+
+                        update_table_status(str(tournament_id), str(table_num), 'collected')
                         
                     else:
                         logger.debug(f"Таблица {table_window} еще открыта, пропускаем")

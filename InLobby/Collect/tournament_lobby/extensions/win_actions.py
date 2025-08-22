@@ -24,12 +24,12 @@ def close_loading_window():
     current_title = win32gui.GetWindowText(current_hwnd)
     target_hwnd = None
 
-    if "Loading" in current_title:
+    if "loading" in current_title.lower():
         target_hwnd = current_hwnd
     else:
         def enum_windows_callback(hwnd, result):
             title = win32gui.GetWindowText(hwnd)
-            if "Loading" in title:
+            if "loading" in title.lower():
                 result.append(hwnd)
         windows_with_loading = []
         win32gui.EnumWindows(enum_windows_callback, windows_with_loading)

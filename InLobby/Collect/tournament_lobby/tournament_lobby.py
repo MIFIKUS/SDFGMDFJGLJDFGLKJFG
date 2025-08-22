@@ -111,6 +111,9 @@ def open_tables(tournament_status: str):
 
             while not table_opened:
                 try:
+                    if tournament_id:
+                        if tournament_id and get.get_table_status(tournament_id, table_num):
+                            continue
                     _switch_table(table)
                     time.sleep(5)
 
