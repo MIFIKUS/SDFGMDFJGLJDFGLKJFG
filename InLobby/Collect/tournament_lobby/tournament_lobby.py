@@ -99,10 +99,10 @@ def open_tables(tournament_status: str):
 
             if table_num in seen_tables:
                 continue
-            
-            if tournament_id and get.get_table_status(tournament_id, table_num):
-                seen_tables.add(table_num)
-                continue
+            if tournament_id:
+                if tournament_id and get.get_table_status(tournament_id, table_num):
+                    seen_tables.add(table_num)
+                    continue
 
             counter += 1
 
