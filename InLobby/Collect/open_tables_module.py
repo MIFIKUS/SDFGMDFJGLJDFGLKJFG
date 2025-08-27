@@ -65,8 +65,8 @@ def run():
                         logger.error(f"Traceback: {traceback.format_exc()}")
                         continue
 
-                    logger.info(f"Ожидание загрузки турнира {tournament} (15 секунд)")
-                    time.sleep(15)
+                    #logger.info(f"Ожидание загрузки турнира {tournament} (15 секунд)")
+                    #time.sleep(15)
 
                     tournament_lobby_window = tournament_lobby._get_lobby_window()
                     logger.debug("Окно лобби турнира получено")

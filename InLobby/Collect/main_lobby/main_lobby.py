@@ -1,5 +1,5 @@
 from pywinauto import Desktop
-
+from InLobby.Collect.tournament_lobby.tournament_lobby import _get_list_of_tables
 import pyautogui
 import time
 
@@ -39,6 +39,7 @@ def open_tournament(tournament_button):
             break
         except:
             pass
+    tournament_lobby_opened()
 
 
 def get_tournament_status(tournament_button) -> str:
@@ -48,3 +49,32 @@ def get_tournament_status(tournament_button) -> str:
     if 'Late Reg' in status_raw:
         return 'Late Reg'
     return 'Running'
+
+
+def tournament_lobby_opened() -> bool:
+    """
+    Проверяет, открыт ли лобби турнира, ожидая появления кнопки "Players/Tables" или наличия столов.
+    Возвращает True, если лобби открыто, иначе False.
+    """
+
+    while True:
+        try:
+            # Используем win32gui для получения активного окна
+            import win32gui
+            hwnd = win32gui.GetForegroundWindow()
+            win = Desktop(backend="uia").window(handle=hwnd)
+            
+            # Ищем кнопку "Players/Tables"
+            buttons = win.descendants(control_type="Button")
+            for btn in buttons:
+                name = btn.element_info.name or ""
+                if "Tables" in name:
+                    return True
+            # Либо ищем наличие столов (например, по control_type="DataItem" или "ListItem")
+            tables = _get_list_of_tables(win)
+            if tables:
+                return True
+        except Exception as e:
+            print(e)
+            pass
+        time.sleep(0.1)  # Небольшая задержка для снижения нагрузки на CPU
