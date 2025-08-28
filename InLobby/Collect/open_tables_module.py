@@ -76,7 +76,11 @@ def run():
                     logger.info(f"Таблицы для турнира {tournament} открыты")
                     
                     while not there_is_one_lobby_window():
-                        tournament_lobby_window.close()
+                        for _ in range(2):
+                            try:
+                                tournament_lobby_window.close()
+                            except:
+                                pass
                         logger.debug(f"Окно лобби турнира {tournament} закрыто")
                         time.sleep(0.5)
 

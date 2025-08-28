@@ -139,8 +139,9 @@ def open_tables(tournament_status: str):
                 tournament_id = get_tournament_id()
                 tournament_name = get_tournament_name()
                 if tournament_id and get.get_table_status(tournament_id, table_num):
-                    close_top_window()
-                    time.sleep(0.5)
+                    for _ in range(2):
+                        close_top_window()
+                        time.sleep(0.5)
                     continue
 
             add.add_table_info(tournament_id, tournament_name, table_num, "opened")
