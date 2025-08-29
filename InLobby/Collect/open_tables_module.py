@@ -63,6 +63,11 @@ def run():
                     except Exception as e:
                         logger.error(f"Ошибка при работе с турниром {tournament}: {e}")
                         logger.error(f"Traceback: {traceback.format_exc()}")
+                        for _ in range(2):
+                            try:
+                                tournament_lobby_window.close()
+                            except:
+                                pass
                         continue
 
                     #logger.info(f"Ожидание загрузки турнира {tournament} (15 секунд)")

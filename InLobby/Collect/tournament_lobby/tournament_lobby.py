@@ -99,7 +99,7 @@ def open_tables(tournament_status: str):
 
             if table_num in seen_tables:
                 continue
-            if tournament_id:
+            if tournament_id: 
                 if tournament_id and get.get_table_status(tournament_id, table_num):
                     seen_tables.add(table_num)
                     continue
@@ -132,9 +132,6 @@ def open_tables(tournament_status: str):
                     print('Ошибка открытия стола')
                     traceback.print_exc()
                     break
-            if not table_opened:
-                continue
-            
             if counter == 1:
                 tournament_id = get_tournament_id()
                 tournament_name = get_tournament_name()
@@ -143,7 +140,8 @@ def open_tables(tournament_status: str):
                         close_top_window()
                         time.sleep(0.5)
                     continue
-
+            if not table_opened:
+                continue
             add.add_table_info(tournament_id, tournament_name, table_num, "opened")
 
             seen_tables.add(table_num)
