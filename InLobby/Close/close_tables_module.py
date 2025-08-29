@@ -7,6 +7,10 @@ from logger import get_logger
 import time
 import traceback
 
+import win32gui
+import win32con
+
+
 # Получаем логгер для модуля закрытия таблиц
 logger = get_logger('CloseTables')
 
@@ -74,3 +78,66 @@ def run():
             logger.error(f"Traceback: {traceback.format_exc()}")
             logger.info("Ожидание 30 секунд перед повторной попыткой")
             time.sleep(30)  
+
+def close_bugged_lobbies():
+    logger.info("Запуск процесса закрытия зависших лобби")
+    lobby_windows = {}
+
+    def is_pokerking_lobby(hwnd):
+        if not win32gui.IsWindowVisible(hwnd):
+            return False
+        title = win32gui.GetWindowText(hwnd)
+        if "PokerKing Lobby Logged in as" in title:
+            rect = win32gui.GetWindowRect(hwnd)
+            width = rect[2] - rect[0]
+            height = rect[3] - rect[1]
+            if width == 996 and height == 720:
+                return True
+        return False
+
+    while True:
+        try:
+            current_time = time.time()
+            found_lobbies = []
+
+            def enum_handler(hwnd, _):
+                if is_pokerking_lobby(hwnd):
+                    found_lobbies.append(hwnd)
+            win32gui.EnumWindows(enum_handler, None)
+
+            logger.debug(f"Найдено лобби: {len(found_lobbies)}")
+
+            # Добавляем новые окна в память
+            for hwnd in found_lobbies:
+                if hwnd not in lobby_windows:
+                    lobby_windows[hwnd] = current_time
+                    logger.info(f"Добавлено новое лобби в мониторинг (HWND: {hwnd})")
+
+            # Проверяем окна, которые уже в памяти
+            to_remove = []
+            for hwnd, added_time in lobby_windows.items():
+                # Если окно больше не существует, удаляем из памяти
+                if not win32gui.IsWindow(hwnd):
+                    to_remove.append(hwnd)
+                    logger.debug(f"Лобби {hwnd} больше не существует, удаляем из мониторинга")
+                    continue
+                # Если прошло больше 3 минут, закрываем окно
+                if current_time - added_time >= 180:
+                    try:
+                        logger.warning(f"Закрываем зависшее лобби (HWND: {hwnd}) после 3 минут ожидания")
+                        win32gui.PostMessage(hwnd, win32con.WM_CLOSE, 0, 0)
+                        logger.info(f"Команда закрытия отправлена для лобби {hwnd}")
+                    except Exception as e:
+                        logger.error(f"Ошибка при закрытии лобби {hwnd}: {e}")
+                    to_remove.append(hwnd)
+
+            for hwnd in to_remove:
+                lobby_windows.pop(hwnd, None)
+
+            logger.debug(f"Активных лобби в мониторинге: {len(lobby_windows)}")
+            time.sleep(5)
+        except Exception as e:
+            logger.error(f"Ошибка в процессе закрытия зависших лобби: {e}")
+            logger.error(f"Traceback: {traceback.format_exc()}")
+            logger.info("Ожидание 10 секунд перед повторной попыткой")
+            time.sleep(10)

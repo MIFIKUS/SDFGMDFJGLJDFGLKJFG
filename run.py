@@ -28,6 +28,10 @@ if __name__ == '__main__':
             target=close_tables_module.run,
             name="CloseTables"
         )
+        close_bugged_lobbies_thread = multiprocessing.Process(
+            target=close_tables_module.close_bugged_lobbies,
+            name="CloseBuggedLobbies"
+        )
         google_drive_thread = multiprocessing.Process(
             target=load_to_disk.load_to_disk_module,
             name="GoogleDrive"
@@ -41,6 +45,9 @@ if __name__ == '__main__':
         
         close_tables_thread.start()
         logger.info(f"Процесс CloseTables запущен (PID: {close_tables_thread.pid})")
+        
+        close_bugged_lobbies_thread.start()
+        logger.info(f"Процесс CloseBuggedLobbies запущен (PID: {close_bugged_lobbies_thread.pid})")
         
         #google_drive_thread.start()
         #logger.info(f"Процесс GoogleDrive запущен (PID: {google_drive_thread.pid})")
@@ -59,6 +66,12 @@ if __name__ == '__main__':
             logger.info("Процесс CloseTables завершен")
         except KeyboardInterrupt:
             logger.warning("Получен сигнал прерывания для CloseTables")
+            
+        try:
+            close_bugged_lobbies_thread.join()
+            logger.info("Процесс CloseBuggedLobbies завершен")
+        except KeyboardInterrupt:
+            logger.warning("Получен сигнал прерывания для CloseBuggedLobbies")
             
         #if google_drive_thread.is_alive():
         #    google_drive_thread.terminate()
