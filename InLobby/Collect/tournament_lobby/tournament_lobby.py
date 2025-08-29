@@ -42,7 +42,10 @@ def _get_list_of_tables(win) -> list:
 
 
 def _open_table(table_button):
-    while True:
+    max_attempts = 5
+    attempt = 0
+    
+    while attempt < max_attempts:
         try:
             pyautogui.FAILSAFE = False
             rect = table_button.rectangle()
@@ -51,9 +54,14 @@ def _open_table(table_button):
     
             for _ in range(2):
                 pyautogui.click(x=x, y=y)
-            break
-        except:
-            pass
+            return True
+        except Exception as e:
+            print(f"Попытка {attempt + 1} открытия таблицы не удалась: {e}")
+            attempt += 1
+            time.sleep(1)
+    
+    print("Не удалось открыть таблицу после всех попыток")
+    return False
 
 
 def _switch_table(table_button):
@@ -109,29 +117,32 @@ def open_tables(tournament_status: str):
             table_opened = False
             fail_to_open_table_counter = 0
 
-            while not table_opened:
+            while not table_opened and fail_to_open_table_counter < 4:
                 try:
                     if tournament_id:
                         if tournament_id and get.get_table_status(tournament_id, table_num):
+                            table_opened = True
                             continue
                     _switch_table(table)
                     time.sleep(5)
 
-                    _open_table(table)
-                    if wait_table_for_loading() is not False:
+                    if not _open_table(table):
+                        print("Не удалось кликнуть по таблице")
+                        fail_to_open_table_counter += 1
+                        continue
+                        
+                    if wait_table_for_loading():
                         table_opened = True
                     else:
                         print("table not opened")
                         close_loading_window()
                         time.sleep(0.5)
                         fail_to_open_table_counter += 1
-                        if fail_to_open_table_counter == 4:
-                            print('Не удалось открыть стол. Пропуск')
-                            break
-                except:
-                    print('Ошибка открытия стола')
+                except Exception as e:
+                    print(f'Ошибка открытия стола: {e}')
                     traceback.print_exc()
-                    break
+                    fail_to_open_table_counter += 1
+                    time.sleep(1)
             if counter == 1:
                 tournament_id = get_tournament_id()
                 tournament_name = get_tournament_name()

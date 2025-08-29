@@ -29,10 +29,30 @@ def run():
                 time.sleep(10)
                 continue
                 
+            # Проверяем, что главное окно лобби все еще доступно
+            try:
+                main_lobby_window.set_focus()
+            except Exception as e:
+                logger.error(f"Не удается получить доступ к главному окну лобби: {e}")
+                logger.info("Попытка переинициализации главного окна лобби...")
+                try:
+                    main_lobby_window = main_lobby.get_main_lobby()
+                    logger.info("Главное окно лобби переинициализировано")
+                except Exception as reinit_error:
+                    logger.error(f"Не удалось переинициализировать главное окно лобби: {reinit_error}")
+                    time.sleep(30)
+                    continue
+                
             logger.info(f"Начинаем поиск турниров для открытия таблиц. Доступно мест: {AMOUNT_OF_TABLES - current_tables}")
             
-            tournaments, tournaments_raw = main_lobby.get_list_of_tournaments(main_lobby_window)
-            logger.info(f"Найдено турниров: {len(tournaments)}")
+            try:
+                tournaments, tournaments_raw = main_lobby.get_list_of_tournaments(main_lobby_window)
+                logger.info(f"Найдено турниров: {len(tournaments)}")
+            except Exception as e:
+                logger.error(f"Ошибка при получении списка турниров: {e}")
+                logger.info("Ожидание 10 секунд перед повторной попыткой")
+                time.sleep(10)
+                continue
 
             for i, (tournament, tournament_raw) in enumerate(zip(tournaments, tournaments_raw)):
                 try:
@@ -57,7 +77,9 @@ def run():
                         logger.debug("Переключение на турнир выполнено")
                         
                         logger.info(f"Открываем турнир: {tournament}")
-                        main_lobby.open_tournament(tournament)
+                        if not main_lobby.open_tournament(tournament):
+                            logger.warning(f"Не удалось открыть турнир {tournament}, пропускаем")
+                            continue
                         logger.info(f"Турнир {tournament} открыт успешно")
                         
                     except Exception as e:

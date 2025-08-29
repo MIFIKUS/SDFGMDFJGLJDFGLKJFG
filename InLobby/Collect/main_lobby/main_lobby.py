@@ -27,7 +27,10 @@ def switch_tournament(tournament_button):
 
 
 def open_tournament(tournament_button):
-    while True:
+    max_attempts = 5
+    attempt = 0
+    
+    while attempt < max_attempts:
         try:
             pyautogui.FAILSAFE = False
             rect = tournament_button.rectangle()
@@ -37,9 +40,16 @@ def open_tournament(tournament_button):
             for _ in range(2):
                 pyautogui.click(x=x, y=y)
             break
-        except:
-            pass
-    tournament_lobby_opened()
+        except Exception as e:
+            print(f"Попытка {attempt + 1} открытия турнира не удалась: {e}")
+            attempt += 1
+            time.sleep(1)
+    
+    if attempt >= max_attempts:
+        print("Не удалось открыть турнир после всех попыток")
+        return False
+    
+    return tournament_lobby_opened()
 
 
 def get_tournament_status(tournament_button) -> str:
@@ -56,8 +66,10 @@ def tournament_lobby_opened() -> bool:
     Проверяет, открыт ли лобби турнира, ожидая появления кнопки "Players/Tables" или наличия столов.
     Возвращает True, если лобби открыто, иначе False.
     """
-
-    while True:
+    max_wait_time = 30  # Максимальное время ожидания 30 секунд
+    counter = 0
+    
+    while counter < max_wait_time:
         try:
             # Используем win32gui для получения активного окна
             import win32gui
@@ -75,6 +87,10 @@ def tournament_lobby_opened() -> bool:
             if tables:
                 return True
         except Exception as e:
-            print(e)
+            print(f"Ошибка при проверке открытия лобби турнира: {e}")
             pass
         time.sleep(0.1)  # Небольшая задержка для снижения нагрузки на CPU
+        counter += 1
+    
+    print("Таймаут ожидания открытия лобби турнира")
+    return False

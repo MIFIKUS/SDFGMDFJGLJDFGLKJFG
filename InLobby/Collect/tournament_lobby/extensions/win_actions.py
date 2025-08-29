@@ -45,24 +45,36 @@ def lobby_loaded():
     Функция ожидает, пока не появятся два окна с текстом 'PokerKing Lobby Logged in as' в заголовке.
     Как только такие два окна найдены, возвращает их список.
     """
-
-    while True:
-        windows = Desktop(backend="uia").windows()
-        matching = [w for w in windows if "PokerKing Lobby Logged in as" in (w.window_text() or "")]
-        if len(matching) >= 2:
-            return 
-        time.sleep(0.5)
+    max_wait_time = 60  # Максимальное время ожидания 60 секунд
+    counter = 0
+    
+    while counter < max_wait_time:
+        try:
+            windows = Desktop(backend="uia").windows()
+            matching = [w for w in windows if "PokerKing Lobby Logged in as" in (w.window_text() or "")]
+            if len(matching) >= 2:
+                return True
+            time.sleep(0.5)
+            counter += 1
+        except Exception as e:
+            print(f"Ошибка при ожидании загрузки лобби: {e}")
+            counter += 1
+    return False
 
 def wait_table_for_loading():
     counter = 0
-    while True:
-        title = win32gui.GetWindowText(win32gui.GetForegroundWindow()).lower()
-        if "table" in title.lower():
-            return
-        time.sleep(1)
-        counter += 1
-        if counter > 10:
-            return False
+    max_wait_time = 30  # Максимальное время ожидания 30 секунд
+    while counter < max_wait_time:
+        try:
+            title = win32gui.GetWindowText(win32gui.GetForegroundWindow()).lower()
+            if "table" in title.lower():
+                return True
+            time.sleep(1)
+            counter += 1
+        except Exception as e:
+            print(f"Ошибка при ожидании загрузки таблицы: {e}")
+            counter += 1
+    return False
     
 def close_exit_from_lobby_window(win):
     try:
