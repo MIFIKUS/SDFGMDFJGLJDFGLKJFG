@@ -2,6 +2,9 @@ from InLobby.Collect.main_lobby import main_lobby
 from InLobby.Collect.tournament_lobby import tournament_lobby
 from InLobby.Extensions.proceses.tables import get_amount_of_opened_tables
 from InLobby.Collect.tournament_lobby.extensions.win_actions import lobby_loaded, close_exit_from_lobby_window, there_is_one_lobby_window
+
+from Google.Sheets import get, add, statuses
+
 from logger import get_logger
 import time
 import traceback
@@ -9,7 +12,7 @@ import traceback
 # Получаем логгер для модуля открытия таблиц
 logger = get_logger('OpenTables')
 
-AMOUNT_OF_TABLES = 20
+AMOUNT_OF_TABLES = get.get_max_tables()
 
 logger.info(f"Модуль открытия таблиц инициализирован. Максимальное количество таблиц: {AMOUNT_OF_TABLES}")
 
@@ -25,6 +28,7 @@ def run():
             logger.debug(f"Текущее количество открытых таблиц: {current_tables}")
             
             if current_tables >= AMOUNT_OF_TABLES:
+                add.set_status(statuses.WAIT_TABLES_TO_CLOSE)
                 logger.debug(f"Достигнут лимит таблиц ({AMOUNT_OF_TABLES}), ожидание...")
                 time.sleep(10)
                 continue
@@ -39,6 +43,7 @@ def run():
                     main_lobby_window = main_lobby.get_main_lobby()
                     logger.info("Главное окно лобби переинициализировано")
                 except Exception as reinit_error:
+                    add.set_status(statuses.EROOR)
                     logger.error(f"Не удалось переинициализировать главное окно лобби: {reinit_error}")
                     time.sleep(30)
                     continue
@@ -49,6 +54,7 @@ def run():
                 tournaments, tournaments_raw = main_lobby.get_list_of_tournaments(main_lobby_window)
                 logger.info(f"Найдено турниров: {len(tournaments)}")
             except Exception as e:
+                add.set_status(statuses.EROOR)
                 logger.error(f"Ошибка при получении списка турниров: {e}")
                 logger.info("Ожидание 10 секунд перед повторной попыткой")
                 time.sleep(10)
@@ -83,6 +89,7 @@ def run():
                         logger.info(f"Турнир {tournament} открыт успешно")
                         
                     except Exception as e:
+                        add.set_status(statuses.EROOR)
                         logger.error(f"Ошибка при работе с турниром {tournament}: {e}")
                         logger.error(f"Traceback: {traceback.format_exc()}")
                         for _ in range(2):
@@ -99,6 +106,7 @@ def run():
                     logger.debug("Окно лобби турнира получено")
 
                     logger.info(f"Открываем таблицы для турнира {tournament} со статусом {tournament_status}")
+                    add.set_status(statuses.OPENING)
                     tournament_lobby.open_tables(tournament_status)
                     logger.info(f"Таблицы для турнира {tournament} открыты")
                     
@@ -115,6 +123,7 @@ def run():
                     logger.info(f"Турнир {tournament} обработан. Текущее количество таблиц: {current_tables}")
 
                 except Exception as e:
+                    add.set_status(statuses.EROOR)
                     logger.error(f"Ошибка при обработке турнира {tournament}: {e}")
                     logger.error(f"Traceback: {traceback.format_exc()}")
                     continue
@@ -123,6 +132,7 @@ def run():
             time.sleep(10)
             
         except Exception as e:
+            add.set_status(statuses.EROOR)
             logger.error(f"Критическая ошибка в основном цикле открытия таблиц: {e}")
             logger.error(f"Traceback: {traceback.format_exc()}")
             logger.info("Ожидание 30 секунд перед повторной попыткой")

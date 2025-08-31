@@ -2,6 +2,7 @@ import logging
 
 CONFIG = {
     'script_name': 'TEST', 
+    'cell_num': 0,
     'PATH_TO_HAND_HISTORY': 'D:\\Programs\\PokerKing\\handHistory\\',
     'logging': {
         'level': logging.INFO,  # Уровень логирования: DEBUG, INFO, WARNING, ERROR, CRITICAL
