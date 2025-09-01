@@ -63,6 +63,7 @@ def run():
             for i, (tournament, tournament_raw) in enumerate(zip(tournaments, tournaments_raw)):
                 try:
                     current_tables = get_amount_of_opened_tables()
+                    add.set_amount_of_opened_tables(current_tables)
                     if current_tables >= AMOUNT_OF_TABLES:
                         logger.info(f"Достигнут лимит таблиц ({AMOUNT_OF_TABLES}), останавливаем поиск")
                         break
