@@ -11,7 +11,7 @@ def set_status(status: str):
     spreadsheet = service.open_by_url(SPREADSHEET_URL)
     worksheet = spreadsheet.worksheet(SHEET_NAME)
 
-    worksheet.update(cell, status)
+    worksheet.update(cell, [[status]])
 
 
 def set_amount_of_opened_tables(opened_tables: int):
@@ -20,7 +20,7 @@ def set_amount_of_opened_tables(opened_tables: int):
     spreadsheet = service.open_by_url(SPREADSHEET_URL)
     worksheet = spreadsheet.worksheet(SHEET_NAME)
 
-    worksheet.update(cell, str(opened_tables))
+    worksheet.update(cell, [[str(opened_tables)]])
 
 
 
