@@ -2,6 +2,7 @@ from InLobby.Collect.tournament_lobby.extensions.in_lobby import get_table_num, 
 from InLobby.Collect.tournament_lobby.extensions.win_actions import set_focus_on_window
 from InLobby.Extensions.proceses.tables import get_amount_of_opened_tables
 from InLobby.Collect.tournament_lobby.extensions.win_actions import close_top_window, wait_table_for_loading, close_loading_window
+from Google.Sheets.get import get_max_tables
 
 from InLobby.Extensions.database import get, add
 
@@ -69,6 +70,7 @@ def _switch_table(table_button):
 
 
 def open_tables(tournament_status: str):
+    max_tables = get_max_tables()
     #TODO: Сделать чтобы выяснял сколько столов открыто
     lobby_window = _get_lobby_window()
 
@@ -93,7 +95,7 @@ def open_tables(tournament_status: str):
         for table in tables:
             amount_of_opened_tables = get_amount_of_opened_tables()
             print("amount_of_opened_tables", amount_of_opened_tables)
-            if amount_of_opened_tables == 20:
+            if amount_of_opened_tables == max_tables:
                 return
             
             set_focus_on_window(lobby_window)
