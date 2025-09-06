@@ -4,6 +4,7 @@ from InLobby.Extensions.proceses.tables import get_amount_of_opened_tables
 from InLobby.Collect.tournament_lobby.extensions.win_actions import lobby_loaded, close_exit_from_lobby_window, there_is_one_lobby_window
 
 from Google.Sheets import get, add, statuses
+from pywinauto.findwindows import ElementAmbiguousError
 
 from logger import get_logger
 import time
@@ -53,6 +54,12 @@ def run():
             try:
                 tournaments, tournaments_raw = main_lobby.get_list_of_tournaments(main_lobby_window)
                 logger.info(f"Найдено турниров: {len(tournaments)}")
+            except ElementAmbiguousError:
+                add.set_status(statuses.LOBBY)
+                logger.error(f"Ошибка при получении списка турниров: {e}")
+                logger.info("Ожидание 10 секунд перед повторной попыткой")
+                time.sleep(10)
+                continue
             except Exception as e:
                 add.set_status(statuses.EROOR)
                 logger.error(f"Ошибка при получении списка турниров: {e}")
@@ -88,7 +95,18 @@ def run():
                             logger.warning(f"Не удалось открыть турнир {tournament}, пропускаем")
                             continue
                         logger.info(f"Турнир {tournament} открыт успешно")
-                        
+                    
+                    except ElementAmbiguousError:
+                        add.set_status(statuses.LOBBY)
+                        logger.error(f"Ошибка при работе с турниром {tournament}: {e}")
+                        logger.error(f"Traceback: {traceback.format_exc()}")
+                        for _ in range(2):
+                            try:
+                                tournament_lobby_window.close()
+                            except:
+                                pass
+                        continue
+
                     except Exception as e:
                         add.set_status(statuses.EROOR)
                         logger.error(f"Ошибка при работе с турниром {tournament}: {e}")
@@ -123,6 +141,12 @@ def run():
                     current_tables = get_amount_of_opened_tables()
                     logger.info(f"Турнир {tournament} обработан. Текущее количество таблиц: {current_tables}")
 
+                except ElementAmbiguousError:
+                    add.set_status(statuses.LOBBY)
+                    logger.error(f"Ошибка при обработке турнира {tournament}: {e}")
+                    logger.error(f"Traceback: {traceback.format_exc()}")
+                    continue
+
                 except Exception as e:
                     add.set_status(statuses.EROOR)
                     logger.error(f"Ошибка при обработке турнира {tournament}: {e}")
@@ -131,7 +155,13 @@ def run():
 
             logger.info("Все доступные турниры обработаны, ожидание 10 секунд перед следующим циклом")
             time.sleep(10)
-            
+        
+        except ElementAmbiguousError:
+            add.set_status(statuses.LOBBY)
+            logger.error(f"Критическая ошибка в основном цикле открытия таблиц: {e}")
+            logger.error(f"Traceback: {traceback.format_exc()}")
+            logger.info("Ожидание 30 секунд перед повторной попыткой")
+            time.sleep(30)
         except Exception as e:
             add.set_status(statuses.EROOR)
             logger.error(f"Критическая ошибка в основном цикле открытия таблиц: {e}")
