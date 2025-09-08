@@ -133,7 +133,8 @@ def run():
                         for _ in range(2):
                             try:
                                 tournament_lobby_window.close()
-                            except:
+                            except Exception as e:
+                                logger.error(f"Ошибка при закрытии окна лобби турнира {tournament}: {e}")
                                 pass
                         logger.debug(f"Окно лобби турнира {tournament} закрыто")
                         time.sleep(0.5)
