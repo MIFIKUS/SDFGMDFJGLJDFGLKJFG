@@ -7,8 +7,10 @@ from Google.Sheets import get, add, statuses
 from pywinauto.findwindows import ElementAmbiguousError
 
 from logger import get_logger
+
 import time
 import traceback
+import win32gui
 
 # Получаем логгер для модуля открытия таблиц
 logger = get_logger('OpenTables')
@@ -132,7 +134,11 @@ def run():
                     while not there_is_one_lobby_window():
                         for _ in range(2):
                             try:
-                                tournament_lobby_window.close()
+                                try:
+                                    hwnd = tournament_lobby_window.handle
+                                    win32gui.PostMessage(hwnd, 0x0010, 0, 0)  # 0x0010 = WM_CLOSE
+                                except Exception as e:
+                                    logger.error(f"Ошибка при попытке закрыть окно через win32: {e}")
                             except Exception as e:
                                 logger.error(f"Ошибка при закрытии окна лобби турнира {tournament}: {e}")
                                 pass
