@@ -37,19 +37,22 @@ def run():
                 continue
                 
             # Проверяем, что главное окно лобби все еще доступно
-            try:
-                main_lobby_window.set_focus()
-            except Exception as e:
-                logger.error(f"Не удается получить доступ к главному окну лобби: {e}")
-                logger.info("Попытка переинициализации главного окна лобби...")
+            while True:
                 try:
-                    main_lobby_window = main_lobby.get_main_lobby()
-                    logger.info("Главное окно лобби переинициализировано")
-                except Exception as reinit_error:
-                    add.set_status(statuses.EROOR)
-                    logger.error(f"Не удалось переинициализировать главное окно лобби: {reinit_error}")
-                    time.sleep(30)
-                    continue
+                    main_lobby_window.set_focus()
+                    break
+                except Exception as e:
+                    logger.error(f"Не удается получить доступ к главному окну лобби: {e}")
+                    logger.info("Попытка переинициализации главного окна лобби...")
+                    try:
+                        main_lobby_window = main_lobby.get_main_lobby()
+                        logger.info("Главное окно лобби переинициализировано")
+                        break
+                    except Exception as reinit_error:
+                        add.set_status(statuses.EROOR)
+                        logger.error(f"Не удалось переинициализировать главное окно лобби: {reinit_error}")
+                        time.sleep(30)
+                        continue
                 
             logger.info(f"Начинаем поиск турниров для открытия таблиц. Доступно мест: {AMOUNT_OF_TABLES - current_tables}")
             
