@@ -16,17 +16,18 @@ def close_top_window():
 
 def close_loading_window():
     """
-    Функция ищет среди всех окон то, в заголовке которого есть 'Loading'.
-    Если текущее активное окно не содержит 'Loading' в заголовке, переключается на первое найденное окно с 'Loading' и закрывает его.
+    Функция закрывает одно окно, в заголовке которого есть 'Loading'.
+    Если текущее активное окно содержит 'Loading' в заголовке, закрывает его.
+    Иначе ищет первое найденное окно с 'Loading' и закрывает только его.
     Если окно с 'Loading' не найдено, ничего не делает.
     """
-    current_hwnd = win32gui.GetForegroundWindow()
-    current_title = win32gui.GetWindowText(current_hwnd)
-    target_hwnd = None
-
-    if "loading" in current_title.lower():
-        target_hwnd = current_hwnd
-    else:
+    try:
+        current_hwnd = win32gui.GetForegroundWindow()
+        current_title = win32gui.GetWindowText(current_hwnd)
+        if "loading" in current_title.lower():
+            win32gui.PostMessage(current_hwnd, win32con.WM_CLOSE, 0, 0)
+            return
+        # Ищем первое окно с "Loading" в заголовке
         def enum_windows_callback(hwnd, result):
             title = win32gui.GetWindowText(hwnd)
             if "loading" in title.lower():
@@ -34,11 +35,10 @@ def close_loading_window():
         windows_with_loading = []
         win32gui.EnumWindows(enum_windows_callback, windows_with_loading)
         if windows_with_loading:
-            target_hwnd = windows_with_loading[0]
-
-    if target_hwnd:
-        win32gui.SetForegroundWindow(target_hwnd)
-        win32gui.PostMessage(target_hwnd, win32con.WM_CLOSE, 0, 0)
+            hwnd = windows_with_loading[0]
+            win32gui.PostMessage(hwnd, win32con.WM_CLOSE, 0, 0)
+    except Exception as e:
+        print(f"Ошибка при попытке закрыть окно Loading: {e}")
 
 def lobby_loaded():
     """
