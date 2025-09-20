@@ -101,22 +101,12 @@ def run():
                             continue
                         logger.info(f"Турнир {tournament} открыт успешно")
                     
-                    except ElementAmbiguousError:
-                        add.set_status(statuses.LOBBY)
-                        logger.error(f"Ошибка при работе с турниром {tournament}: {e}")
-                        logger.error(f"Traceback: {traceback.format_exc()}")
-                        for _ in range(2):
-                            try:
-                                tournament_lobby_window.close()
-                            except:
-                                pass
-                        continue
 
                     except Exception as e:
                         add.set_status(statuses.EROOR)
                         logger.error(f"Ошибка при работе с турниром {tournament}: {e}")
                         logger.error(f"Traceback: {traceback.format_exc()}")
-                        for _ in range(2):
+                        for _ in range(1):
                             try:
                                 tournament_lobby_window.close()
                             except:
@@ -135,7 +125,7 @@ def run():
                     logger.info(f"Таблицы для турнира {tournament} открыты")
                     
                     while not there_is_one_lobby_window():
-                        for _ in range(2):
+                        for _ in range(1):
                             try:
                                 try:
                                     hwnd = tournament_lobby_window.handle
@@ -151,11 +141,6 @@ def run():
                     current_tables = get_amount_of_opened_tables()
                     logger.info(f"Турнир {tournament} обработан. Текущее количество таблиц: {current_tables}")
 
-                except ElementAmbiguousError:
-                    add.set_status(statuses.LOBBY)
-                    logger.error(f"Ошибка при обработке турнира {tournament}: {e}")
-                    logger.error(f"Traceback: {traceback.format_exc()}")
-                    continue
 
                 except Exception as e:
                     add.set_status(statuses.EROOR)
