@@ -149,6 +149,8 @@ def open_tables(tournament_status: str):
                 tournament_id = get_tournament_id()
                 tournament_name = get_tournament_name()
                 if tournament_id and get.get_table_status(tournament_id, table_num):
+                    if get.get_table_status_same_script(tournament_id, table_num):
+                        continue
                     for _ in range(1):
                         close_top_window()
                         time.sleep(0.5)

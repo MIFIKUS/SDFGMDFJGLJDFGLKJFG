@@ -93,6 +93,7 @@ def close_bugged_lobbies():
             height = rect[3] - rect[1]
             if width == 996 and height == 720:
                 return True
+            return False
         return False
 
     while True:
