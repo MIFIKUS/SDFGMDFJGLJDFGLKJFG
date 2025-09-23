@@ -6,21 +6,27 @@ cell_num = CONFIG['cell_num']
 
 
 def set_status(status: str):
-    cell = f'B{cell_num}'
+    try:
+        cell = f'B{cell_num}'
 
-    spreadsheet = service.open_by_url(SPREADSHEET_URL)
-    worksheet = spreadsheet.worksheet(SHEET_NAME)
+        spreadsheet = service.open_by_url(SPREADSHEET_URL)
+        worksheet = spreadsheet.worksheet(SHEET_NAME)
 
-    worksheet.update(cell, [[status]])
+        worksheet.update(cell, [[status]])
+    except:
+        pass
 
 
 def set_amount_of_opened_tables(opened_tables: int):
-    cell = f'C{cell_num}'
+    try:
+        cell = f'C{cell_num}'
 
-    spreadsheet = service.open_by_url(SPREADSHEET_URL)
-    worksheet = spreadsheet.worksheet(SHEET_NAME)
+        spreadsheet = service.open_by_url(SPREADSHEET_URL)
+        worksheet = spreadsheet.worksheet(SHEET_NAME)
 
-    worksheet.update(cell, [[str(opened_tables)]])
+        worksheet.update(cell, [[str(opened_tables)]])
+    except:
+        pass
 
 
 

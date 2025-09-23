@@ -6,10 +6,13 @@ cell_num = CONFIG['cell_num']
 
 
 def get_max_tables() -> int:
-    cell = f'D{cell_num}'
+    try:
+        cell = f'D{cell_num}'
 
-    spreadsheet = service.open_by_url(SPREADSHEET_URL)
-    worksheet = spreadsheet.worksheet(SHEET_NAME)
+        spreadsheet = service.open_by_url(SPREADSHEET_URL)
+        worksheet = spreadsheet.worksheet(SHEET_NAME)
 
-    return int(worksheet.acell(cell).value)
+        return int(worksheet.acell(cell).value)
+    except:
+        return 0 
 

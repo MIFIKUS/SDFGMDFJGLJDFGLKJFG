@@ -53,7 +53,7 @@ def table_closed() -> bool:
 
     for template in templates_list:
         if matching('Inlobby\\Close\\Windows\\imgs\\screenshots\\table.png',
-                          f'InLobby\\Close\\Windows\\imgs\\templates\\{template}'):
+                          f'InLobby\\Close\\Windows\\imgs\\templates\\{template}', threshold=0.87):
             return True
     return False
         
