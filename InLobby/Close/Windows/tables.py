@@ -56,10 +56,7 @@ def table_closed() -> bool:
                           f'InLobby\\Close\\Windows\\imgs\\templates\\{template}', threshold=0.95):
             return True
     return False
-        
 
-    return matching('Inlobby\\Close\\Windows\\imgs\\screenshots\\table.png',
-                    'Inlobby\\Close\\Windows\\imgs\\templates\\table_closed.png')
 
 
 def get_table_tournament_id(hwnd):

@@ -19,12 +19,20 @@ logger.info("Модуль закрытия таблиц инициализиро
 def run():
     logger.info("Запуск процесса закрытия таблиц")
     
+    # Словарь для хранения времени первого обнаружения окна таблицы
+    table_open_times = {}
+
     while True:
         try:
             logger.debug("Начинаем цикл проверки таблиц для закрытия")
             
             tables_windows = tables_proceses.get_tables_hwnd()
             logger.debug(f"Найдено окон таблиц: {len(tables_windows)}")
+
+            current_time = time.time()
+
+            # Удаляем из словаря окна, которых больше нет
+            table_open_times = {hwnd: t for hwnd, t in table_open_times.items() if hwnd in tables_windows}
 
             if not tables_windows:
                 logger.debug("Окна таблиц не найдены, ожидание 5 секунд")
@@ -33,6 +41,18 @@ def run():
 
             for i, table_window in enumerate(tables_windows):
                 try:
+                    # Если окно только что появилось — запоминаем время
+                    if table_window not in table_open_times:
+                        table_open_times[table_window] = current_time
+                        logger.debug(f"Таблица {table_window} впервые обнаружена, запоминаем время открытия")
+                        continue  # Пропускаем обработку в этот цикл
+
+                    # Проверяем, прошло ли 20 секунд с момента открытия
+                    open_duration = current_time - table_open_times[table_window]
+                    if open_duration < 20:
+                        logger.debug(f"Таблица {table_window} открыта только {open_duration:.1f} секунд, пропускаем")
+                        continue
+
                     logger.debug(f"Обрабатываем таблицу {i+1}/{len(tables_windows)} (HWND: {table_window})")
                     
                     # Получаем изображение таблицы
@@ -61,6 +81,10 @@ def run():
                         logger.info(f"Файл переименован успешно")
 
                         update_table_status(str(tournament_id), str(table_num), 'collected')
+                        
+                        # После закрытия удаляем из словаря
+                        if table_window in table_open_times:
+                            del table_open_times[table_window]
                         
                     else:
                         logger.debug(f"Таблица {table_window} еще открыта, пропускаем")
@@ -142,3 +166,5 @@ def close_bugged_lobbies():
             logger.error(f"Traceback: {traceback.format_exc()}")
             logger.info("Ожидание 10 секунд перед повторной попыткой")
             time.sleep(10)
+
+
