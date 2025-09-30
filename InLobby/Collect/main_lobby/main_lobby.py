@@ -7,16 +7,25 @@ import time
 def get_main_lobby():
     return Desktop(backend="uia").window(title_re="PokerKing Lobby Logged in as.*")
 
+def _get_tournament_status(tournament_button) -> bool:
+    #LateReg или Running 
+    status_raw = tournament_button.descendants()[1].element_info.name
+
+    if 'Late Reg' in status_raw or 'Running' in status_raw:
+        return True
+    return False
+
 
 def get_list_of_tournaments(win) -> list:
     all_buttons = win.descendants(control_type="Button")
-
 
     matching_raw = []
     matching = []
     for btn in all_buttons:
         name = btn.element_info.name or ""
         if 'Add this event to "Yours" section.' in name and len(btn.descendants()) > 2:
+            if not _get_tournament_status(btn):
+                continue
             matching_raw.append(btn)
             matching.append(btn.descendants()[2])
     return matching, matching_raw
@@ -51,14 +60,6 @@ def open_tournament(tournament_button):
     
     return tournament_lobby_opened()
 
-
-def get_tournament_status(tournament_button) -> str:
-    #LateReg или Running 
-    status_raw = tournament_button.descendants()[1].element_info.name
-
-    if 'Late Reg' in status_raw:
-        return 'Late Reg'
-    return 'Running'
 
 
 def tournament_lobby_opened() -> bool:
