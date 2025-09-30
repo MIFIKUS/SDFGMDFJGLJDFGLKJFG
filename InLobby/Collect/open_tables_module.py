@@ -88,6 +88,8 @@ def run():
                     logger.debug("Фокус установлен на главное окно лобби")
 
                     tournament_status = main_lobby.get_tournament_status(tournament_raw)
+                    if not tournament_status:
+                        continue
                     logger.debug(f"Статус турнира: {tournament_status}")
 
                     try:
