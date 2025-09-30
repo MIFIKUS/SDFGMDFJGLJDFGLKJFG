@@ -24,7 +24,7 @@ def get_list_of_tournaments(win) -> list:
     for btn in all_buttons:
         name = btn.element_info.name or ""
         if 'Add this event to "Yours" section.' in name and len(btn.descendants()) > 2:
-            if not get_tournament_status(btn):
+            #if not get_tournament_status(btn):
             #    continue
             matching_raw.append(btn)
             matching.append(btn.descendants()[2])
