@@ -49,8 +49,8 @@ if __name__ == '__main__':
         close_bugged_lobbies_thread.start()
         logger.info(f"Процесс CloseBuggedLobbies запущен (PID: {close_bugged_lobbies_thread.pid})")
         
-        #google_drive_thread.start()
-        #logger.info(f"Процесс GoogleDrive запущен (PID: {google_drive_thread.pid})")
+        google_drive_thread.start()
+        logger.info(f"Процесс GoogleDrive запущен (PID: {google_drive_thread.pid})")
 
         logger.info("Все основные процессы запущены успешно")
         
