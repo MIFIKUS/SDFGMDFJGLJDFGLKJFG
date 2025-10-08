@@ -75,7 +75,8 @@ def open_tables(tournament_status: str):
     lobby_window = _get_lobby_window()
 
     if table_players_button := _is_there_tables_players_button(lobby_window):
-        _click_players_button(table_players_button)
+        for _ in range(2):
+            _click_players_button(table_players_button)
 
     seen_tables = set()
     

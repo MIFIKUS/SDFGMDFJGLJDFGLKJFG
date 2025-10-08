@@ -81,37 +81,56 @@ def _upload_file(local_path: str, drive_name: str, mime_type: str = 'application
 def load_to_disk_module():
     logger.info("Запуск модуля загрузки в Google Drive")
     file_path = CONFIG['PATH_TO_HAND_HISTORY']
-    
+    twelve_hours_seconds = CONFIG['files_wait_time'] * 60 * 60
+
     logger.info(f"Мониторинг директории: {file_path}")
-    
+
     while True:
         try:
             logger.debug("Начинаем цикл проверки файлов для загрузки")
-            
+
             if not os.path.exists(file_path):
                 logger.warning(f"Директория не существует: {file_path}")
                 time.sleep(5)
                 continue
-                
+
             files = os.listdir(file_path)
             logger.debug(f"Найдено файлов в директории: {len(files)}")
-            
+
             if not files:
                 logger.debug("Файлы для обработки не найдены, ожидание 5 секунд")
                 time.sleep(5)
                 continue
-            
+
+            now = time.time()
+            # Файлы с 'COMPLETE' в имени
             complete_files = [f for f in files if 'COMPLETE' in f]
-            logger.info(f"Найдено файлов для загрузки: {len(complete_files)}")
-            
-            for file in complete_files:
+
+            # Файлы старше 12 часов (неважно, есть ли 'COMPLETE' в имени)
+            old_files = []
+            for f in files:
+                try:
+                    full_path = os.path.join(file_path, f)
+                    if not os.path.isfile(full_path):
+                        continue
+                    mtime = os.path.getmtime(full_path)
+                    if now - mtime > twelve_hours_seconds:
+                        old_files.append(f)
+                except Exception as e:
+                    logger.warning(f"Не удалось получить время изменения файла {f}: {e}")
+
+            # Объединяем списки, избегая дубликатов
+            files_to_upload = list(set(complete_files + old_files))
+            logger.info(f"Найдено файлов для загрузки: {len(files_to_upload)}")
+
+            for file in files_to_upload:
                 try:
                     full_path = os.path.join(file_path, file)
                     logger.info(f"Обрабатываем файл: {file}")
-                    
+
                     # Загружаем файл в Google Drive
                     result = _upload_file(full_path, file)
-                    
+
                     if result:
                         # Удаляем файл после успешной загрузки
                         logger.info(f"Удаляем локальный файл: {file}")
@@ -119,15 +138,15 @@ def load_to_disk_module():
                         logger.info(f"Файл {file} удален успешно")
                     else:
                         logger.warning(f"Файл {file} не был загружен, оставляем для повторной попытки")
-                        
+
                 except Exception as e:
                     logger.error(f"Ошибка при обработке файла {file}: {e}")
                     logger.error(f"Traceback: {traceback.format_exc()}")
                     continue
-            
+
             logger.debug("Цикл обработки файлов завершен, ожидание 5 секунд")
             time.sleep(5)
-            
+
         except Exception as e:
             logger.error(f"Критическая ошибка в основном цикле загрузки: {e}")
             logger.error(f"Traceback: {traceback.format_exc()}")
