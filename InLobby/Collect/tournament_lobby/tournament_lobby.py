@@ -128,7 +128,9 @@ def open_tables(tournament_status: str):
                             continue
                     _switch_table(table)
                     time.sleep(5)
-
+                    if tournament_id:
+                        if tournament_id and get.get_table_status(tournament_id, table_num):
+                            break
                     if not _open_table(table):
                         print("Не удалось кликнуть по таблице")
                         fail_to_open_table_counter += 1
