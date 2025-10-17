@@ -71,10 +71,10 @@ def _switch_table(table_button):
 
 def open_tables(tournament_status: str):
     max_tables = get_max_tables()
-    #TODO: Сделать чтобы выяснял сколько столов открыто
     lobby_window = _get_lobby_window()
-
+    
     if table_players_button := _is_there_tables_players_button(lobby_window):
+        time.sleep(2)
         for _ in range(2):
             _click_players_button(table_players_button)
 

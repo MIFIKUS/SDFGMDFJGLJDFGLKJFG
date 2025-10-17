@@ -49,7 +49,7 @@ def get_table_img(hwnd):
 
 
 def table_closed() -> bool:
-    templates_list = ('table_closed.png', 'table_closed_1.png', 'table_closed_2.png')
+    templates_list = ('table_closed.png', 'table_closed_1.png', 'table_closed_2.png', 'table_closed_3.png')
 
     for template in templates_list:
         if matching('Inlobby\\Close\\Windows\\imgs\\screenshots\\table.png',
