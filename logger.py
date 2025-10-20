@@ -55,12 +55,30 @@ class PrintLogger:
     """Простой логгер, печатающий сообщения через print."""
     def __init__(self, name: str = 'WPNCollector') -> None:
         self.name = name
+        self._is_enabled = self._check_module_enabled()
+    
+    def _check_module_enabled(self) -> bool:
+        """Проверяет, включено ли логирование для данного модуля"""
+        if not CONFIG_AVAILABLE:
+            return True  # Если конфиг недоступен, включаем логирование
+        
+        modules_config = CONFIG.get('logging', {}).get('modules', {})
+        
+        # Проверяем соответствие имени модуля
+        if self.name.lower() in ['googledrive', 'google']:
+            return modules_config.get('google', True)
+        elif self.name.lower() in ['closetables', 'close']:
+            return modules_config.get('close', True)
+        
+        # Для всех остальных модулей логирование включено по умолчанию
+        return True
     
     def _now(self) -> str:
         return time.strftime('%H:%M:%S')
     
     def _emit(self, level: str, message: str) -> None:
-        print(f"{self._now()} | {level:<8} | {self.name} | {message}")
+        if self._is_enabled:
+            print(f"{self._now()} | {level:<8} | {self.name} | {message}")
     
     def debug(self, message: str, *args, **kwargs) -> None:
         self._emit('DEBUG', str(message))
@@ -99,6 +117,19 @@ def setup_logger(name='WPNCollector', log_level=None):
         log_config = CONFIG.get('logging', {})
     else:
         log_config = CONFIG['logging']
+    
+    # Проверяем, включено ли логирование для данного модуля
+    modules_config = log_config.get('modules', {})
+    module_enabled = True
+    
+    if name.lower() in ['googledrive', 'google']:
+        module_enabled = modules_config.get('google', True)
+    elif name.lower() in ['closetables', 'close']:
+        module_enabled = modules_config.get('close', True)
+    
+    # Если модуль отключен, возвращаем заглушку
+    if not module_enabled:
+        return PrintLogger(name)
     
     if log_level is None:
         log_level = log_config.get('level', logging.INFO)
