@@ -28,8 +28,16 @@ def _is_there_tables_players_button(win):
 
 
 def _click_players_button(button):
-    button.click_input()
-
+    # Более надежная попытка нажатия на кнопку с несколькими попытками и ожиданием
+    max_attempts = 3
+    for _ in range(max_attempts):
+        try:
+            button.set_focus()
+            button.click_input()
+            return
+        except Exception as e:
+            time.sleep(0.5)
+            
 
 def _get_list_of_tables(win) -> list:
     all_buttons = win.descendants(control_type="Button")
