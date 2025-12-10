@@ -1,4 +1,5 @@
 import win32gui
+import pyautogui  # type: ignore
 
 
 def get_amount_of_opened_tables() -> int:
@@ -8,3 +9,62 @@ def get_amount_of_opened_tables() -> int:
                         None)
     return sum('table' in t.lower() in t.lower() for t in w)
 
+
+def check_disconect_banner():
+    """
+    Проверяет наличие баннера потери соединения на экране.
+    Возвращает True, если картинка `disconect_banner.png` найдена, иначе False.
+    """
+    pyautogui.FAILSAFE = False
+    try:
+        banner_region = pyautogui.locateOnScreen(
+            r'InLobby\Collect\imgs\disconect_banner.png',
+            confidence=0.85
+        )
+        return banner_region is not None
+    except Exception:
+        # Если поиск картинки по какой‑то причине не удался, считаем что баннера нет
+        return False
+
+def close_disconect_banner():
+    """
+    Закрывает баннер потери соединения кликом по координатам внутри
+    активного окна (x=630, y=585 относительно левого верхнего угла окна).
+    """
+    pyautogui.FAILSAFE = False
+
+    hwnd = win32gui.GetForegroundWindow()
+    if not hwnd:
+        return False
+
+    left, top, _, _ = win32gui.GetWindowRect(hwnd)
+    target_x = left + 630
+    target_y = top + 585
+
+    pyautogui.click(target_x, target_y)
+
+def login():
+    pyautogui.FAILSAFE = False
+
+    hwnd = win32gui.GetForegroundWindow()
+    if not hwnd:
+        return False
+
+    left, top, _, _ = win32gui.GetWindowRect(hwnd)
+    target_x = left + 1025
+    target_y = top + 455
+
+    pyautogui.click(target_x, target_y)
+
+def go_to_tournaments():
+    pyautogui.FAILSAFE = False
+
+    hwnd = win32gui.GetForegroundWindow()
+    if not hwnd:
+        return False
+
+    left, top, _, _ = win32gui.GetWindowRect(hwnd)
+    target_x = left + 500
+    target_y = top + 125
+
+    pyautogui.click(target_x, target_y)

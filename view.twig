@@ -1,0 +1,84 @@
+{# --- fields --- #}
+{% set title = block_field(block, 'title', { view: 'value' }) %}
+{% set block_id_value = block_field(block, 'block_id', { view: 'value' }) %}
+{% set mode = block_field(block, 'mode', { view: 'value' }) %}
+{% set caption = block_field(block, 'caption', { view: 'value' }) %}
+{% set credit = block_field(block, 'credit', { view: 'value' })|default(site.name) %}
+{% set ratio_x = block_field(block, 'ratio_x', { view: 'value' })|default(16) %}
+{% set ratio_y = block_field(block, 'ratio_y', { view: 'value' })|default(9) %}
+
+{% set video_markup = '' %}
+{% if mode == 'upload' %}
+  {% set video_file = block_field(block, 'video_file', { view: 'value' }) %}
+  {% if video_file and video_file.url %}
+    {% set video_markup %}
+      <video controls preload="metadata" playsinline poster="{{ block_field(block, 'poster', { view: 'value' })|default('') }}">
+        <source src="{{ video_file.url|e('html_attr') }}"{% if video_file.mime %} type="{{ video_file.mime|e('html_attr') }}"{% endif %}>
+      </video>
+    {% endset %}
+    {% set video_markup = video_markup|trim %}
+  {% endif %}
+{% else %}
+  {% set embed_code = block_field(block, 'embed_code', { view: 'value' }) %}
+  {% if embed_code %}
+    {% set video_markup %}
+      {{ embed_code|raw }}
+    {% endset %}
+    {% set video_markup = video_markup|trim %}
+  {% endif %}
+{% endif %}
+{% set payload = {
+  mode: mode,
+  ratio: { x: ratio_x, y: ratio_y },
+  html: video_markup
+} %}
+{% set is_page_view = function('is_page') or function('is_front_page') or (function('is_home') and function('get_option', 'page_for_posts')) %}
+{% set wrap_video = is_page_view and not constructor_edit %}
+
+{% if wrap_video %}
+<section class="section video-wrapper">
+  <div class="container container__small">
+{% endif %}
+
+{% if title %}
+<h2 class="video-block-title" 
+    style="
+        font-size: 2.5rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+        font-weight: 700;
+        max-width: 100%;
+        width: 100%;
+        display: block;
+    ">
+    {{ title }}
+</h2>
+{% endif %}
+
+<div class="video ratio br--large" style="--ratio-x: {{ ratio_x }}; --ratio-y: {{ ratio_y }};"
+     data-lazy-js="true"
+     data-video-payload="{{ payload|json_encode|e('html_attr') }}"
+     {% if block_id_value %}id="{{ block_id_value }}"{% endif %}
+     itemscope itemtype="http://schema.org/VideoObject">
+  <meta itemprop="name" content="{{ (caption|default(post.title))|striptags }}">
+  {% if caption %}
+    <meta itemprop="description" content="{{ caption|striptags }}">
+  {% endif %}
+  {% if credit %}
+    <meta itemprop="author" content="{{ credit|striptags }}">
+  {% endif %}
+  {{ block_field(block, 'block_id', { view: 'control' }) }}
+
+    {% if constructor_edit %}
+      {{ video_markup|raw }}
+    {% endif %}
+
+
+</div>
+
+{% if wrap_video %}
+  </div>
+</section>
+{% endif %}

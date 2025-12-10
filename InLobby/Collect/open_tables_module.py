@@ -1,7 +1,9 @@
+from fileinput import close
 from InLobby.Collect.main_lobby import main_lobby
 from InLobby.Collect.tournament_lobby import tournament_lobby
 from InLobby.Extensions.proceses.tables import get_amount_of_opened_tables
 from InLobby.Collect.tournament_lobby.extensions.win_actions import lobby_loaded, close_exit_from_lobby_window, there_is_one_lobby_window
+from InLobby.Extensions.proceses.tables import *
 
 from Google.Sheets import get, add, statuses
 from pywinauto.findwindows import ElementAmbiguousError
@@ -27,6 +29,13 @@ def run():
     
     while True:
         try:
+            if check_disconect_banner():
+                close_disconect_banner()
+                time.sleep(15)
+                login()
+                time.sleep(10)
+                go_to_tournaments()
+
             current_tables = get_amount_of_opened_tables()
             logger.debug(f"Текущее количество открытых таблиц: {current_tables}")
             
