@@ -13,15 +13,18 @@ def get_amount_of_opened_tables() -> int:
 def check_disconect_banner():
     """
     Проверяет наличие баннера потери соединения на экране.
-    Возвращает True, если картинка `disconect_banner.png` найдена, иначе False.
+    Возвращает True, если найдена `disconect_banner.png` или `diconect_banner_1.png`.
     """
     pyautogui.FAILSAFE = False
     try:
-        banner_region = pyautogui.locateOnScreen(
+        banners = (
             r'InLobby\Collect\imgs\disconect_banner.png',
-            confidence=0.85
+            r'InLobby\Collect\imgs\diconect_banner_1.png',
         )
-        return banner_region is not None
+        for banner_path in banners:
+            if pyautogui.locateOnScreen(banner_path, confidence=0.85):
+                return True
+        return False
     except Exception:
         # Если поиск картинки по какой‑то причине не удался, считаем что баннера нет
         return False
