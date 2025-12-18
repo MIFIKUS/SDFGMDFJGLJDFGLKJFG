@@ -35,7 +35,13 @@ def run():
                 login()
                 time.sleep(10)
                 go_to_tournaments()
-
+                time.sleep(15)
+            elif check_reconect_banner():
+                reconect()
+                time.sleep(15)
+                go_to_tournaments()
+                time.sleep(15)
+                
             current_tables = get_amount_of_opened_tables()
             logger.debug(f"Текущее количество открытых таблиц: {current_tables}")
             
