@@ -29,6 +29,9 @@ def run():
     
     while True:
         try:
+            if not is_pokerking_running():
+                run_app_windows(r'C:\PokerKing\PokerKing.exe')
+                time.sleep(60)
             if check_disconect_banner():
                 close_disconect_banner()
                 time.sleep(15)
@@ -71,6 +74,22 @@ def run():
                 
             logger.info(f"Начинаем поиск турниров для открытия таблиц. Доступно мест: {AMOUNT_OF_TABLES - current_tables}")
             
+            if not is_pokerking_running():
+                run_app_windows(r'C:\PokerKing\PokerKing.exe')
+                time.sleep(60)
+            if check_disconect_banner():
+                close_disconect_banner()
+                time.sleep(15)
+                login()
+                time.sleep(10)
+                go_to_tournaments()
+                time.sleep(15)
+            elif check_reconect_banner():
+                reconect()
+                time.sleep(15)
+                go_to_tournaments()
+                time.sleep(15)
+
             try:
                 tournaments, tournaments_raw = main_lobby.get_list_of_tournaments(main_lobby_window)
                 logger.info(f"Найдено турниров: {len(tournaments)}")
@@ -88,6 +107,23 @@ def run():
                 continue
 
             for i, (tournament, tournament_raw) in enumerate(zip(tournaments, tournaments_raw)):
+                
+                if not is_pokerking_running():
+                    run_app_windows(r'C:\PokerKing\PokerKing.exe')
+                    time.sleep(60)
+                if check_disconect_banner():
+                    close_disconect_banner()
+                    time.sleep(15)
+                    login()
+                    time.sleep(10)
+                    go_to_tournaments()
+                    time.sleep(15)
+                elif check_reconect_banner():
+                    reconect()
+                    time.sleep(15)
+                    go_to_tournaments()
+                    time.sleep(15)
+
                 try:
                     current_tables = get_amount_of_opened_tables()
                     add.set_amount_of_opened_tables(current_tables)

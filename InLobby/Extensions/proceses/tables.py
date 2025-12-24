@@ -1,6 +1,8 @@
 import win32gui
 import pyautogui  # type: ignore
-
+import psutil
+import os
+import sys
 
 def get_amount_of_opened_tables() -> int:
     w = []
@@ -22,7 +24,7 @@ def check_disconect_banner():
             r'InLobby\Collect\imgs\diconect_banner_1.png',
         )
         for banner_path in banners:
-            if pyautogui.locateOnScreen(banner_path, confidence=0.85):
+            if pyautogui.locateOnScreen(banner_path, confidence=0.7):
                 return True
         return False
     except Exception:
@@ -41,7 +43,7 @@ def check_reconect_banner():
             r'InLobby\Collect\imgs\diconect_banner_2.png',
         )
         for banner_path in banners:
-            if pyautogui.locateOnScreen(banner_path, confidence=0.85):
+            if pyautogui.locateOnScreen(banner_path, confidence=0.7):
                 return True
         return False
     except Exception:
@@ -104,3 +106,40 @@ def reconect():
     target_y = top + 555
 
     pyautogui.click(target_x, target_y)
+
+def is_pokerking_running():
+    # Проходим по всем запущенным процессам
+    for proc in psutil.process_iter(attrs=['pid', 'name']):
+        try:
+            # Сравниваем имя процесса, игнорируя регистр
+            if proc.info['name'].lower() == 'pokerking.exe'.lower():
+                return True
+        except:
+            pass
+    return False
+
+def run_app_windows(file_path, arguments=None):
+    """
+    Специальная функция для Windows
+    """
+    if sys.platform != "win32":
+        print("Эта функция предназначена только для Windows")
+        return False
+    
+    try:
+        if arguments:
+            # Используем subprocess для передачи аргументов
+            import subprocess
+            cmd = [file_path]
+            if isinstance(arguments, list):
+                cmd.extend(arguments)
+            else:
+                cmd.append(str(arguments))
+            subprocess.Popen(cmd)
+        else:
+            # Простой запуск через os.startfile
+            os.startfile(file_path)
+        return True
+    except Exception as e:
+        print(f"Ошибка при запуске: {e}")
+        return False
