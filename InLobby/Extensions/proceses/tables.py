@@ -40,7 +40,7 @@ def check_reconect_banner():
     pyautogui.FAILSAFE = False
     try:
         banners = (
-            r'InLobby\Collect\imgs\diconect_banner_2.png',
+            r'InLobby\Collect\imgs\disconect_banner_2.png',
         )
         for banner_path in banners:
             if pyautogui.locateOnScreen(banner_path, confidence=0.7):
