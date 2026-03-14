@@ -17,5 +17,5 @@ def get_max_tables() -> int:
     except Exception as e:
         print(f"Ошибка при получении максимального количества таблиц: {e}")
         print(f"Traceback: {traceback.format_exc()}")
-        return 0 
+        return 15 
 
