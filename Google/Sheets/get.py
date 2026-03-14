@@ -1,5 +1,6 @@
 from Google.Sheets.auth import SPREADSHEET_URL, get_gspread_service, SHEET_NAME
 from config import CONFIG
+import traceback
 
 service = get_gspread_service()
 cell_num = CONFIG['cell_num']
@@ -13,6 +14,8 @@ def get_max_tables() -> int:
         worksheet = spreadsheet.worksheet(SHEET_NAME)
 
         return int(worksheet.acell(cell).value)
-    except:
+    except Exception as e:
+        print(f"Ошибка при получении максимального количества таблиц: {e}")
+        print(f"Traceback: {traceback.format_exc()}")
         return 0 
 
