@@ -1,23 +1,19 @@
 from InLobby.Collect import open_tables_module
 from InLobby.Close import close_tables_module
 from Google import load_to_disk
-from logger import get_logger
 
 import multiprocessing
 import sys
 import traceback
 
-# Получаем логгер для основного процесса
-logger = get_logger('MainProcess')
-
 if __name__ == '__main__':
     try:
-        logger.info("Запуск приложения WPNCollector")
-        logger.info(f"Версия Python: {sys.version}")
-        logger.info(f"Платформа: {sys.platform}")
+        print("Запуск приложения WPNCollector")
+        print(f"Версия Python: {sys.version}")
+        print(f"Платформа: {sys.platform}")
         
         multiprocessing.freeze_support()    
-        logger.info("Поддержка многопроцессорности включена")
+        print("Поддержка многопроцессорности включена")
 
         # Создаем процессы
         open_tables_thread = multiprocessing.Process(
@@ -37,51 +33,51 @@ if __name__ == '__main__':
             name="GoogleDrive"
         )
 
-        logger.info("Процессы созданы, запускаем...")
+        print("Процессы созданы, запускаем...")
 
         # Запускаем процессы
         open_tables_thread.start()
-        logger.info(f"Процесс OpenTables запущен (PID: {open_tables_thread.pid})")
+        print(f"Процесс OpenTables запущен (PID: {open_tables_thread.pid})")
         
         close_tables_thread.start()
-        logger.info(f"Процесс CloseTables запущен (PID: {close_tables_thread.pid})")
+        print(f"Процесс CloseTables запущен (PID: {close_tables_thread.pid})")
         
         close_bugged_lobbies_thread.start()
-        logger.info(f"Процесс CloseBuggedLobbies запущен (PID: {close_bugged_lobbies_thread.pid})")
+        print(f"Процесс CloseBuggedLobbies запущен (PID: {close_bugged_lobbies_thread.pid})")
         
         google_drive_thread.start()
-        logger.info(f"Процесс GoogleDrive запущен (PID: {google_drive_thread.pid})")
+        print(f"Процесс GoogleDrive запущен (PID: {google_drive_thread.pid})")
 
-        logger.info("Все основные процессы запущены успешно")
+        print("Все основные процессы запущены успешно")
         
         # Ждем завершения процессов
         try:
             open_tables_thread.join()
-            logger.info("Процесс OpenTables завершен")
+            print("Процесс OpenTables завершен")
         except KeyboardInterrupt:
-            logger.warning("Получен сигнал прерывания для OpenTables")
+            print("Получен сигнал прерывания для OpenTables")
             
         try:
             close_tables_thread.join()
-            logger.info("Процесс CloseTables завершен")
+            print("Процесс CloseTables завершен")
         except KeyboardInterrupt:
-            logger.warning("Получен сигнал прерывания для CloseTables")
+            print("Получен сигнал прерывания для CloseTables")
             
         try:
             close_bugged_lobbies_thread.join()
-            logger.info("Процесс CloseBuggedLobbies завершен")
+            print("Процесс CloseBuggedLobbies завершен")
         except KeyboardInterrupt:
-            logger.warning("Получен сигнал прерывания для CloseBuggedLobbies")
+            print("Получен сигнал прерывания для CloseBuggedLobbies")
             
         #if google_drive_thread.is_alive():
         #    google_drive_thread.terminate()
-        #    logger.info("Процесс GoogleDrive остановлен")
+        #    print("Процесс GoogleDrive остановлен")
 
-        logger.info("Приложение завершено")
+        print("Приложение завершено")
         
     except Exception as e:
-        logger.error(f"Критическая ошибка в основном процессе: {e}")
-        logger.error(f"Traceback: {traceback.format_exc()}")
+        print(f"Критическая ошибка в основном процессе: {e}")
+        print(f"Traceback: {traceback.format_exc()}")
         sys.exit(1)
 
 

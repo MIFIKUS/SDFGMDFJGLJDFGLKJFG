@@ -2,8 +2,6 @@ from InLobby.Close.Windows import tables
 from InLobby.Close.Proceses import tables_proceses
 from InLobby.Close.Files import rename
 from InLobby.Extensions.database.update import update_table_status
-from logger import get_logger
-
 import time
 import traceback
 
@@ -11,23 +9,20 @@ import win32gui
 import win32con
 
 
-# Получаем логгер для модуля закрытия таблиц
-logger = get_logger('CloseTables')
-
-logger.info("Модуль закрытия таблиц инициализирован")
+print("Модуль закрытия таблиц инициализирован")
 
 def run():
-    logger.info("Запуск процесса закрытия таблиц")
+    print("Запуск процесса закрытия таблиц")
     
     # Словарь для хранения времени первого обнаружения окна таблицы
     table_open_times = {}
 
     while True:
         try:
-            logger.debug("Начинаем цикл проверки таблиц для закрытия")
+            print("Начинаем цикл проверки таблиц для закрытия")
             
             tables_windows = tables_proceses.get_tables_hwnd()
-            logger.debug(f"Найдено окон таблиц: {len(tables_windows)}")
+            print(f"Найдено окон таблиц: {len(tables_windows)}")
 
             current_time = time.time()
 
@@ -35,7 +30,7 @@ def run():
             table_open_times = {hwnd: t for hwnd, t in table_open_times.items() if hwnd in tables_windows}
 
             if not tables_windows:
-                logger.debug("Окна таблиц не найдены, ожидание 5 секунд")
+                print("Окна таблиц не найдены, ожидание 5 секунд")
                 time.sleep(5)
                 continue
 
@@ -44,41 +39,41 @@ def run():
                     # Если окно только что появилось — запоминаем время
                     if table_window not in table_open_times:
                         table_open_times[table_window] = current_time
-                        logger.debug(f"Таблица {table_window} впервые обнаружена, запоминаем время открытия")
+                        print(f"Таблица {table_window} впервые обнаружена, запоминаем время открытия")
                         continue  # Пропускаем обработку в этот цикл
 
                     # Проверяем, прошло ли 20 секунд с момента открытия
                     open_duration = current_time - table_open_times[table_window]
                     if open_duration < 20:
-                        logger.debug(f"Таблица {table_window} открыта только {open_duration:.1f} секунд, пропускаем")
+                        print(f"Таблица {table_window} открыта только {open_duration:.1f} секунд, пропускаем")
                         continue
 
-                    logger.debug(f"Обрабатываем таблицу {i+1}/{len(tables_windows)} (HWND: {table_window})")
+                    print(f"Обрабатываем таблицу {i+1}/{len(tables_windows)} (HWND: {table_window})")
                     
                     # Получаем изображение таблицы
-                    logger.debug(f"Получаем изображение таблицы {table_window}")
+                    print(f"Получаем изображение таблицы {table_window}")
                     tables.get_table_img(table_window)
-                    logger.debug("Изображение таблицы получено")
+                    print("Изображение таблицы получено")
 
                     # Проверяем, закрыта ли таблица
                     if tables.table_closed():
-                        logger.info(f"Таблица {table_window} закрыта, обрабатываем")
+                        print(f"Таблица {table_window} закрыта, обрабатываем")
                         
                         # Получаем информацию о таблице
                         tournament_id = tables.get_table_tournament_id(table_window)
                         table_num = tables.get_table_num(table_window)
                         
-                        logger.info(f"Таблица {table_window}: Tournament ID: {tournament_id}, Номер: {table_num}")
+                        print(f"Таблица {table_window}: Tournament ID: {tournament_id}, Номер: {table_num}")
                         
                         # Закрываем таблицу
-                        logger.info(f"Закрываем таблицу {table_window}")
+                        print(f"Закрываем таблицу {table_window}")
                         tables_proceses.close_table(table_window)
-                        logger.info(f"Таблица {table_window} закрыта успешно")
+                        print(f"Таблица {table_window} закрыта успешно")
                         
                         # Переименовываем файл
-                        logger.info(f"Переименовываем файл для Tournament ID: {tournament_id}, Table: {table_num}")
+                        print(f"Переименовываем файл для Tournament ID: {tournament_id}, Table: {table_num}")
                         rename.set_file_to_complete(tournament_id, table_num)
-                        logger.info(f"Файл переименован успешно")
+                        print(f"Файл переименован успешно")
 
                         update_table_status(str(tournament_id), str(table_num), 'collected')
                         
@@ -87,24 +82,24 @@ def run():
                             del table_open_times[table_window]
                         
                     else:
-                        logger.debug(f"Таблица {table_window} еще открыта, пропускаем")
+                        print(f"Таблица {table_window} еще открыта, пропускаем")
                         
                 except Exception as e:
-                    logger.error(f"Ошибка при обработке таблицы {table_window}: {e}")
-                    logger.error(f"Traceback: {traceback.format_exc()}")
+                    print(f"Ошибка при обработке таблицы {table_window}: {e}")
+                    print(f"Traceback: {traceback.format_exc()}")
                     continue
                     
-            logger.debug("Цикл проверки таблиц завершен, ожидание 5 секунд")
+            print("Цикл проверки таблиц завершен, ожидание 5 секунд")
             time.sleep(5)
             
         except Exception as e:
-            logger.error(f"Критическая ошибка в основном цикле закрытия таблиц: {e}")
-            logger.error(f"Traceback: {traceback.format_exc()}")
-            logger.info("Ожидание 30 секунд перед повторной попыткой")
+            print(f"Критическая ошибка в основном цикле закрытия таблиц: {e}")
+            print(f"Traceback: {traceback.format_exc()}")
+            print("Ожидание 30 секунд перед повторной попыткой")
             time.sleep(30)  
 
 def close_bugged_lobbies():
-    logger.info("Запуск процесса закрытия зависших лобби")
+    print("Запуск процесса закрытия зависших лобби")
     lobby_windows = {}
 
     def is_pokerking_lobby(hwnd):
@@ -130,13 +125,13 @@ def close_bugged_lobbies():
                     found_lobbies.append(hwnd)
             win32gui.EnumWindows(enum_handler, None)
 
-            logger.debug(f"Найдено лобби: {len(found_lobbies)}")
+            print(f"Найдено лобби: {len(found_lobbies)}")
 
             # Добавляем новые окна в память
             for hwnd in found_lobbies:
                 if hwnd not in lobby_windows:
                     lobby_windows[hwnd] = current_time
-                    logger.info(f"Добавлено новое лобби в мониторинг (HWND: {hwnd})")
+                    print(f"Добавлено новое лобби в мониторинг (HWND: {hwnd})")
 
             # Проверяем окна, которые уже в памяти
             to_remove = []
@@ -144,27 +139,27 @@ def close_bugged_lobbies():
                 # Если окно больше не существует, удаляем из памяти
                 if not win32gui.IsWindow(hwnd):
                     to_remove.append(hwnd)
-                    logger.debug(f"Лобби {hwnd} больше не существует, удаляем из мониторинга")
+                    print(f"Лобби {hwnd} больше не существует, удаляем из мониторинга")
                     continue
                 # Если прошло больше 3 минут, закрываем окно
                 if current_time - added_time >= 180:
                     try:
-                        logger.warning(f"Закрываем зависшее лобби (HWND: {hwnd}) после 3 минут ожидания")
+                        print(f"Закрываем зависшее лобби (HWND: {hwnd}) после 3 минут ожидания")
                         win32gui.PostMessage(hwnd, win32con.WM_CLOSE, 0, 0)
-                        logger.info(f"Команда закрытия отправлена для лобби {hwnd}")
+                        print(f"Команда закрытия отправлена для лобби {hwnd}")
                     except Exception as e:
-                        logger.error(f"Ошибка при закрытии лобби {hwnd}: {e}")
+                        print(f"Ошибка при закрытии лобби {hwnd}: {e}")
                     to_remove.append(hwnd)
 
             for hwnd in to_remove:
                 lobby_windows.pop(hwnd, None)
 
-            logger.debug(f"Активных лобби в мониторинге: {len(lobby_windows)}")
+            print(f"Активных лобби в мониторинге: {len(lobby_windows)}")
             time.sleep(5)
         except Exception as e:
-            logger.error(f"Ошибка в процессе закрытия зависших лобби: {e}")
-            logger.error(f"Traceback: {traceback.format_exc()}")
-            logger.info("Ожидание 10 секунд перед повторной попыткой")
+            print(f"Ошибка в процессе закрытия зависших лобби: {e}")
+            print(f"Traceback: {traceback.format_exc()}")
+            print("Ожидание 10 секунд перед повторной попыткой")
             time.sleep(10)
 
 
