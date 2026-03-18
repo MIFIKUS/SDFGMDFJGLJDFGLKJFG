@@ -90,9 +90,25 @@ def open_tables(tournament_status: str):
     
     counter = 0
     tournament_id = None
+
+    # Защита от "вечного" зависания на одном турнире:
+    # - общий таймаут на обработку турнира
+    # - выход при отсутствии прогресса несколько проходов подряд
+    started_at = time.time()
+    max_total_seconds = 180
+    no_progress_rounds = 0
     
     while True:
-        wheels_counter = 0
+        if time.time() - started_at > max_total_seconds:
+            print(f"Превышен таймаут обработки турнира ({max_total_seconds}с). Прерываем открытие столов.")
+            break
+
+        # UIA-объекты могут устаревать — периодически переподхватываем окно
+        try:
+            lobby_window = _get_lobby_window()
+        except Exception:
+            pass
+
         tables = _get_list_of_tables(lobby_window)
 
         tables_text_list = get_table_nums_from_elements_list(tables)
@@ -100,7 +116,8 @@ def open_tables(tournament_status: str):
         if set(tables_text_list).issubset(seen_tables):
             break
         
-        counter == 0
+        counter = 0
+        progress_this_round = False
         for table in tables:
             amount_of_opened_tables = get_amount_of_opened_tables()
             print("amount_of_opened_tables", amount_of_opened_tables)
@@ -121,6 +138,7 @@ def open_tables(tournament_status: str):
             if tournament_id: 
                 if tournament_id and get.get_table_status(tournament_id, table_num):
                     seen_tables.add(table_num)
+                    progress_this_round = True
                     continue
 
             counter += 1
@@ -171,8 +189,17 @@ def open_tables(tournament_status: str):
             add.add_table_info(tournament_id, tournament_name, table_num, "opened")
 
             seen_tables.add(table_num)
+            progress_this_round = True
         
-        wheels_counter += 1
+        if progress_this_round:
+            no_progress_rounds = 0
+        else:
+            no_progress_rounds += 1
+            if no_progress_rounds >= 3:
+                print("Нет прогресса в открытии/обнаружении столов 3 прохода подряд. Прерываем открытие столов.")
+                break
+
+        time.sleep(0.5)
 
 
 def close_tournament_lobby(win):

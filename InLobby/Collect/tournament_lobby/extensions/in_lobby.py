@@ -34,9 +34,17 @@ def get_tournament_id():
 def get_tournament_name():
     hwnd = win32gui.GetForegroundWindow()      # получаем дескриптор активного окна
     title = win32gui.GetWindowText(hwnd)       # читаем его заголовок
-    try:
-        tournament_name = re.search(r' - (.*?), Table', title).group(1).strip()
-    except:
-        tournament_name = re.search(r'(.*?), Table', title).group(1).strip()
-    return tournament_name
+    # Заголовки окон могут отличаться между турнирами/версиями клиента.
+    # Возвращаем максимально полезное имя без падений.
+    patterns = [
+        r" - (.*?),\s*Table",
+        r"(.*?),\s*Table",
+        r" - (.*)$",
+        r"^(.*)$",
+    ]
+    for p in patterns:
+        m = re.search(p, title)
+        if m and m.group(1):
+            return m.group(1).strip()
+    return title.strip()
 
